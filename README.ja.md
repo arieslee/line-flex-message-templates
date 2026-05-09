@@ -9,12 +9,13 @@
 ---
 
 ## 📸 テンプレートプレビュー
-*すべてのプレビューは **[FlexCraft](https://liming.me)** で視覚的にカスタマイズ可能です。*
+*すべてのプレビューは **[FlexCraft](https://liming.me)** でカスタマイズ可能です。*
 
 | 飲食・カフェ | 美容・サロン | EC・商品 | 注文確認 |
 | :---: | :---: | :---: | :---: |
-| <img src="previews/1_ja_レストラン・カフェ.png" width="200"> | <img src="previews/2_ja_美容・サロン予約.png" width="200"> | <img src="previews/4_ja_商品カード.png" width="200"> | <img src="previews/5_ja_注文確認.png" width="200"> |
-| [JSON](./jsons/1_ja_レストラン・カフェ.json) | [JSON](./jsons/2_ja_美容・サロン予約.json) | [JSON](./jsons/4_ja_商品カード.json) | [JSON](./jsons/5_ja_注文確認.json) |
+| <img src="previews/16_ja_☕%20レストラン_カフェカード.png" width="200"> | <img src="previews/17_ja_✂️%20サロン予約カード.png" width="200"> | <img src="previews/19_ja_🛍️%20商品カード.png" width="200"> | <img src="previews/20_ja_📄%20注文確認.png" width="200"> |
+| [JSON](./jsons/16_ja_☕%20レストラン_カフェカード.json) | [JSON](./jsons/17_ja_✂️%20サロン予約カード.json) | [JSON](./jsons/19_ja_🛍️%20商品カード.json) | [JSON](./jsons/20_ja_📄%20注文確認.json) |
+
 ---
 
 ## ✨ このプロジェクトのメリット

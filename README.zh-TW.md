@@ -6,13 +6,13 @@
 
 ---
 
-## 📸 視覺範本展示
-*所有範本均可透過 **[FlexCraft 可視化編輯器](https://liming.me)** 直接進行視覺化修改。*
+## 📸 範本視覺展示
+*所有範本均可透過 **[FlexCraft 可視化編輯器](https://liming.me)** 直接修改。*
 
-| 餐飲美食 | 美容預約 | 電商熱銷 | 訂單通知 |
+| 餐飲美食 | 美容預約 | 電商展示 | 訂單確認 |
 | :---: | :---: | :---: | :---: |
-| ![餐廳](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/1_zh-TW_%E9%A4%90%E5%BB%B3%E5%92%96%E5%95%A1%E5%BA%97%E5%8D%A1%E7%89%87.png?raw=true) | ![美業](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/2_zh-TW_%E7%BE%8E%E6%A5%AD%E9%A0%90%E7%B4%84%E5%8D%A1%E7%89%87.png?raw=true) | ![商品](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/4_zh-TW_%E5%95%86%E5%93%81%E5%8D%A1%E7%89%87.png?raw=true) | ![訂單](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/5_zh-TW_%E8%A8%BA%E5%96%AE%E7%A2%BA%E8%AA%8D.png?raw=true) |
-| [JSON 代碼](./jsons/1_zh-TW_%E9%A4%90%E5%BB%B3%E5%92%96%E5%95%A1%E5%BA%97%E5%8D%A1%E7%89%87.json) | [JSON 代碼](./jsons/2_zh-TW_%E7%BE%8E%E6%A5%AD%E9%A0%90%E7%B4%84%E5%8D%A1%E7%89%87.json) | [JSON 代碼](./jsons/4_zh-TW_%E5%95%86%E5%93%81%E5%8D%A1%E7%89%87.json) | [JSON 代碼](./jsons/5_zh-TW_%E8%A8%BA%E5%96%AE%E7%A2%BA%E8%AA%8D.json) |
+| <img src="previews/1_zh-TW_☕%20餐廳_咖啡店卡片.png" width="200"> | <img src="previews/2_zh-TW_✂️%20美業預約卡片.png" width="200"> | <img src="previews/4_zh-TW_🛍️%20商品卡片.png" width="200"> | <img src="previews/5_zh-TW_📄%20訂單確認.png" width="200"> |
+| [JSON](./jsons/1_zh-TW_☕%20餐廳_咖啡店卡片.json) | [JSON](./jsons/2_zh-TW_✂️%20美業預約卡片.json) | [JSON](./jsons/4_zh-TW_🛍️%20商品卡片.json) | [JSON](./jsons/5_zh-TW_📄%20訂單確認.json) |
 
 ---
 
