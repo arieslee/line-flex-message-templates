@@ -2,32 +2,35 @@
 
 [English](README.md) | 日本語 | [繁體中文](README.zh-TW.md)
 
-開発者のための、コピー＆ペーストで使える **LINE Flex Message** プロ仕様テンプレート集です。
+**複雑な JSON の手書きはもう不要です。** 飲食、小売、教育など、実務で即戦力となるプロ仕様の LINE Flex Message テンプレートを 50 種類以上提供します。
 
 ---
 
-## 📸 テンプレートプレビュー
+## 📸 テンプレートギャラリー
+すべてのプレビューは [FlexCraft](https://liming.me) を使用してキャプチャされています。
 
-リポジトリに含まれる代表的なデザインのプレビューです。すべての画像は [FlexCraft](https://liming.me) でキャプチャされています。
-
-| 飲食・カフェ | 美容・サロン | EC・商品 | システム・通知 |
+| 飲食・カフェ | 美容・サロン | EC・商品 | 注文確認 |
 | :---: | :---: | :---: | :---: |
-| ![カフェ](/previews/1_zh-TW_餐廳咖啡店卡片.png) | ![サロン](/previews/2_zh-TW_美業預約卡片.png) | ![商品](/previews/4_zh-TW_商品卡片.png) | ![確認](/previews/5_zh-TW_訂單確認.png) |
-| **カフェ・ビストロ** | **美容サロン** | **注目商品** | **注文確認** |
+| ![カフェ](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/1_ja_レストラン・カフェ.png?raw=true) | ![サロン](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/2_ja_美容・サロン予約.png?raw=true) | ![商品](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/4_ja_商品カード.png?raw=true) | ![確認](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/5_ja_注文確認.png?raw=true) |
+| **カフェ・ビストロ** | **美容サロン** | **セール商品** | **注文確認通知** |
 
 ---
 
-## 🎨 特徴
+## ✨ 主な特徴
+- **50種類以上のプロデザイン**：様々なビジネスシーンに対応した高品質なレイアウト。
+- **ドラッグ＆ドロップ編集**：[FlexCraft](https://liming.me) と 100% 互換。コードを触らずにデザインを調整可能。
+- **開発効率の最大化**：複雑なレイアウトもコピー＆ペーストだけで実装できます。
+- **Nuxt 4 最適化**：モダンな開発環境でもエラーなく動作する軽量な JSON 構造。
 
-- **50種類以上のプロデザイン**：実務で即戦力となるレイアウトを多数収録。
-- **ビジュアル編集対応**：[FlexCraft](https://liming.me) を使えば、直感的なカスタマイズが可能です。
-- **開発効率の向上**：複雑な JSON 構造を自分で書く時間を大幅に短縮します。
+## 📂 リポジトリ構成
+- `/jsons`: すべてのテンプレートの JSON ソースコード。
+- `/previews`: スマートフォン風のフレーム付き高品質プレビュー画像。
 
 ## 🛠️ 使い方
-
-1. `previews/` フォルダからお好みのデザインを探します。
-2. `jsons/` フォルダにある対応する JSON ファイルを開きます。
-3. コードをコピーするか、**[FlexCraft](https://liming.me)** でさらに編集して書き出します。
+1. **探す**: `previews/` フォルダから最適なデザインを見つけます。
+2. **コピー**: `jsons/` フォルダ内の対応する `.json` ファイルを開いてコピーします。
+3. **実装**: LINE Messaging API のコードや LINE 公式アカウント管理画面に貼り付けます。
+4. **編集**: 色やレイアウトを変更したい場合は、**[FlexCraft](https://liming.me)** で視覚的に編集可能です。
 
 ---
-Designed with ❤️ by [Li Ming](https://liming.me). 役に立ったら ⭐ をお願いします！
+Designed with ❤️ by [Li Ming](https://liming.me). このプロジェクトが役に立ったら ⭐ をお願いします！
