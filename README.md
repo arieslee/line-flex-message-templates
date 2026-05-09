@@ -2,46 +2,44 @@
 
 [日本語](README.ja.md) | [繁體中文](README.zh-TW.md)
 
-**Stop hand-coding complex nested JSON.** This repository provides 50+ professionally designed, production-ready LINE Flex Message templates. Optimized for high conversion and pixel-perfect rendering across iOS and Android.
+**Stop hand-coding complex nested JSON.** This repository is a curated collection of 50+ professional, production-ready LINE Flex Message templates. Optimized for high conversion and pixel-perfect rendering across both iOS and Android devices.
 
 ---
 
 ## 📸 Preview Gallery
-*All templates are captured from [FlexCraft Editor](https://liming.me).*
+*All templates can be visually customized via **[FlexCraft Editor](https://liming.me)**.*
 
 | Restaurant & Cafe | Beauty & Salon | E-commerce | Order Confirmation |
 | :---: | :---: | :---: | :---: |
-| ![Cafe](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/1_zh-TW_餐廳咖啡店卡片.png?raw=true) | ![Salon](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/2_zh-TW_美業預約卡片.png?raw=true) | ![Product](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/4_zh-TW_商品卡片.png?raw=true) | ![Order](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/5_zh-TW_訂單確認.png?raw=true) |
-| [Get JSON](./jsons/1_zh-TW_餐廳咖啡店卡片.json) | [Get JSON](./jsons/2_zh-TW_美業預約卡片.json) | [Get JSON](./jsons/4_zh-TW_商品卡片.json) | [Get JSON](./jsons/5_zh-TW_訂單確認.json) |
+| ![Cafe](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/1_zh-TW_%E9%A4%90%E5%BB%B3%E5%92%96%E5%95%A1%E5%BA%97%E5%8D%A1%E7%89%87.png?raw=true) | ![Salon](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/2_zh-TW_%E7%BE%8E%E6%A5%AD%E9%A0%90%E7%B4%84%E5%8D%A1%E7%89%87.png?raw=true) | ![Product](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/4_zh-TW_%E5%95%86%E5%93%81%E5%8D%A1%E7%89%87.png?raw=true) | ![Order](https://github.com/arieslee/line-flex-message-templates/blob/main/previews/5_zh-TW_%E8%A8%BA%E5%96%AE%E7%A2%BA%E8%AA%8D.png?raw=true) |
+| [Get JSON](./jsons/1_zh-TW_%E9%A4%90%E5%BB%B3%E5%92%96%E5%95%A1%E5%BA%97%E5%8D%A1%E7%89%87.json) | [Get JSON](./jsons/2_zh-TW_%E7%BE%8E%E6%A5%AD%E9%A0%90%E7%B4%84%E5%8D%A1%E7%89%87.json) | [Get JSON](./jsons/4_zh-TW_%E5%95%86%E5%93%81%E5%8D%A1%E7%89%87.json) | [Get JSON](./jsons/5_zh-TW_%E8%A8%BA%E5%96%AE%E7%A2%BA%E8%AA%8D.json) |
 
 ---
 
-## ✨ Key Features
+## ✨ Why Choose This Library?
 
-- **Pixel-Perfect Consistency**: Deeply tested to ensure identical rendering on both iOS and Android.
-- **Industry Standard UX**: Ready-made layouts for E-commerce, F&B, Education, and FinTech.
-- **Visual Editing Support**: 100% compatible with [FlexCraft](https://liming.me). Import any JSON to modify colors and content visually.
-- **Developer Optimized**: Clean, validated JSON structures following LINE's latest rendering best practices.
+- **Cross-Platform Consistency**: Deeply optimized to prevent layout shifts and font rendering issues between iOS and Android.
+- **Industry Standard UX**: Ready-made layouts for F&B, Retail, Education, and System Notifications.
+- **Visual Editing Support**: 100% compatible with [FlexCraft](https://liming.me). Import any JSON to modify colors and content visually without touching code.
+- **Developer Productivity**: Save 90% of your time by copy-pasting validated JSON structures instead of manual coding.
 
 ## 📂 Template Categories
-- **E-commerce**: Product showcases, flash sale coupons, order receipts.
-- **Services**: Digital menus, reservation confirmations, location cards.
-- **System Notifications**: OTP verification, maintenance notices, error alerts.
-- **Personal**: Digital business cards, portfolio showcases, greeting cards.
+- **Business**: Digital business cards, meeting invites, project trackers, event tickets.
+- **E-commerce**: Product showcases, order receipts, discount coupons, flash sale alerts.
+- **Hospitality**: Digital menus, reservation confirmations, location maps.
+- **System**: OTP verification, maintenance notices, error reports.
 
-## 🛠️ Usage
-1. Browse the `previews/` folder to find a design.
-2. Copy the corresponding JSON from the `jsons/` folder.
-3. Use it in your LINE Messaging API project or LINE OA Manager.
+## ⚙️ Developer Integration
+Directly load JSON files from the `jsons/` folder and pass the content to the LINE Messaging API SDK.
 
-## 🛠️ Developer Integration
+**Node.js Example:**
 ```javascript
 const flexContents = require('./jsons/5_zh-TW_訂單確認.json');
 
 // Send via LINE Messaging API SDK
-client.pushMessage(userId, {
+client.replyMessage(event.replyToken, {
   type: 'flex',
-  altText: 'Your Order is Confirmed',
+  altText: 'Order Confirmed',
   contents: flexContents
 });
 ```
