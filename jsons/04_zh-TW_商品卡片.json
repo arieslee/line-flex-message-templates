@@ -1,0 +1,84 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://upload.cc/i1/2026/05/06/or52qb.jpg",
+    "size": "full",
+    "aspectRatio": "1:1",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "text",
+        "text": "熱銷爆款 🔥",
+        "size": "xs",
+        "color": "#E53E3E",
+        "weight": "bold"
+      },
+      {
+        "type": "text",
+        "text": "經典復古機械手錶",
+        "weight": "bold",
+        "size": "xl",
+        "margin": "sm"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "alignItems": "center",
+        "contents": [
+          {
+            "type": "text",
+            "text": "NT$ 2,980",
+            "size": "xl",
+            "color": "#111111",
+            "weight": "bold",
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "NT$ 5,800",
+            "size": "sm",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "margin": "md",
+            "decoration": "line-through"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "百搭款式，提升質感的最佳選擇。現在下單享免運優惠！",
+        "size": "sm",
+        "color": "#888888",
+        "wrap": true,
+        "margin": "md"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "spacing": "sm",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#111111",
+        "flex": 1,
+        "action": {
+          "type": "uri",
+          "label": "立即購買",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

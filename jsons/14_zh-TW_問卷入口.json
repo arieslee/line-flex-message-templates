@@ -1,0 +1,51 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "📋 滿意度調查",
+        "weight": "bold",
+        "size": "lg",
+        "color": "#111111"
+      },
+      {
+        "type": "text",
+        "text": "感謝您使用我們的服務！為了提供更好的體驗，誠摯邀請您填寫一份簡短的問卷，大約只需花費 1 分鐘。",
+        "size": "sm",
+        "color": "#666666",
+        "wrap": true,
+        "margin": "lg"
+      },
+      {
+        "type": "text",
+        "text": "🎁 完成問卷即可獲得 50 元折價券！",
+        "size": "xs",
+        "color": "#E53E3E",
+        "margin": "lg",
+        "weight": "bold"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#111111",
+        "action": {
+          "type": "uri",
+          "label": "開始填寫",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

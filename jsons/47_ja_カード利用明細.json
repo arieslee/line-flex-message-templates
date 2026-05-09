@@ -1,0 +1,106 @@
+{
+  "type": "bubble",
+  "size": "kilo",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "paddingAll": "lg",
+    "backgroundColor": "#F8FAFC",
+    "cornerRadius": "xl",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "alignItems": "center",
+        "justifyContent": "space-between",
+        "contents": [
+          {
+            "type": "text",
+            "text": "クレジットカード 05月明細",
+            "weight": "bold",
+            "size": "sm",
+            "color": "#0F172A",
+            "flex": 1
+          },
+          {
+            "type": "image",
+            "url": "https://ui-avatars.com/api/?name=VISA&background=1E3A8A&color=fff",
+            "size": "xs",
+            "flex": 0
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "sm",
+        "color": "#E2E8F0"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "今月のお支払い合計額",
+            "size": "xs",
+            "color": "#64748B"
+          },
+          {
+            "type": "text",
+            "text": "12,850 円",
+            "size": "xxl",
+            "weight": "bold",
+            "color": "#0F172A",
+            "margin": "xs"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "alignItems": "center",
+        "justifyContent": "space-between",
+        "margin": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "お支払い期日",
+            "size": "sm",
+            "color": "#64748B"
+          },
+          {
+            "type": "text",
+            "text": "2024 / 05 / 25",
+            "size": "sm",
+            "weight": "bold",
+            "color": "#0F172A"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingTop": "sm",
+    "paddingBottom": "lg",
+    "paddingStart": "lg",
+    "paddingEnd": "lg",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
+        "color": "#1E3A8A",
+        "cornerRadius": "md",
+        "action": {
+          "type": "uri",
+          "label": "今すぐお支払い",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

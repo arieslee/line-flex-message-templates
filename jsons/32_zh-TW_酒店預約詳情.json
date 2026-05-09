@@ -1,0 +1,100 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Grand Hyatt Taipei",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "入住日期",
+                "size": "xs",
+                "color": "#888888"
+              },
+              {
+                "type": "text",
+                "text": "2024-05-10",
+                "size": "sm",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 0,
+            "width": "40px",
+            "alignItems": "center",
+            "justifyContent": "center",
+            "contents": [
+              {
+                "type": "text",
+                "text": "➡️",
+                "size": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "退房日期",
+                "size": "xs",
+                "color": "#888888",
+                "align": "end"
+              },
+              {
+                "type": "text",
+                "text": "2024-05-12",
+                "size": "sm",
+                "weight": "bold",
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#06C755",
+        "action": {
+          "type": "uri",
+          "label": "查看訂單詳情",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

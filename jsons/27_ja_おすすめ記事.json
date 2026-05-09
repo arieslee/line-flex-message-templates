@@ -1,0 +1,92 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://upload.cc/i1/2026/05/08/WyXkVg.png",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "text",
+        "text": "2025 テクノロジートレンド：AIは私たちの働き方をどう変えるか？",
+        "weight": "bold",
+        "size": "lg",
+        "wrap": true,
+        "maxLines": 2
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "テクノロジーニュース",
+            "size": "xs",
+            "color": "#06C755",
+            "weight": "bold",
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "・",
+            "size": "xs",
+            "color": "#999999",
+            "margin": "sm",
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "読了時間 5 分",
+            "size": "xs",
+            "color": "#999999",
+            "margin": "sm",
+            "flex": 1
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "人工知能技術の普及に伴い、ますます多くの企業が日常業務にAIを取り入れ始めています...",
+        "size": "sm",
+        "color": "#888888",
+        "wrap": true,
+        "margin": "md",
+        "maxLines": 3
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#111111",
+        "action": {
+          "type": "uri",
+          "label": "続きを読む",
+          "uri": "https://line.me/"
+        }
+      },
+      {
+        "type": "text",
+        "text": "Designed with FlexCraft",
+        "size": "xxs",
+        "color": "#aaaaaa66",
+        "align": "center",
+        "margin": "md",
+        "wrap": true
+      }
+    ]
+  }
+}

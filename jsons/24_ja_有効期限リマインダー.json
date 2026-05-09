@@ -1,0 +1,60 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "VIP 会員の有効期限が間近です",
+        "weight": "bold",
+        "size": "lg",
+        "color": "#E53E3E"
+      },
+      {
+        "type": "text",
+        "text": "お客様の VIP サービスの有効期限が3日後に迫っています。引き続き特典をご利用いただくため、更新手続きをお願いいたします。",
+        "size": "sm",
+        "color": "#666666",
+        "wrap": true,
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "backgroundColor": "#FEF2F2",
+        "paddingAll": "md",
+        "cornerRadius": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "有効期限：2025/05/07",
+            "size": "sm",
+            "color": "#E53E3E",
+            "weight": "bold"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#E53E3E",
+        "action": {
+          "type": "uri",
+          "label": "今すぐ更新する",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

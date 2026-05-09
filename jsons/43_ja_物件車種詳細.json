@@ -1,0 +1,122 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+    "size": "full",
+    "aspectRatio": "16:9",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "モダンレジデンス",
+        "weight": "bold",
+        "size": "lg"
+      },
+      {
+        "type": "text",
+        "text": "東京都港区",
+        "size": "xs",
+        "color": "#888888",
+        "margin": "xs"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#f3f4f6",
+            "paddingAll": "sm",
+            "cornerRadius": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "面積",
+                "size": "xs",
+                "color": "#6b7280",
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "85 ㎡",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#f3f4f6",
+            "paddingAll": "sm",
+            "cornerRadius": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "間取り",
+                "size": "xs",
+                "color": "#6b7280",
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "3LDK",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#f3f4f6",
+            "paddingAll": "sm",
+            "cornerRadius": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "築年数",
+                "size": "xs",
+                "color": "#6b7280",
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "2 年",
+                "size": "sm",
+                "weight": "bold",
+                "align": "center"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#1d4ed8",
+        "action": {
+          "type": "uri",
+          "label": "内見を予約する",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

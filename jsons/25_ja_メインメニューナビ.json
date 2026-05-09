@@ -1,0 +1,74 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "こんにちは！スマートアシスタントです 🤖",
+        "weight": "bold",
+        "size": "lg",
+        "color": "#111111"
+      },
+      {
+        "type": "text",
+        "text": "下のボタンからご希望のサービスを選択してください：",
+        "size": "sm",
+        "color": "#888888",
+        "wrap": true,
+        "margin": "sm"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xl",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "📅 サービス予約",
+              "text": "サービス予約"
+            }
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "📦 注文照会",
+              "text": "注文照会"
+            }
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "🎟️ クーポン取得",
+              "text": "クーポン取得"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#06C755",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "📞 お問い合わせ",
+              "text": "お問い合わせ"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

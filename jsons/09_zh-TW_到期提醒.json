@@ -1,0 +1,60 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "VIP 會員即將到期",
+        "weight": "bold",
+        "size": "lg",
+        "color": "#E53E3E"
+      },
+      {
+        "type": "text",
+        "text": "親愛的會員，您的尊享 VIP 服務將於 3 天後到期，請及時續費以免影響您的特权。",
+        "size": "sm",
+        "color": "#666666",
+        "wrap": true,
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "backgroundColor": "#FEF2F2",
+        "paddingAll": "md",
+        "cornerRadius": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "到期日：2025/05/07",
+            "size": "sm",
+            "color": "#E53E3E",
+            "weight": "bold"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#E53E3E",
+        "action": {
+          "type": "uri",
+          "label": "立即續費",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

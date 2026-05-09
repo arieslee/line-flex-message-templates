@@ -1,0 +1,124 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Celine プレミアムサロン",
+        "weight": "bold",
+        "size": "lg",
+        "color": "#111111"
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "メニュー",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "トリートメント + カット",
+                "color": "#333333",
+                "size": "sm",
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "料金",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "¥ 5,500",
+                "color": "#E53E3E",
+                "size": "sm",
+                "align": "end",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "スタイリスト",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "Tony",
+                "color": "#333333",
+                "size": "sm",
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "予約可能時間",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "本日 14:00",
+                "color": "#06C755",
+                "size": "sm",
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#000000",
+        "action": {
+          "type": "uri",
+          "label": "今すぐ予約",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

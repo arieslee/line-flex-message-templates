@@ -1,0 +1,77 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "目前叫號進度",
+        "size": "sm",
+        "color": "#888888"
+      },
+      {
+        "type": "text",
+        "text": "小兒科 - 3 診",
+        "weight": "bold",
+        "size": "lg",
+        "margin": "xs"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xxl",
+        "alignItems": "center",
+        "contents": [
+          {
+            "type": "text",
+            "text": "25",
+            "size": "5xl",
+            "weight": "bold",
+            "color": "#06C755"
+          },
+          {
+            "type": "text",
+            "text": "當前號碼",
+            "size": "xs",
+            "color": "#aaaaaa"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xl",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "您的號碼",
+                "size": "sm",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "32 號",
+                "size": "sm",
+                "weight": "bold",
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "預計還需等待約 15 分鐘",
+            "size": "xs",
+            "color": "#f59e0b",
+            "margin": "sm",
+            "align": "center"
+          }
+        ]
+      }
+    ]
+  }
+}

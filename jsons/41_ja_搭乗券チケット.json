@@ -1,0 +1,166 @@
+{
+  "type": "bubble",
+  "direction": "ltr",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "backgroundColor": "#2B6CB0",
+    "cornerRadius": "md",
+    "paddingAll": "18px",
+    "contents": [
+      {
+        "type": "text",
+        "text": "在 留 カ ー ド",
+        "color": "#FFFFFF",
+        "weight": "bold",
+        "size": "xl",
+        "align": "center",
+        "letterSpacing": "4px"
+      },
+      {
+        "type": "text",
+        "text": "RESIDENT CARD",
+        "color": "#FFFFFFCC",
+        "size": "xs",
+        "align": "center"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingTop": "xxl",
+    "paddingBottom": "xl",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "baseline",
+        "spacing": "xs",
+        "contents": [
+          {
+            "type": "text",
+            "text": "氏名/Name:",
+            "color": "#A0AEC0",
+            "size": "xs",
+            "flex": 3
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 7,
+            "contents": [
+              {
+                "type": "text",
+                "text": "田中 太郎",
+                "color": "#111111",
+                "weight": "bold",
+                "size": "lg"
+              },
+              {
+                "type": "text",
+                "text": "TANAKA TARO",
+                "color": "#888888",
+                "size": "xs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xl",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "国籍・地域",
+                "color": "#AAAAAA",
+                "size": "sm",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "日本 (JAPAN)",
+                "color": "#444444",
+                "size": "sm",
+                "flex": 6
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "在留資格",
+                "color": "#AAAAAA",
+                "size": "sm",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "永住者",
+                "color": "#2B6CB0",
+                "weight": "bold",
+                "size": "sm",
+                "flex": 6
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "在留期間",
+                "color": "#AAAAAA",
+                "size": "sm",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "2035年12月31日",
+                "color": "#E53E3E",
+                "weight": "bold",
+                "size": "sm",
+                "flex": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#2B6CB0",
+        "action": {
+          "type": "uri",
+          "label": "詳細を確認する",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

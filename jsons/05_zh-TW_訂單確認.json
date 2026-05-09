@@ -1,0 +1,156 @@
+{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "backgroundColor": "#06C755",
+    "contents": [
+      {
+        "type": "text",
+        "text": "訂單已確認",
+        "color": "#ffffff",
+        "weight": "bold",
+        "size": "lg"
+      },
+      {
+        "type": "text",
+        "text": "感謝您的購買！",
+        "color": "#ffffffcc",
+        "size": "sm",
+        "margin": "xs"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "訂單編號",
+            "color": "#aaaaaa",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "#ORD-20250504",
+            "color": "#333333",
+            "size": "sm",
+            "align": "end"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "美式咖啡",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 3
+              },
+              {
+                "type": "text",
+                "text": "x1",
+                "size": "sm",
+                "color": "#888888",
+                "flex": 1,
+                "align": "end"
+              },
+              {
+                "type": "text",
+                "text": "NT$120",
+                "size": "sm",
+                "color": "#111111",
+                "flex": 2,
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "lg",
+        "contents": [
+          {
+            "type": "text",
+            "text": "總計",
+            "color": "#555555",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "NT$420",
+            "color": "#E53E3E",
+            "size": "lg",
+            "weight": "bold",
+            "align": "end"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "paddingAll": "md",
+        "backgroundColor": "#F8F9FA",
+        "cornerRadius": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "收貨人：王小明",
+            "color": "#555555",
+            "size": "xs"
+          },
+          {
+            "type": "text",
+            "text": "地址：台北市信義區...",
+            "color": "#555555",
+            "size": "xs"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "secondary",
+        "action": {
+          "type": "uri",
+          "label": "查看訂單",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

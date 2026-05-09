@@ -1,0 +1,128 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://upload.cc/i1/2026/05/06/xBUZNA.png",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "text",
+        "text": "高強度インターバルトレーニング (HIIT)",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "💪",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "インストラクター：Mark",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 5
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "⏰",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "金曜日 19:00 - 20:00",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 5
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "🔥",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "残り枠：3 名",
+                "wrap": true,
+                "color": "#E53E3E",
+                "size": "sm",
+                "flex": 5,
+                "weight": "bold"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "spacing": "sm",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "secondary",
+        "flex": 1,
+        "action": {
+          "type": "uri",
+          "label": "コース詳細",
+          "uri": "https://line.me/"
+        }
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#E53E3E",
+        "flex": 1,
+        "action": {
+          "type": "uri",
+          "label": "今すぐ申し込む",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

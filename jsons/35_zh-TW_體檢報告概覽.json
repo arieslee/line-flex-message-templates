@@ -1,0 +1,176 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "0px",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "24px",
+        "backgroundColor": "#06C755",
+        "contents": [
+          {
+            "type": "text",
+            "text": "HEALTH SUMMARY",
+            "color": "#FFFFFFCC",
+            "size": "xxs",
+            "weight": "bold",
+            "letterSpacing": "2px"
+          },
+          {
+            "type": "text",
+            "text": "年度體檢報告摘要",
+            "color": "#FFFFFF",
+            "weight": "bold",
+            "size": "xl",
+            "margin": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "lg",
+            "contents": [
+              {
+                "type": "text",
+                "text": "受檢者：陳先生",
+                "color": "#FFFFFFCC",
+                "size": "xs"
+              },
+              {
+                "type": "text",
+                "text": "ID: HB-99283",
+                "color": "#FFFFFFCC",
+                "size": "xs",
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "24px",
+        "spacing": "xl",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "xl",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "backgroundColor": "#F8F9FB",
+                "cornerRadius": "lg",
+                "paddingAll": "16px",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "空腹血糖",
+                    "size": "xs",
+                    "color": "#999999"
+                  },
+                  {
+                    "type": "text",
+                    "text": "4.8",
+                    "size": "xxl",
+                    "weight": "bold",
+                    "color": "#111111",
+                    "margin": "md"
+                  },
+                  {
+                    "type": "text",
+                    "text": "● 正常",
+                    "size": "xxs",
+                    "color": "#06C755",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "backgroundColor": "#F8F9FB",
+                "cornerRadius": "lg",
+                "paddingAll": "16px",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "總膽固醇",
+                    "size": "xs",
+                    "color": "#999999"
+                  },
+                  {
+                    "type": "text",
+                    "text": "6.2",
+                    "size": "xxl",
+                    "weight": "bold",
+                    "color": "#EF4444",
+                    "margin": "md"
+                  },
+                  {
+                    "type": "text",
+                    "text": "● 偏高",
+                    "size": "xxs",
+                    "color": "#EF4444",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "borderWidth": "1px",
+            "borderColor": "#F0F0F0",
+            "cornerRadius": "md",
+            "paddingAll": "16px",
+            "contents": [
+              {
+                "type": "text",
+                "text": "醫囑建議",
+                "size": "xs",
+                "color": "#111111",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "總膽固醇數值已超出參考範圍，建議調整飲食結構並適量運動。",
+                "size": "xs",
+                "color": "#666666",
+                "margin": "sm",
+                "wrap": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "24px",
+    "paddingTop": "0px",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "查看完整 PDF 報告",
+          "uri": "https://line.me/"
+        },
+        "style": "secondary",
+        "height": "md",
+        "color": "#06C755"
+      }
+    ]
+  }
+}

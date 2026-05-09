@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "csv-parser": "^3.2.1",
+    "fs-extra": "^11.3.5",
+    "puppeteer": "^24.43.0"
+  }
+}

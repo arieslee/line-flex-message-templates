@@ -1,0 +1,124 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Celine 頂級沙龍",
+        "weight": "bold",
+        "size": "lg",
+        "color": "#111111"
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "服務項目",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "深層護髮 + 洗剪",
+                "color": "#333333",
+                "size": "sm",
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "價格",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "NT$ 1,500",
+                "color": "#E53E3E",
+                "size": "sm",
+                "align": "end",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "設計師",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "Tony 老師",
+                "color": "#333333",
+                "size": "sm",
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "可約時間",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "今日 14:00",
+                "color": "#06C755",
+                "size": "sm",
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#000000",
+        "action": {
+          "type": "uri",
+          "label": "立即預約",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

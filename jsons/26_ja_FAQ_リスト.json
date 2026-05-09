@@ -1,0 +1,121 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "よくある質問 FAQ",
+        "weight": "bold",
+        "size": "lg",
+        "color": "#111111"
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "alignItems": "center",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Q1. 返金方法について",
+                "size": "sm",
+                "color": "#333333",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "確認",
+                "size": "xs",
+                "color": "#06C755",
+                "flex": 0,
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "alignItems": "center",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Q2. 送料の計算について",
+                "size": "sm",
+                "color": "#333333",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "確認",
+                "size": "xs",
+                "color": "#06C755",
+                "flex": 0,
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "alignItems": "center",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Q3. パスワードを忘れた場合",
+                "size": "sm",
+                "color": "#333333",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "確認",
+                "size": "xs",
+                "color": "#06C755",
+                "flex": 0,
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "color": "#888888",
+        "action": {
+          "type": "message",
+          "label": "問題が解決しない",
+          "text": "オペレーターに接続"
+        }
+      }
+    ]
+  }
+}

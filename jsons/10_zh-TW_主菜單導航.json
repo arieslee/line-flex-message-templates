@@ -1,0 +1,74 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Hi! 我是智能助手 🤖",
+        "weight": "bold",
+        "size": "lg",
+        "color": "#111111"
+      },
+      {
+        "type": "text",
+        "text": "請點擊下方按鈕選擇您需要的服務：",
+        "size": "sm",
+        "color": "#888888",
+        "wrap": true,
+        "margin": "sm"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xl",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "📅 預約服務",
+              "text": "預約服務"
+            }
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "📦 訂單查詢",
+              "text": "訂單查詢"
+            }
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "🎟️ 獲取優惠",
+              "text": "獲取優惠"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "color": "#06C755",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "📞 聯絡客服",
+              "text": "聯絡客服"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

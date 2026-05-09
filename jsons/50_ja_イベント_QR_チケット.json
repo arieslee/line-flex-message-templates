@@ -1,0 +1,52 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "0px",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "xl",
+        "backgroundColor": "#F5F6FA",
+        "contents": [
+          {
+            "type": "text",
+            "text": "JAZZ フェスティバル 2024",
+            "weight": "bold",
+            "size": "lg",
+            "color": "#1F2937"
+          },
+          {
+            "type": "text",
+            "text": "日比谷野外音楽堂",
+            "size": "xs",
+            "color": "#6B7280",
+            "margin": "xs"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "xl",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=FlexCraft",
+            "size": "md"
+          },
+          {
+            "type": "text",
+            "text": "入場時にこの QR コードを提示してください",
+            "size": "xs",
+            "color": "#9CA3AF",
+            "align": "center",
+            "margin": "md"
+          }
+        ]
+      }
+    ]
+  }
+}

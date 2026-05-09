@@ -1,0 +1,84 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://upload.cc/i1/2026/05/06/or52qb.jpg",
+    "size": "full",
+    "aspectRatio": "1:1",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "text",
+        "text": "大ヒット商品 🔥",
+        "size": "xs",
+        "color": "#E53E3E",
+        "weight": "bold"
+      },
+      {
+        "type": "text",
+        "text": "クラシック機械式時計",
+        "weight": "bold",
+        "size": "xl",
+        "margin": "sm"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "alignItems": "center",
+        "contents": [
+          {
+            "type": "text",
+            "text": "¥ 12,800",
+            "size": "xl",
+            "color": "#111111",
+            "weight": "bold",
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "¥ 24,000",
+            "size": "sm",
+            "color": "#AAAAAA",
+            "flex": 1,
+            "margin": "md",
+            "decoration": "line-through"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "どんなスタイルにも合う最高の選択。今なら送料無料！",
+        "size": "sm",
+        "color": "#888888",
+        "wrap": true,
+        "margin": "md"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "spacing": "sm",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#111111",
+        "flex": 1,
+        "action": {
+          "type": "uri",
+          "label": "今すぐ購入",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

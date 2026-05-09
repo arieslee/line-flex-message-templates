@@ -1,0 +1,119 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "📈 每日營運簡報",
+        "weight": "bold",
+        "size": "lg",
+        "color": "#111111"
+      },
+      {
+        "type": "text",
+        "text": "日期：2025/05/04",
+        "size": "xs",
+        "color": "#aaaaaa",
+        "margin": "xs"
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "lg",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "alignItems": "center",
+            "contents": [
+              {
+                "type": "text",
+                "text": "今日訂單",
+                "size": "xs",
+                "color": "#888888"
+              },
+              {
+                "type": "text",
+                "text": "128",
+                "size": "xl",
+                "color": "#06C755",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "alignItems": "center",
+            "contents": [
+              {
+                "type": "text",
+                "text": "銷售額",
+                "size": "xs",
+                "color": "#888888"
+              },
+              {
+                "type": "text",
+                "text": "$15k",
+                "size": "xl",
+                "color": "#111111",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "alignItems": "center",
+            "contents": [
+              {
+                "type": "text",
+                "text": "新增用戶",
+                "size": "xs",
+                "color": "#888888"
+              },
+              {
+                "type": "text",
+                "text": "+45",
+                "size": "xl",
+                "color": "#3b82f6",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "secondary",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "查看完整報表",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

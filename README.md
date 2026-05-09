@@ -1,61 +1,33 @@
 # 🚀 50+ Premium LINE Flex Message Templates
 
-A curated collection of professional, high-performance **LINE Flex Message** templates for developers and businesses. Covering industries from E-commerce and Restaurants to Financial Services and Tech Notices.
+English | [日本語](README.ja.md) | [繁體中文](README.zh-TW.md)
+
+A curated collection of professional **LINE Flex Message** templates. Designed for high conversion and seamless visual experience.
+
+---
+
+## 📸 Preview Gallery
+
+Here are some of the professional templates included in this repository. All screenshots are captured directly from [FlexCraft](https://liming.me).
+
+| Restaurant & Cafe | Beauty & Salon | E-commerce | System & Data |
+| :---: | :---: | :---: | :---: |
+| ![Cafe](previews/1_zh-TW_餐廳咖啡店卡片.png) | ![Salon](previews/2_zh-TW_美業預約卡片.png) | ![Product](previews/4_zh-TW_商品卡片.png) | ![Order](previews/5_zh-TW_訂單確認.png) |
+| **Cafe Bistro** | **Beauty Salon** | **Hot Sale** | **Order Receipt** |
 
 ---
 
 ## 🎨 Why these templates?
 
-- **50+ Pro Designs**: Stop spending hours on JSON nesting.
-- **Industry Focused**: Ready-to-use layouts for real-world business scenarios.
-- **100% Visual Editing**: All templates are fully compatible with [FlexCraft](https://liming.me).
-- **Nuxt 4 Optimized**: Lightweight and error-free JSON structures.
-
----
+- **50+ Pro Designs**: Fully tested layouts with professional aesthetics.
+- **Visual Editor**: 100% compatible with [FlexCraft](https://liming.me) for drag-and-drop editing.
+- **Ready to Use**: Copy-paste JSON into your LINE Bot project in seconds.
 
 ## 🛠️ How to Use
 
-### Option 1: Quick Copy-Paste
-1. Browse the `/templates` folder.
-2. Copy the `.json` file of your choice.
-3. Paste it into your LINE Messaging API code or LINE Official Account Manager.
-
-### Option 2: Visual Customization (Recommended)
-1. Go to **[FlexCraft Editor](https://liming.me)**.
-2. Select a template from the library.
-3. Drag, drop, and edit your content visually.
-4. Export the final JSON in one click.
+1. Browse the `previews/` folder to find your favorite design.
+2. Open the corresponding `.json` in the `jsons/` folder.
+3. Use it directly or customize it visually via **[FlexCraft](https://liming.me)**.
 
 ---
-
-## 📂 Template Categories
-
-| Category | Templates Included |
-| :--- | :--- |
-| **Business** | Digital Business Cards, Meeting Invites, Pitch Decks |
-| **E-commerce** | Order Receipts, Product Showcases, Coupon Cards |
-| **Food & Beverage** | Digital Menus, Reservation Confirmations |
-| **System** | Maintenance Notices, Error Alerts, Success Reports |
-| **Personal** | Portfolio Cards, Greeting Cards |
-
----
-
-## 📸 Preview
-
-> [!TIP]
-> (Insert a high-quality collage image of your 4-6 best templates here)
-
----
-
-## 🤝 Contribution
-
-New templates are added weekly! If you have a request or want to contribute a design, feel free to open an issue or PR.
-
-## 🔗 Links
-
-- **Visual Editor**: [FlexCraft](https://liming.me)
-- **Documentation**: [LINE Messaging API](https://developers.line.biz/en/docs/messaging-api/using-flex-messages/)
-
----
-
-Designed with ❤️ by [Li Ming](https://liming.me). If this helps you, please give it a ⭐!
+Designed with ❤️ by [Li Ming](https://liming.me). ⭐ this repo if it helps!

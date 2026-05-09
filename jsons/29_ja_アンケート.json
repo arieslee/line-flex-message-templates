@@ -1,0 +1,51 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "📋 満足度アンケート",
+        "weight": "bold",
+        "size": "lg",
+        "color": "#111111"
+      },
+      {
+        "type": "text",
+        "text": "サービスをご利用いただきありがとうございます！今後のサービス向上のため、簡単なアンケートにご協力をお願いいたします（所要時間約1分）。",
+        "size": "sm",
+        "color": "#666666",
+        "wrap": true,
+        "margin": "lg"
+      },
+      {
+        "type": "text",
+        "text": "🎁 アンケート完了で 500円クーポンプレゼント！",
+        "size": "xs",
+        "color": "#E53E3E",
+        "margin": "lg",
+        "weight": "bold"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#111111",
+        "action": {
+          "type": "uri",
+          "label": "回答を始める",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

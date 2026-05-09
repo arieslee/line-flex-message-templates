@@ -1,0 +1,176 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "0px",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "24px",
+        "backgroundColor": "#06C755",
+        "contents": [
+          {
+            "type": "text",
+            "text": "HEALTH SUMMARY",
+            "color": "#FFFFFFCC",
+            "size": "xxs",
+            "weight": "bold",
+            "letterSpacing": "2px"
+          },
+          {
+            "type": "text",
+            "text": "健康診断結果のお知らせ",
+            "color": "#FFFFFF",
+            "weight": "bold",
+            "size": "xl",
+            "margin": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "lg",
+            "contents": [
+              {
+                "type": "text",
+                "text": "氏名：田中 様",
+                "color": "#FFFFFFCC",
+                "size": "xs"
+              },
+              {
+                "type": "text",
+                "text": "ID: HB-99283",
+                "color": "#FFFFFFCC",
+                "size": "xs",
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "24px",
+        "spacing": "xl",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "xl",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "backgroundColor": "#F8F9FB",
+                "cornerRadius": "lg",
+                "paddingAll": "16px",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "空腹時血糖",
+                    "size": "xs",
+                    "color": "#999999"
+                  },
+                  {
+                    "type": "text",
+                    "text": "88",
+                    "size": "xxl",
+                    "weight": "bold",
+                    "color": "#111111",
+                    "margin": "md"
+                  },
+                  {
+                    "type": "text",
+                    "text": "● 基準値内",
+                    "size": "xxs",
+                    "color": "#06C755",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "backgroundColor": "#F8F9FB",
+                "cornerRadius": "lg",
+                "paddingAll": "16px",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "総コレステロール",
+                    "size": "xs",
+                    "color": "#999999"
+                  },
+                  {
+                    "type": "text",
+                    "text": "245",
+                    "size": "xxl",
+                    "weight": "bold",
+                    "color": "#EF4444",
+                    "margin": "md"
+                  },
+                  {
+                    "type": "text",
+                    "text": "● 異常あり",
+                    "size": "xxs",
+                    "color": "#EF4444",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "borderWidth": "1px",
+            "borderColor": "#F0F0F0",
+            "cornerRadius": "md",
+            "paddingAll": "16px",
+            "contents": [
+              {
+                "type": "text",
+                "text": "総合判定・コメント",
+                "size": "xs",
+                "color": "#111111",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "総コレステロール値が基準範囲を超えています。食生活の改善と適度な運動を心がけてください。",
+                "size": "xs",
+                "color": "#666666",
+                "margin": "sm",
+                "wrap": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "24px",
+    "paddingTop": "0px",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "詳細レポートを表示",
+          "uri": "https://line.me/"
+        },
+        "style": "secondary",
+        "height": "md",
+        "color": "#06C755"
+      }
+    ]
+  }
+}

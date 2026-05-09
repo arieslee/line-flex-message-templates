@@ -1,0 +1,91 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "予約が確定しました",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#059669"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "予約内容",
+                "size": "sm",
+                "color": "#888888",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "六本木ヒルズ - A1",
+                "size": "sm",
+                "weight": "bold",
+                "flex": 2
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "予約日時",
+                "size": "sm",
+                "color": "#888888",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "2024/05/15 14:00",
+                "size": "sm",
+                "weight": "bold",
+                "flex": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#059669",
+        "action": {
+          "type": "uri",
+          "label": "ルート案内",
+          "uri": "https://www.google.com/maps"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "color": "#888888",
+        "action": {
+          "type": "postback",
+          "label": "予約をキャンセル",
+          "data": "cancel"
+        }
+      }
+    ]
+  }
+}

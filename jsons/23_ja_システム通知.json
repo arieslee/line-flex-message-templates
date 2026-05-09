@@ -1,0 +1,173 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "backgroundColor": "#1E293B",
+    "paddingAll": "24px",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "alignItems": "center",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#FBBF24",
+            "cornerRadius": "md",
+            "paddingStart": "8px",
+            "paddingEnd": "8px",
+            "paddingTop": "2px",
+            "paddingBottom": "2px",
+            "flex": 0,
+            "contents": [
+              {
+                "type": "text",
+                "text": "重要",
+                "color": "#1E293B",
+                "size": "xxs",
+                "weight": "bold",
+                "gravity": "center",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "SERVICE NOTICE",
+            "color": "#FFFFFF66",
+            "size": "xxs",
+            "weight": "bold",
+            "margin": "md",
+            "letterSpacing": "2px"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "システムメンテナンスのお知らせ",
+        "color": "#FFFFFF",
+        "weight": "bold",
+        "size": "xl",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "System Maintenance Announcement",
+        "color": "#FFFFFF66",
+        "size": "xxs",
+        "margin": "xs"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "24px",
+    "backgroundColor": "#FFFFFF",
+    "contents": [
+      {
+        "type": "text",
+        "text": "サービス品質の向上およびデータセキュリティ強化のため、定期システムメンテナンスを実施いたします。期間中、一部の機能がご利用いただけません。",
+        "wrap": true,
+        "size": "sm",
+        "color": "#4B5563",
+        "lineSpacing": "4px"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#F8FAFC",
+        "cornerRadius": "md",
+        "paddingAll": "16px",
+        "margin": "xl",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "メンテナンス時間 (Scheduled)",
+                "size": "xxs",
+                "color": "#94A3B8",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "2025/05/10 02:00 - 05:00",
+            "size": "md",
+            "weight": "bold",
+            "color": "#1E293B",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "● 約3時間を予定しております",
+                "size": "xxs",
+                "color": "#64748B"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "lg",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "影響範囲",
+                "size": "xs",
+                "color": "#1E293B",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "API連携、管理画面、データ同期",
+                "size": "xxs",
+                "color": "#94A3B8",
+                "margin": "sm",
+                "wrap": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "24px",
+    "paddingTop": "0px",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "アップデート詳細を確認",
+          "uri": "https://liming.me"
+        },
+        "style": "primary",
+        "color": "#06C755",
+        "height": "sm"
+      }
+    ]
+  }
+}

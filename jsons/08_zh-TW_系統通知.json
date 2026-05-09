@@ -1,0 +1,173 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "backgroundColor": "#1E293B",
+    "paddingAll": "24px",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "alignItems": "center",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "backgroundColor": "#FBBF24",
+            "cornerRadius": "md",
+            "paddingStart": "8px",
+            "paddingEnd": "8px",
+            "paddingTop": "2px",
+            "paddingBottom": "2px",
+            "flex": 0,
+            "contents": [
+              {
+                "type": "text",
+                "text": "重要",
+                "color": "#1E293B",
+                "size": "xxs",
+                "weight": "bold",
+                "gravity": "center",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "SERVICE NOTICE",
+            "color": "#FFFFFF66",
+            "size": "xxs",
+            "weight": "bold",
+            "margin": "md",
+            "letterSpacing": "2px"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "系統維護公告",
+        "color": "#FFFFFF",
+        "weight": "bold",
+        "size": "xl",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "System Maintenance Announcement",
+        "color": "#FFFFFF66",
+        "size": "xxs",
+        "margin": "xs"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "24px",
+    "backgroundColor": "#FFFFFF",
+    "contents": [
+      {
+        "type": "text",
+        "text": "為了提升服務品質與數據安全，我們將進行例行性系統升級，期間部分功能將暫時無法使用。",
+        "wrap": true,
+        "size": "sm",
+        "color": "#4B5563",
+        "lineSpacing": "4px"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#F8FAFC",
+        "cornerRadius": "md",
+        "paddingAll": "16px",
+        "margin": "xl",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "維護時間 (Scheduled)",
+                "size": "xxs",
+                "color": "#94A3B8",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "2025/05/10 02:00 - 05:00",
+            "size": "md",
+            "weight": "bold",
+            "color": "#1E293B",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "● 預計持續約 3 小時",
+                "size": "xxs",
+                "color": "#64748B"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "lg",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "contents": [
+              {
+                "type": "text",
+                "text": "受影響範圍",
+                "size": "xs",
+                "color": "#1E293B",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "API 串接、後台管理、數據同步",
+                "size": "xxs",
+                "color": "#94A3B8",
+                "margin": "sm",
+                "wrap": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "24px",
+    "paddingTop": "0px",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "查看詳細升級清單",
+          "uri": "https://liming.me"
+        },
+        "style": "primary",
+        "color": "#06C755",
+        "height": "sm"
+      }
+    ]
+  }
+}

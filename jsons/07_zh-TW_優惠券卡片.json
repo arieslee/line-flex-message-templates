@@ -1,0 +1,94 @@
+{
+  "type": "bubble",
+  "direction": "ltr",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "backgroundColor": "#FF5A5F",
+    "contents": [
+      {
+        "type": "text",
+        "text": "專屬優惠",
+        "color": "#ffffff99",
+        "size": "sm",
+        "weight": "bold"
+      },
+      {
+        "type": "text",
+        "text": "滿千折百券",
+        "color": "#ffffff",
+        "size": "3xl",
+        "weight": "bold",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "結帳輸入折扣碼即享折抵",
+        "color": "#ffffff",
+        "size": "sm",
+        "wrap": true,
+        "margin": "sm"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#F8F9FA",
+        "paddingAll": "lg",
+        "cornerRadius": "lg",
+        "border": "1px dashed #cccccc",
+        "alignItems": "center",
+        "contents": [
+          {
+            "type": "text",
+            "text": "折扣碼",
+            "color": "#aaaaaa",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "SUMMER2025",
+            "color": "#FF5A5F",
+            "size": "xl",
+            "weight": "bold",
+            "margin": "sm",
+            "tracking": "widest"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "有效期限：2025/12/31 止",
+        "color": "#888888",
+        "size": "xs",
+        "align": "center",
+        "margin": "lg"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#FF5A5F",
+        "action": {
+          "type": "uri",
+          "label": "立即使用",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

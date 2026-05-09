@@ -1,0 +1,121 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "常見問題 FAQ",
+        "weight": "bold",
+        "size": "lg",
+        "color": "#111111"
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "alignItems": "center",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Q1. 如何申請退款？",
+                "size": "sm",
+                "color": "#333333",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "查看",
+                "size": "xs",
+                "color": "#06C755",
+                "flex": 0,
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "alignItems": "center",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Q2. 運費如何計算？",
+                "size": "sm",
+                "color": "#333333",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "查看",
+                "size": "xs",
+                "color": "#06C755",
+                "flex": 0,
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "alignItems": "center",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Q3. 忘記密碼怎麼辦？",
+                "size": "sm",
+                "color": "#333333",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "查看",
+                "size": "xs",
+                "color": "#06C755",
+                "flex": 0,
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "color": "#888888",
+        "action": {
+          "type": "message",
+          "label": "沒有解答我的問題",
+          "text": "人工客服"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "alignItems": "center",
+        "contents": [
+          {
+            "type": "text",
+            "text": "🚚",
+            "size": "xl",
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "商品已發貨",
+            "weight": "bold",
+            "size": "xl",
+            "margin": "md",
+            "flex": 1
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "您的包裹已交由物流公司處理。",
+        "size": "sm",
+        "color": "#888888",
+        "wrap": true,
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xl",
+        "backgroundColor": "#F8F9FA",
+        "paddingAll": "md",
+        "cornerRadius": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "單號",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "893740192837",
+                "color": "#333333",
+                "size": "sm",
+                "flex": 2
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "margin": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "狀態",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "已抵達轉運中心",
+                "color": "#06C755",
+                "size": "sm",
+                "flex": 2,
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "margin": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "時間",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "10:30 AM",
+                "color": "#333333",
+                "size": "sm",
+                "flex": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#06C755",
+        "action": {
+          "type": "uri",
+          "label": "追蹤物流",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

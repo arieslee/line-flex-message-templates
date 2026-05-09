@@ -1,0 +1,53 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "0px",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "xl",
+        "backgroundColor": "#F5F6FA",
+        "contents": [
+          {
+            "type": "text",
+            "text": "2024 台北爵士音樂節",
+            "weight": "bold",
+            "size": "lg",
+            "color": "#1F2937"
+          },
+          {
+            "type": "text",
+            "text": "大安森林公園露天音樂台",
+            "size": "xs",
+            "color": "#6B7280",
+            "margin": "xs"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "xl",
+        "alignItems": "center",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=FlexCraft",
+            "size": "md",
+            "aspectMode": "cover"
+          },
+          {
+            "type": "text",
+            "text": "請在入場時出示此 QR Code",
+            "size": "xs",
+            "color": "#9CA3AF",
+            "margin": "md"
+          }
+        ]
+      }
+    ]
+  }
+}

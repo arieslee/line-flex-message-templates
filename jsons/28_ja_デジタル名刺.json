@@ -1,0 +1,140 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "alignItems": "center",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 0,
+            "margin": "none",
+            "cornerRadius": "100px",
+            "width": "72px",
+            "height": "72px",
+            "backgroundColor": "#F0F0F0",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://upload.cc/i1/2026/05/07/dcsiPq.png",
+                "aspectMode": "cover",
+                "size": "full",
+                "aspectRatio": "1:1"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "contents": [
+              {
+                "type": "text",
+                "text": "王 大明 (David)",
+                "weight": "bold",
+                "size": "xl"
+              },
+              {
+                "type": "text",
+                "text": "シニア保険・ファイナンシャルアドバイザー",
+                "size": "sm",
+                "color": "#888888",
+                "margin": "xs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xl",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "📱",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "0912-345-678",
+                "color": "#333333",
+                "size": "sm",
+                "flex": 5
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "✉️",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "david@example.com",
+                "color": "#333333",
+                "size": "sm",
+                "flex": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "spacing": "sm",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#06C755",
+        "flex": 1,
+        "action": {
+          "type": "uri",
+          "label": "友だち追加",
+          "uri": "https://line.me/"
+        }
+      },
+      {
+        "type": "button",
+        "style": "secondary",
+        "flex": 1,
+        "action": {
+          "type": "uri",
+          "label": "公式サイト",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

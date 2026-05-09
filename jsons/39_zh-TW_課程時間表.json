@@ -1,0 +1,89 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "今日課程安排",
+        "weight": "bold",
+        "size": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "lg",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "09:00",
+                "size": "xs",
+                "color": "#888888",
+                "flex": 2
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 8,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "高等數學",
+                    "size": "sm",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "text",
+                    "text": "教 A-302",
+                    "size": "xs",
+                    "color": "#aaaaaa"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "13:30",
+                "size": "xs",
+                "color": "#888888",
+                "flex": 2
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 8,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "計算機概論",
+                    "size": "sm",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "text",
+                    "text": "資工實驗室",
+                    "size": "xs",
+                    "color": "#aaaaaa"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

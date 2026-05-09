@@ -1,0 +1,156 @@
+{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "backgroundColor": "#06C755",
+    "contents": [
+      {
+        "type": "text",
+        "text": "注文が確認されました",
+        "color": "#ffffff",
+        "weight": "bold",
+        "size": "lg"
+      },
+      {
+        "type": "text",
+        "text": "ご購入ありがとうございます！",
+        "color": "#ffffffcc",
+        "size": "sm",
+        "margin": "xs"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "注文番号",
+            "color": "#aaaaaa",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "#ORD-20250504",
+            "color": "#333333",
+            "size": "sm",
+            "align": "end"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "アメリカンコーヒー",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 3
+              },
+              {
+                "type": "text",
+                "text": "x1",
+                "size": "sm",
+                "color": "#888888",
+                "flex": 1,
+                "align": "end"
+              },
+              {
+                "type": "text",
+                "text": "¥ 500",
+                "size": "sm",
+                "color": "#111111",
+                "flex": 2,
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "lg",
+        "contents": [
+          {
+            "type": "text",
+            "text": "合計",
+            "color": "#555555",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "¥ 1,500",
+            "color": "#E53E3E",
+            "size": "lg",
+            "weight": "bold",
+            "align": "end"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "paddingAll": "md",
+        "backgroundColor": "#F8F9FA",
+        "cornerRadius": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "受取人：山田 太郎",
+            "color": "#555555",
+            "size": "xs"
+          },
+          {
+            "type": "text",
+            "text": "住所：東京都渋谷区...",
+            "color": "#555555",
+            "size": "xs"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "flex": 0,
+    "contents": [
+      {
+        "type": "button",
+        "style": "secondary",
+        "action": {
+          "type": "uri",
+          "label": "注文を確認する",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}

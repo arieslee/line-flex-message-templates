@@ -1,0 +1,171 @@
+{
+  "type": "bubble",
+  "direction": "ltr",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "backgroundColor": "#2B6CB0",
+    "cornerRadius": "md",
+    "paddingAll": "18px",
+    "contents": [
+      {
+        "type": "text",
+        "text": "外 國 人 登 錄 證",
+        "color": "#FFFFFF",
+        "weight": "bold",
+        "size": "xl",
+        "align": "center",
+        "letterSpacing": "2px"
+      },
+      {
+        "type": "text",
+        "text": "Alien Registration Card",
+        "color": "#FFFFFFCC",
+        "size": "xs",
+        "align": "center"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingTop": "xxl",
+    "paddingBottom": "xl",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "baseline",
+        "spacing": "xs",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Name:",
+            "color": "#A0AEC0",
+            "size": "xs",
+            "flex": 2
+          },
+          {
+            "type": "text",
+            "text": "WANG XIAO MING",
+            "color": "#111111",
+            "weight": "bold",
+            "size": "lg",
+            "flex": 8
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xl",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "國籍/Nationality",
+                "color": "#AAAAAA",
+                "size": "sm",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "CHINA (PRC)",
+                "color": "#444444",
+                "size": "sm",
+                "flex": 6
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "居留資格/Status",
+                "color": "#AAAAAA",
+                "size": "sm",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "PROFESSIONAL (F-5)",
+                "color": "#2B6CB0",
+                "weight": "bold",
+                "size": "sm",
+                "flex": 6
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "到期日/Valid Until",
+                "color": "#AAAAAA",
+                "size": "sm",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "2030.12.31",
+                "color": "#E53E3E",
+                "weight": "bold",
+                "size": "sm",
+                "flex": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#F7FAFC",
+        "paddingAll": "md",
+        "cornerRadius": "sm",
+        "margin": "xxl",
+        "contents": [
+          {
+            "type": "text",
+            "text": "📍 此證件為外國人持有者在韓身分證明。請妥善保管並在必要時向當局出示。",
+            "color": "#718096",
+            "size": "xs",
+            "wrap": true
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#2B6CB0",
+        "action": {
+          "type": "uri",
+          "label": "查看更多詳情",
+          "uri": "https://line.me/"
+        }
+      }
+    ]
+  }
+}
