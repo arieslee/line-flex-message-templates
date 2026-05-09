@@ -15,7 +15,6 @@
 | :---: | :---: | :---: | :---: |
 | <img src="previews/1_ja_レストラン・カフェ.png" width="200"> | <img src="previews/2_ja_美容・サロン予約.png" width="200"> | <img src="previews/4_ja_商品カード.png" width="200"> | <img src="previews/5_ja_注文確認.png" width="200"> |
 | [JSON](./jsons/1_ja_レストラン・カフェ.json) | [JSON](./jsons/2_ja_美容・サロン予約.json) | [JSON](./jsons/4_ja_商品カード.json) | [JSON](./jsons/5_ja_注文確認.json) |
-
 ---
 
 ## ✨ このプロジェクトのメリット
