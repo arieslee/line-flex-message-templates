@@ -12,7 +12,7 @@
 
 | 餐飲美食 | 美容美髮 | 電子商務 | 系統通知 |
 | :---: | :---: | :---: | :---: |
-| ![餐廳](previews/1_zh-TW_餐廳咖啡店卡片.png) | ![美業](previews/2_zh-TW_美業預約卡片.png) | ![商品](previews/4_zh-TW_商品卡片.png) | ![訂單](previews/5_zh-TW_訂單確認.png) |
+| ![餐廳](/previews/1_zh-TW_餐廳咖啡店卡片.png) | ![美業](/previews/2_zh-TW_美業預約卡片.png) | ![商品](/previews/4_zh-TW_商品卡片.png) | ![訂單](/previews/5_zh-TW_訂單確認.png) |
 | **咖啡廳卡片** | **美業預約** | **熱銷商品** | **訂單確認** |
 
 ---

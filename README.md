@@ -12,7 +12,7 @@ Here are some of the professional templates included in this repository. All scr
 
 | Restaurant & Cafe | Beauty & Salon | E-commerce | System & Data |
 | :---: | :---: | :---: | :---: |
-| ![Cafe](previews/1_zh-TW_餐廳咖啡店卡片.png) | ![Salon](previews/2_zh-TW_美業預約卡片.png) | ![Product](previews/4_zh-TW_商品卡片.png) | ![Order](previews/5_zh-TW_訂單確認.png) |
+| ![Cafe](/previews/1_zh-TW_餐廳咖啡店卡片.png) | ![Salon](/previews/2_zh-TW_美業預約卡片.png) | ![Product](/previews/4_zh-TW_商品卡片.png) | ![Order](/previews/5_zh-TW_訂單確認.png) |
 | **Cafe Bistro** | **Beauty Salon** | **Hot Sale** | **Order Receipt** |
 
 ---

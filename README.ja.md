@@ -12,7 +12,7 @@
 
 | 飲食・カフェ | 美容・サロン | EC・商品 | システム・通知 |
 | :---: | :---: | :---: | :---: |
-| ![カフェ](previews/1_zh-TW_餐廳咖啡店卡片.png) | ![サロン](previews/2_zh-TW_美業預約卡片.png) | ![商品](previews/4_zh-TW_商品卡片.png) | ![確認](previews/5_zh-TW_訂單確認.png) |
+| ![カフェ](/previews/1_zh-TW_餐廳咖啡店卡片.png) | ![サロン](/previews/2_zh-TW_美業預約卡片.png) | ![商品](/previews/4_zh-TW_商品卡片.png) | ![確認](/previews/5_zh-TW_訂單確認.png) |
 | **カフェ・ビストロ** | **美容サロン** | **注目商品** | **注文確認** |
 
 ---
