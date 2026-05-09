@@ -11,7 +11,7 @@
 
 | 餐飲美食 | 美容預約 | 電商展示 | 訂單確認 |
 | :---: | :---: | :---: | :---: |
-| <img src="previews/1_zh-TW_☕%20餐廳_咖啡店卡片.png" width="200"> | <img src="previews/2_zh-TW_✂️%20美業預約卡片.png" width="200"> | <img src="previews/4_zh-TW_🛍️%20商品卡片.png" width="200"> | <img src="previews/5_zh-TW_📄%20訂單確認.png" width="200"> |
+| <img src="previews/1_zh-TW_☕%20餐廳_咖啡店卡片.png" width="200"> | <img src="previews/2_zh-TW_✂️%20美業預約卡片.png" width="200"> | <img src="previews/4_zh-TW_🛍️%20商品卡片.png" width="200"> | <img src="previews/5_zh-TW_🧾%20訂單確認.png" width="200"> |
 | [JSON](./jsons/1_zh-TW_☕%20餐廳_咖啡店卡片.json) | [JSON](./jsons/2_zh-TW_✂️%20美業預約卡片.json) | [JSON](./jsons/4_zh-TW_🛍️%20商品卡片.json) | [JSON](./jsons/5_zh-TW_📄%20訂單確認.json) |
 
 ---
