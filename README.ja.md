@@ -31,6 +31,34 @@
 - **システム通知**: メンテナンス告知、認証コード、アラート通知。
 
 
+## 📂 テンプレートリスト
+
+- **16**: [☕ レストラン/カフェカード](https://liming.me/ja/tpl/Tc74d97b01eae257e44aa9d5bade97baf)
+- **17**: [✂️ サロン予約カード](https://liming.me/ja/tpl/T70efdf2ec9b086079795c442636b55fb)
+- **18**: [🏋️ フィットネス予約](https://liming.me/ja/tpl/T6f4922f45568161a8cdf4ad2299f6d23)
+- **19**: [🛍️ 商品カード](https://liming.me/ja/tpl/T1f0e3dad99908345f7439f8ffabdffc4)
+- **20**: [🧾 注文確認](https://liming.me/ja/tpl/T98f13708210194c475687be6106a3b84)
+- **21**: [🚚 配送通知](https://liming.me/ja/tpl/T3c59dc048e8850243be8079a5c74d079)
+- **22**: [🎟️ クーポンカード](https://liming.me/ja/tpl/Tb6d767d2f8ed5d21a44b0e5886680cb9)
+- **23**: [🔔 システム通知](https://liming.me/ja/tpl/T37693cfc748049e45d87b8c7d8b9aacd)
+- **24**: [⏳ 有効期限リマインダー](https://liming.me/ja/tpl/T1ff1de774005f8da13f42943881c655f)
+- **25**: [📱 メインメニューナビ](https://liming.me/ja/tpl/T8e296a067a37563370ded05f5a3bf3ec)
+- **26**: [❓ FAQ リスト](https://liming.me/ja/tpl/T4e732ced3463d06de0ca9a15b6153677)
+- **27**: [📰 おすすめ記事](https://liming.me/ja/tpl/T02e74f10e0327ad868d138f2b4fdd6f0)
+- **28**: [🪪 デジタル名刺](https://liming.me/ja/tpl/T33e75ff09dd601bbe69f351039152189)
+- **29**: [📝 アンケート](https://liming.me/ja/tpl/T6ea9ab1baa0efb9e19094440c317e21b)
+- **30**: [📊 デイリーレポート](https://liming.me/ja/tpl/T34173cb38f07f89ddbebc2ac9128303f)
+- **41**: [搭乗券・チケット](https://liming.me/ja/tpl/T3416a75f4cea9109507cacd8e2f2aefc)
+- **42**: [ホテル予約詳細](https://liming.me/ja/tpl/Ta1d0c6e83f027327d8461063f4ac58a6)
+- **43**: [物件・車種詳細](https://liming.me/ja/tpl/T17e62166fc8586dfa4d1bc0e1742c08b)
+- **44**: [予約確認カード](https://liming.me/ja/tpl/Tf7177163c833dff4b38fc8d2872f1ec6)
+- **45**: [診断結果サマリー](https://liming.me/ja/tpl/T6c8349cc7260ae62e3b1396831a8398f)
+- **46**: [診療待ち状況](https://liming.me/ja/tpl/Td9d4f495e875a2e075a1a4a6e1b9770f)
+- **47**: [カード利用明細](https://liming.me/ja/tpl/T67c6a1e7ce56d3d6fa748ab6d9af3fd7)
+- **48**: [ポートフォリオ概要](https://liming.me/ja/tpl/T642e92efb79421734881b53e1e1b18b6)
+- **49**: [時間割表](https://liming.me/ja/tpl/Tf457c545a9ded88f18ecee47145a72c0)
+- **50**: [イベント QR チケット](https://liming.me/ja/tpl/Tc0c7c76d30bd3dcaefc96f40275bdc0a)
+
 ## 🛠️ 開発者向けインテグレーション
 
 ```javascript
