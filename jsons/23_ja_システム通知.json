@@ -16,9 +16,9 @@
             "type": "box",
             "layout": "vertical",
             "backgroundColor": "#FBBF24",
-            "cornerRadius": "md",
-            "paddingStart": "8px",
-            "paddingEnd": "8px",
+            "cornerRadius": "sm",
+            "paddingStart": "6px",
+            "paddingEnd": "6px",
             "paddingTop": "2px",
             "paddingBottom": "2px",
             "flex": 0,
@@ -29,8 +29,8 @@
                 "color": "#1E293B",
                 "size": "xxs",
                 "weight": "bold",
-                "gravity": "center",
-                "align": "center"
+                "align": "center",
+                "gravity": "center"
               }
             ]
           },
@@ -70,7 +70,7 @@
     "contents": [
       {
         "type": "text",
-        "text": "サービス品質の向上およびデータセキュリティ強化のため、定期システムメンテナンスを実施いたします。期間中、一部の機能がご利用いただけません。",
+        "text": "サービス品質の向上とデータセキュリティ強化のため、定期的なシステムアップグレードを実施いたします。期間中、一部の機能が一時的にご利用いただけなくなります。",
         "wrap": true,
         "size": "sm",
         "color": "#4B5563",
@@ -98,8 +98,8 @@
             ]
           },
           {
-            "type": "text",
             "text": "2025/05/10 02:00 - 05:00",
+            "type": "text",
             "size": "md",
             "weight": "bold",
             "color": "#1E293B",
@@ -112,7 +112,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "● 約3時間を予定しております",
+                "text": "● 所要時間は約3時間の予定です",
                 "size": "xxs",
                 "color": "#64748B"
               }
@@ -161,7 +161,7 @@
         "type": "button",
         "action": {
           "type": "uri",
-          "label": "アップデート詳細を確認",
+          "label": "アップグレード詳細を確認",
           "uri": "https://liming.me"
         },
         "style": "primary",

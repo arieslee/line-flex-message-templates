@@ -16,9 +16,9 @@
             "type": "box",
             "layout": "vertical",
             "backgroundColor": "#FBBF24",
-            "cornerRadius": "md",
-            "paddingStart": "8px",
-            "paddingEnd": "8px",
+            "cornerRadius": "sm",
+            "paddingStart": "6px",
+            "paddingEnd": "6px",
             "paddingTop": "2px",
             "paddingBottom": "2px",
             "flex": 0,
@@ -29,8 +29,8 @@
                 "color": "#1E293B",
                 "size": "xxs",
                 "weight": "bold",
-                "gravity": "center",
-                "align": "center"
+                "align": "center",
+                "gravity": "center"
               }
             ]
           },
@@ -98,8 +98,8 @@
             ]
           },
           {
-            "type": "text",
             "text": "2025/05/10 02:00 - 05:00",
+            "type": "text",
             "size": "md",
             "weight": "bold",
             "color": "#1E293B",
@@ -161,7 +161,7 @@
         "type": "button",
         "action": {
           "type": "uri",
-          "label": "查看詳細升級清單",
+          "label": "查看詳細升級清单",
           "uri": "https://liming.me"
         },
         "style": "primary",

@@ -4,9 +4,9 @@ const path = require('path');
 const csv = require('csv-parser');
 
 // --- 配置 ---
-const CSV_FILE = './fc_template.csv';
+const CSV_FILE = './fc_template1.csv';
 const OUTPUT_DIR = './previews';
-const BASE_DOMAIN = 'http://172.19.240.1:3005'; 
+const BASE_DOMAIN = 'http://192.168.253.1:3000'; 
 
 // 使用属性选择器精准匹配你的手机壳容器
 const PREVIEW_SELECTOR = '[class*="phone-shell"]'; 
