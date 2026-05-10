@@ -31,6 +31,7 @@
 
 ## 📂 範本清單
 
+- **42**: [🌦️ 每日天氣概況](https://liming.me/zh-TW/tpl/Tebd5650538c034e1cd2a8b3c902b527d)
 - **41**: [🏆 遊戲排行榜](https://liming.me/zh-TW/tpl/T6e43280b5d88fa775f1824f7b25c457d)
 - **40**: [活動 QR 票券](https://liming.me/zh-TW/tpl/Td645920e395fedad7bbbed0eca3fe2e0)
 - **39**: [課程時間表](https://liming.me/zh-TW/tpl/Td67d8ab4f4c10bf22aa353e27879133c)

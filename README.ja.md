@@ -30,9 +30,9 @@
 - **飲食**: デジタルメニュー、予約完了通知、店舗案内。
 - **システム通知**: メンテナンス告知、認証コード、アラート通知。
 
-
 ## 📂 テンプレートリスト
 
+- **52**: [🌦️ 毎日の天気概況](https://liming.me/ja/tpl/Tbd57c1cbc423ed997fbe5930771f82ca)
 - **51**: [🏆 今週の戦力ランキング](https://liming.me/ja/tpl/T90687c27e577cc01d6c2f90413eacf08)
 - **50**: [イベント QR チケット](https://liming.me/ja/tpl/Tc0c7c76d30bd3dcaefc96f40275bdc0a)
 - **49**: [時間割表](https://liming.me/ja/tpl/Tf457c545a9ded88f18ecee47145a72c0)

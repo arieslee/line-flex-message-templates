@@ -1,5 +1,335 @@
 "id","code","category","title","description","thumbnail","json_data","is_public","sort_by","usage_count","created_at","updated_at","lang","lang_relation_id","deleted_at","content"
-"803542136750085","T90687c27e577cc01d6c2f90413eacf08","遊戯","🏆 今週の戦力ランキング","上位3名とプレイヤーの戦闘力を表示する、競技性の高いランキングリスト。","🏆 ","{
+"803787598090245","Tbd57c1cbc423ed997fbe5930771f82ca","天気","🌦️ 毎日の天気概況","システム標準テンプレート","🌦️","{
+    ""type"": ""bubble"",
+    ""size"": ""mega"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""15px"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""backgroundColor"": ""#1A73E8"",
+                ""cornerRadius"": ""xl"",
+                ""paddingAll"": ""20px"",
+                ""background"": {
+                    ""type"": ""linearGradient"",
+                    ""angle"": ""135deg"",
+                    ""startColor"": ""#4C8CFF"",
+                    ""endColor"": ""#1A73E8""
+                },
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""flex"": 6,
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""CURRENT WEATHER"",
+                                ""size"": ""xs"",
+                                ""color"": ""#FFFFFFCC"",
+                                ""weight"": ""bold"",
+                                ""letterSpacing"": ""1px""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""33°"",
+                                ""size"": ""lg"",
+                                ""color"": ""#FFFFFF"",
+                                ""weight"": ""bold"",
+                                ""margin"": ""md""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""雷雨の可能性が高い"",
+                                ""size"": ""sm"",
+                                ""color"": ""#FFFFFFEE"",
+                                ""wrap"": true
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""flex"": 4,
+                        ""gravity"": ""center"",
+                        ""contents"": [
+                            {
+                                ""type"": ""image"",
+                                ""url"": ""https://cdn-icons-png.flaticon.com/512/1146/1146860.png"",
+                                ""size"": ""full"",
+                                ""aspectMode"": ""fit"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""xl"",
+                ""paddingAll"": ""10px"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""box"",
+                                ""layout"": ""vertical"",
+                                ""contents"": [
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""相對濕度"",
+                                        ""size"": ""xxs"",
+                                        ""color"": ""#AAAAAA""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""88%"",
+                                        ""weight"": ""bold"",
+                                        ""size"": ""sm"",
+                                        ""color"": ""#333333""
+                                    }
+                                ]
+                            },
+                            {
+                                ""type"": ""separator""
+                            },
+                            {
+                                ""type"": ""box"",
+                                ""layout"": ""vertical"",
+                                ""contents"": [
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""雨の予想"",
+                                        ""size"": ""xxs"",
+                                        ""color"": ""#AAAAAA""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""14:00 頃"",
+                                        ""weight"": ""bold"",
+                                        ""size"": ""sm"",
+                                        ""color"": ""#333333""
+                                    }
+                                ],
+                                ""paddingLeft"": ""xl""
+                            }
+                        ],
+                        ""spacing"": ""xl""
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""md"",
+                ""backgroundColor"": ""#F8F9FA"",
+                ""cornerRadius"": ""lg"",
+                ""paddingAll"": ""15px"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""午後は激しい雨に注意。室内での活動をおすすめします ⛈️"",
+                        ""size"": ""xs"",
+                        ""color"": ""#555555"",
+                        ""wrap"": true
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingBottom"": ""15px"",
+        ""paddingStart"": ""15px"",
+        ""paddingEnd"": ""15px"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""雨雲レーダーを確認"",
+                    ""uri"": ""https://line.me""
+                },
+                ""style"": ""primary"",
+                ""color"": ""#06C755"",
+                ""height"": ""md""
+            }
+        ]
+    }
+}","1","102","0","0","1778374571","ja","803785047441413","0","このテンプレートは、東南アジアのユーザー向けに特別に設計されました。熱帯気候において、天気情報は単なる「気温」ではなく、一種の「サバイバルガイド」であることを私たちは深く理解しています。デザインにはグラスモーフィズム（Glassmorphism）を採用。高コントラストなブルーのグラデーションと、大きく丸みを帯びた角丸デザインにより、涼やかで透明感のある視覚体験を提供し、暑い気候におけるユーザーの視覚的な疲労を効果的に軽減します。"
+"803785047441413","Tebd5650538c034e1cd2a8b3c902b527d","天氣","🌦️ 每日天氣概況","系統內置模板","🌦️","{
+    ""type"": ""bubble"",
+    ""size"": ""mega"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""15px"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""backgroundColor"": ""#1A73E8"",
+                ""cornerRadius"": ""xl"",
+                ""paddingAll"": ""20px"",
+                ""background"": {
+                    ""type"": ""linearGradient"",
+                    ""angle"": ""135deg"",
+                    ""startColor"": ""#4C8CFF"",
+                    ""endColor"": ""#1A73E8""
+                },
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""flex"": 6,
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""目前天氣概況"",
+                                ""size"": ""xs"",
+                                ""color"": ""#FFFFFFCC"",
+                                ""weight"": ""bold"",
+                                ""letterSpacing"": ""1px""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""33°"",
+                                ""size"": ""lg"",
+                                ""color"": ""#FFFFFF"",
+                                ""weight"": ""bold"",
+                                ""margin"": ""md""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""雷陣雨機率高"",
+                                ""size"": ""sm"",
+                                ""color"": ""#FFFFFFEE"",
+                                ""wrap"": true
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""flex"": 4,
+                        ""gravity"": ""center"",
+                        ""contents"": [
+                            {
+                                ""type"": ""image"",
+                                ""url"": ""https://cdn-icons-png.flaticon.com/512/1146/1146860.png"",
+                                ""size"": ""full"",
+                                ""aspectMode"": ""fit"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""xl"",
+                ""paddingAll"": ""10px"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""box"",
+                                ""layout"": ""vertical"",
+                                ""contents"": [
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""相對濕度"",
+                                        ""size"": ""xxs"",
+                                        ""color"": ""#AAAAAA""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""88%"",
+                                        ""weight"": ""bold"",
+                                        ""size"": ""sm"",
+                                        ""color"": ""#333333""
+                                    }
+                                ]
+                            },
+                            {
+                                ""type"": ""separator""
+                            },
+                            {
+                                ""type"": ""box"",
+                                ""layout"": ""vertical"",
+                                ""contents"": [
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""預計降雨"",
+                                        ""size"": ""xxs"",
+                                        ""color"": ""#AAAAAA""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""14:00 左右"",
+                                        ""weight"": ""bold"",
+                                        ""size"": ""sm"",
+                                        ""color"": ""#333333""
+                                    }
+                                ],
+                                ""paddingLeft"": ""xl""
+                            }
+                        ],
+                        ""spacing"": ""xl""
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""md"",
+                ""backgroundColor"": ""#F8F9FA"",
+                ""cornerRadius"": ""lg"",
+                ""paddingAll"": ""15px"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""下午請留意強降雨，建議盡量待在室內活動 ⛈️"",
+                        ""size"": ""xs"",
+                        ""color"": ""#555555"",
+                        ""wrap"": true
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingBottom"": ""15px"",
+        ""paddingStart"": ""15px"",
+        ""paddingEnd"": ""15px"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""查看即時降雨圖"",
+                    ""uri"": ""https://line.me""
+                },
+                ""style"": ""primary"",
+                ""color"": ""#06C755"",
+                ""height"": ""md""
+            }
+        ]
+    }
+}","1","101","0","0","1778374571","zh-TW","803787598090245","0","這款模板專為東南亞用戶量身打造。我們深知在熱帶氣候下，天氣資訊不僅是「溫度」，更是一種「生存指南」。設計上採用了 Glassmorphism (玻璃擬態) 風格，透過高對比度的藍色漸層與圓潤的超大半徑圓角，營造出一種清涼、通透的視覺感，有效緩解用戶在炎熱氣候下的視覺疲勞。"
+"803542136750085","T90687c27e577cc01d6c2f90413eacf08","遊戯","🏆 今週の戦力ランキング","システム標準テンプレート","🏆 ","{
     ""type"": ""bubble"",
     ""size"": ""mega"",
     ""header"": {
@@ -45,7 +375,7 @@
                     },
                     {
                         ""type"": ""image"",
-                        ""url"": ""https://i.pravatar.cc/100?u=1"",
+                        ""url"": ""https://upload.cc/i1/2026/05/09/f1l5sr.jpg"",
                         ""size"": ""xxs"",
                         ""aspectMode"": ""cover"",
                         ""cornerRadius"": ""full"",
@@ -93,7 +423,7 @@
                     },
                     {
                         ""type"": ""image"",
-                        ""url"": ""https://i.pravatar.cc/100?u=2"",
+                        ""url"": ""https://upload.cc/i1/2026/05/09/Tof1mQ.jpg"",
                         ""size"": ""xxs"",
                         ""aspectMode"": ""cover"",
                         ""cornerRadius"": ""full"",
@@ -140,7 +470,7 @@
                     },
                     {
                         ""type"": ""image"",
-                        ""url"": ""https://i.pravatar.cc/100?u=3"",
+                        ""url"": ""https://upload.cc/i1/2026/05/09/tFkSor.jpg"",
                         ""size"": ""xxs"",
                         ""aspectMode"": ""cover"",
                         ""cornerRadius"": ""full"",
@@ -191,8 +521,8 @@
             }
         ]
     }
-}","1","100","0","0","1778317608","ja","803534273990661","0","ゲーミフィケーションを活用したマーケティング向けに設計。金・銀・銅の視覚的なコントラストにより、プレイヤーのレベルや戦闘力を明確に表示します。下部には個人の順位とシェアボタンを配置し、ソーシャルメディアでのエンゲージメントを高めます。"
-"803534273990661","T6e43280b5d88fa775f1824f7b25c457d","遊戲","🏆 遊戲排行榜","展示前三名與玩家戰力的競技風格榜單。","🏆 ","{
+}","1","100","0","0","1778374070","ja","803534273990661","0","ゲーミフィケーションを活用したマーケティング向けに設計。金・銀・銅の視覚的なコントラストにより、プレイヤーのレベルや戦闘力を明確に表示します。下部には個人の順位とシェアボタンを配置し、ソーシャルメディアでのエンゲージメントを高めます。"
+"803534273990661","T6e43280b5d88fa775f1824f7b25c457d","遊戲","🏆 遊戲排行榜","系統內置模板","🏆 ","{
     ""type"": ""bubble"",
     ""size"": ""mega"",
     ""header"": {
@@ -238,7 +568,7 @@
                     },
                     {
                         ""type"": ""image"",
-                        ""url"": ""https://i.pravatar.cc/100?u=1"",
+                        ""url"": ""https://upload.cc/i1/2026/05/09/f1l5sr.jpg"",
                         ""size"": ""xxs"",
                         ""aspectMode"": ""cover"",
                         ""cornerRadius"": ""full"",
@@ -286,7 +616,7 @@
                     },
                     {
                         ""type"": ""image"",
-                        ""url"": ""https://i.pravatar.cc/100?u=2"",
+                        ""url"": ""https://upload.cc/i1/2026/05/09/Tof1mQ.jpg"",
                         ""size"": ""xxs"",
                         ""aspectMode"": ""cover"",
                         ""cornerRadius"": ""full"",
@@ -333,7 +663,7 @@
                     },
                     {
                         ""type"": ""image"",
-                        ""url"": ""https://i.pravatar.cc/100?u=3"",
+                        ""url"": ""https://upload.cc/i1/2026/05/09/tFkSor.jpg"",
                         ""size"": ""xxs"",
                         ""aspectMode"": ""cover"",
                         ""cornerRadius"": ""full"",
@@ -384,7 +714,7 @@
             }
         ]
     }
-}","1","100","0","0","1778317608","zh-TW","803542136750085","0","專為遊戲化營銷設計，採用金銀銅視覺對比，清楚展示玩家等級與戰力，底部附帶個人排名與分享按鈕，提升社群互動率。"
+}","1","100","0","0","1778374070","zh-TW","803542136750085","0","專為遊戲化營銷設計，採用金銀銅視覺對比，清楚展示玩家等級與戰力，底部附帶個人排名與分享按鈕，提升社群互動率。"
 "50","Tc0c7c76d30bd3dcaefc96f40275bdc0a","教育","イベント QR チケット","システム標準テンプレート","🎟️","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""0px"",""contents"":[{""type"":""box"",""layout"":""vertical"",""paddingAll"":""xl"",""backgroundColor"":""#F5F6FA"",""contents"":[{""type"":""text"",""text"":""JAZZ フェスティバル 2024"",""weight"":""bold"",""size"":""lg"",""color"":""#1F2937""},{""type"":""text"",""text"":""日比谷野外音楽堂"",""size"":""xs"",""color"":""#6B7280"",""margin"":""xs""}]},{""type"":""box"",""layout"":""vertical"",""paddingAll"":""xl"",""contents"":[{""type"":""image"",""url"":""https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=FlexCraft"",""size"":""md""},{""type"":""text"",""text"":""入場時にこの QR コードを提示してください"",""size"":""xs"",""color"":""#9CA3AF"",""align"":""center"",""margin"":""md""}]}]}}","1","9","0","1714980000","0","ja","40","0","イベント入場用のQRチケットテンプレートです。シンプルなデザインで中央に大きなQRコードを配置し、イベント名と会場を記載します。ユーザーはこのカードを提示するだけで素早くスキャン入場でき、紙媒体の確認作業が不要なため、イベント運営の効率を高めます。"
 "49","Tf457c545a9ded88f18ecee47145a72c0","教育","時間割表","システム標準テンプレート","🗓️","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""本日のスケジュール"",""weight"":""bold"",""size"":""lg""},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""spacing"":""lg"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""spacing"":""md"",""contents"":[{""type"":""text"",""text"":""09:00"",""size"":""xs"",""color"":""#888888"",""flex"":2},{""type"":""box"",""layout"":""vertical"",""flex"":8,""contents"":[{""type"":""text"",""text"":""高等数学"",""size"":""sm"",""weight"":""bold""},{""type"":""text"",""text"":""講義棟 A-302"",""size"":""xs"",""color"":""#aaaaaa""}]}]},{""type"":""box"",""layout"":""horizontal"",""spacing"":""md"",""contents"":[{""type"":""text"",""text"":""13:30"",""size"":""xs"",""color"":""#888888"",""flex"":2},{""type"":""box"",""layout"":""vertical"",""flex"":8,""contents"":[{""type"":""text"",""text"":""計算機概論"",""size"":""sm"",""weight"":""bold""},{""type"":""text"",""text"":""情報工学ラボ"",""size"":""xs"",""color"":""#aaaaaa""}]}]}]}]}}","1","11","0","1714980000","0","ja","39","0","時間割表テンプレートで、学校や教育機関に適しています。本日の授業時間、科目名、教室場所を明確に列記します。構造化されたレイアウトにより、生徒や教職員は時間を効率的に管理でき、授業の欠席を防ぎます。"
 "48","T642e92efb79421734881b53e1e1b18b6","金融","ポートフォリオ概要","システム標準テンプレート","📈","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""運用状況サマリー"",""weight"":""bold"",""size"":""md""},{""type"":""box"",""layout"":""horizontal"",""margin"":""lg"",""contents"":[{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""総資産 (JPY)"",""size"":""xs"",""color"":""#888888""},{""type"":""text"",""text"":""5,240,500"",""weight"":""bold"",""size"":""lg""}]},{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""当日損益"",""size"":""xs"",""color"":""#888888"",""align"":""end""},{""type"":""text"",""text"":""+2.45%"",""weight"":""bold"",""size"":""lg"",""color"":""#EF4444"",""align"":""end""}]}]},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""spacing"":""sm"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""銘柄 A"",""size"":""sm"",""flex"":3},{""type"":""text"",""text"":""▲ 5.0"",""size"":""sm"",""color"":""#EF4444"",""flex"":2,""align"":""end""}]},{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""銘柄 B"",""size"":""sm"",""flex"":3},{""type"":""text"",""text"":""▼ 1.5"",""size"":""sm"",""color"":""#059669"",""flex"":2,""align"":""end""}]}]}]}}","1","21","0","1714980000","0","ja","38","0","投資ポートフォリオのテンプレートです。総資産、当日損益、銘柄別の騰落を一覧で表示します。赤と緑で損益を区別することで、投資家は資産の変動トレンドを瞬時に把握し、迅速な投資判断を下すことができます。"
@@ -2046,6 +2376,133 @@
 "6","T1679091c5a880faf6fb5e6087eb1b2dc","电商类","🚚 物流通知","系统内置模板","🚚","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""xl"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""alignItems"":""center"",""contents"":[{""type"":""text"",""text"":""🚚"",""size"":""xl"",""flex"":0},{""type"":""text"",""text"":""商品已發貨"",""weight"":""bold"",""size"":""xl"",""margin"":""md"",""flex"":1}]},{""type"":""text"",""text"":""您的包裹已交由物流公司處理。"",""size"":""sm"",""color"":""#888888"",""wrap"":true,""margin"":""lg""},{""type"":""box"",""layout"":""vertical"",""margin"":""xl"",""backgroundColor"":""#F8F9FA"",""paddingAll"":""md"",""cornerRadius"":""md"",""contents"":[{""type"":""box"",""layout"":""baseline"",""spacing"":""sm"",""contents"":[{""type"":""text"",""text"":""單號"",""color"":""#aaaaaa"",""size"":""sm"",""flex"":1},{""type"":""text"",""text"":""893740192837"",""color"":""#333333"",""size"":""sm"",""flex"":2}]},{""type"":""box"",""layout"":""baseline"",""spacing"":""sm"",""margin"":""sm"",""contents"":[{""type"":""text"",""text"":""狀態"",""color"":""#aaaaaa"",""size"":""sm"",""flex"":1},{""type"":""text"",""text"":""已抵達轉運中心"",""color"":""#06C755"",""size"":""sm"",""flex"":2,""weight"":""bold""}]},{""type"":""box"",""layout"":""baseline"",""spacing"":""sm"",""margin"":""sm"",""contents"":[{""type"":""text"",""text"":""時間"",""color"":""#aaaaaa"",""size"":""sm"",""flex"":1},{""type"":""text"",""text"":""10:30 AM"",""color"":""#333333"",""size"":""sm"",""flex"":2}]}]}]},""footer"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""lg"",""flex"":0,""contents"":[{""type"":""button"",""style"":""primary"",""color"":""#06C755"",""action"":{""type"":""uri"",""label"":""追蹤物流"",""uri"":""https://line.me/""}}]}}","1","89","0","1777894806","0","zh-TW","21","0","這是一個物流進度通知模板，專為商品發貨後設計。它清晰地顯示了物流單號、當前狀態（如已抵達轉運中心）與時間戳記。顧客無需主動詢問即可掌握包裹去向，並能透過按鈕直接跳轉追蹤頁面，有效提升了購物體驗的透明度。"
 "5","Te4da3b7fbbce2345d7772b0674a318d5","电商类","🧾 訂單確認","系统内置模板","🧾","{""type"":""bubble"",""header"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""lg"",""backgroundColor"":""#06C755"",""contents"":[{""type"":""text"",""text"":""訂單已確認"",""color"":""#ffffff"",""weight"":""bold"",""size"":""lg""},{""type"":""text"",""text"":""感謝您的購買！"",""color"":""#ffffffcc"",""size"":""sm"",""margin"":""xs""}]},""body"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""lg"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""訂單編號"",""color"":""#aaaaaa"",""size"":""sm""},{""type"":""text"",""text"":""#ORD-20250504"",""color"":""#333333"",""size"":""sm"",""align"":""end""}]},{""type"":""separator"",""margin"":""lg""},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""spacing"":""sm"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""美式咖啡"",""size"":""sm"",""color"":""#555555"",""flex"":3},{""type"":""text"",""text"":""x1"",""size"":""sm"",""color"":""#888888"",""flex"":1,""align"":""end""},{""type"":""text"",""text"":""NT$120"",""size"":""sm"",""color"":""#111111"",""flex"":2,""align"":""end""}]}]},{""type"":""separator"",""margin"":""lg""},{""type"":""box"",""layout"":""horizontal"",""margin"":""lg"",""contents"":[{""type"":""text"",""text"":""總計"",""color"":""#555555"",""size"":""sm""},{""type"":""text"",""text"":""NT$420"",""color"":""#E53E3E"",""size"":""lg"",""weight"":""bold"",""align"":""end""}]},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""paddingAll"":""md"",""backgroundColor"":""#F8F9FA"",""cornerRadius"":""md"",""contents"":[{""type"":""text"",""text"":""收貨人：王小明"",""color"":""#555555"",""size"":""xs""},{""type"":""text"",""text"":""地址：台北市信義區..."",""color"":""#555555"",""size"":""xs""}]}]},""footer"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""lg"",""flex"":0,""contents"":[{""type"":""button"",""style"":""secondary"",""action"":{""type"":""uri"",""label"":""查看訂單"",""uri"":""https://line.me/""}}]}}","1","91","0","1777894806","0","zh-TW","20","0","這是一個訂單確認通知模板，用於交易成功後的即時回饋。頂部的綠色 Header 象徵交易成功，卡片詳細列出訂單編號、購買項目、數量、單價與總金額。這能讓顧客在下單後立刻確認細節無誤，減少焦慮，同時降低客服關於訂單狀態的查詢量。"
 "4","Ta87ff679a2f3e71d9181a67b7542122c","电商类","🛍️ 商品卡片","系统内置模板","🛍️","{""type"":""bubble"",""hero"":{""type"":""image"",""url"":""https://upload.cc/i1/2026/05/06/or52qb.jpg"",""size"":""full"",""aspectRatio"":""1:1"",""aspectMode"":""cover""},""body"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""lg"",""contents"":[{""type"":""text"",""text"":""熱銷爆款 🔥"",""size"":""xs"",""color"":""#E53E3E"",""weight"":""bold""},{""type"":""text"",""text"":""經典復古機械手錶"",""weight"":""bold"",""size"":""xl"",""margin"":""sm""},{""type"":""box"",""layout"":""horizontal"",""margin"":""md"",""alignItems"":""center"",""contents"":[{""type"":""text"",""text"":""NT$ 2,980"",""size"":""xl"",""color"":""#111111"",""weight"":""bold"",""flex"":0},{""type"":""text"",""text"":""NT$ 5,800"",""size"":""sm"",""color"":""#AAAAAA"",""flex"":1,""margin"":""md"",""decoration"":""line-through""}]},{""type"":""text"",""text"":""百搭款式，提升質感的最佳選擇。現在下單享免運優惠！"",""size"":""sm"",""color"":""#888888"",""wrap"":true,""margin"":""md""}]},""footer"":{""type"":""box"",""layout"":""horizontal"",""spacing"":""sm"",""paddingAll"":""lg"",""flex"":0,""contents"":[{""type"":""button"",""style"":""primary"",""color"":""#111111"",""flex"":1,""action"":{""type"":""uri"",""label"":""立即購買"",""uri"":""https://line.me/""}}]}}","1","93","0","1777894806","0","zh-TW","19","0","這是一個標準的電子商務商品展示模板。它利用 Hero 圖片佔滿版面展示商品細節，並巧妙地通過刪除線價格與特價的對比，突顯折扣力度。卡片還可加入免運或熱銷標籤，搭配『立即購買』按鈕，能大幅縮短顧客決策路徑，有效提升電商平台的轉換率。"
-"3","Teccbc87e4b5ce2fe28308fd9f2a7baf3","商家类","🏋️ 健身課程預約","系统内置模板","🏋️","{""type"":""bubble"",""hero"":{""type"":""image"",""url"":""https://upload.cc/i1/2026/05/06/xBUZNA.png"",""size"":""full"",""aspectRatio"":""20:13"",""aspectMode"":""cover""},""body"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""lg"",""contents"":[{""type"":""text"",""text"":""高強度間歇訓練 (HIIT)"",""weight"":""bold"",""size"":""xl""},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""spacing"":""sm"",""contents"":[{""type"":""box"",""layout"":""baseline"",""spacing"":""sm"",""contents"":[{""type"":""text"",""text"":""💪"",""color"":""#aaaaaa"",""size"":""sm"",""flex"":1},{""type"":""text"",""text"":""教練：Mark"",""wrap"":true,""color"":""#666666"",""size"":""sm"",""flex"":5}]},{""type"":""box"",""layout"":""baseline"",""spacing"":""sm"",""contents"":[{""type"":""text"",""text"":""⏰"",""color"":""#aaaaaa"",""size"":""sm"",""flex"":1},{""type"":""text"",""text"":""週五 19:00 - 20:00"",""wrap"":true,""color"":""#666666"",""size"":""sm"",""flex"":5}]},{""type"":""box"",""layout"":""baseline"",""spacing"":""sm"",""contents"":[{""type"":""text"",""text"":""🔥"",""color"":""#aaaaaa"",""size"":""sm"",""flex"":1},{""type"":""text"",""text"":""剩餘名額：3 位"",""wrap"":true,""color"":""#E53E3E"",""size"":""sm"",""flex"":5,""weight"":""bold""}]}]}]},""footer"":{""type"":""box"",""layout"":""horizontal"",""spacing"":""sm"",""paddingAll"":""lg"",""flex"":0,""contents"":[{""type"":""button"",""style"":""secondary"",""flex"":1,""action"":{""type"":""uri"",""label"":""課程詳情"",""uri"":""https://line.me/""}},{""type"":""button"",""style"":""primary"",""color"":""#E53E3E"",""flex"":1,""action"":{""type"":""uri"",""label"":""立即報名"",""uri"":""https://line.me/""}}]}}","1","95","0","1777894806","0","zh-TW","18","0","這是一個充滿活力的健身課程模板，適合展示高強度間歇訓練等課程。卡片醒目地標示了教練姓名、上課時間以及『剩餘名額』，利用稀缺性營造緊迫感。Hero 圖片展現運動場景，搭配『立即報名』按鈕，能有效激勵用戶參與，是健身房與教練不可或缺的招生工具。"
+"3","Teccbc87e4b5ce2fe28308fd9f2a7baf3","商家类","🏋️ 健身課程預約","系统内置模板","🏋️","{
+    ""type"": ""bubble"",
+    ""hero"": {
+        ""type"": ""image"",
+        ""url"": ""https://upload.cc/i1/2026/05/06/xBUZNA.png"",
+        ""size"": ""full"",
+        ""aspectRatio"": ""20:13"",
+        ""aspectMode"": ""cover""
+    },
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""lg"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""高強度間歇訓練 (HIIT)"",
+                ""weight"": ""bold"",
+                ""size"": ""xl""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""spacing"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""baseline"",
+                        ""spacing"": ""sm"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""💪"",
+                                ""color"": ""#aaaaaa"",
+                                ""size"": ""sm"",
+                                ""flex"": 1
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""教練：Mark"",
+                                ""wrap"": true,
+                                ""color"": ""#666666"",
+                                ""size"": ""sm"",
+                                ""flex"": 5
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""baseline"",
+                        ""spacing"": ""sm"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""⏰"",
+                                ""color"": ""#aaaaaa"",
+                                ""size"": ""sm"",
+                                ""flex"": 1
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""週五 19:00 - 20:00"",
+                                ""wrap"": true,
+                                ""color"": ""#666666"",
+                                ""size"": ""sm"",
+                                ""flex"": 5
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""baseline"",
+                        ""spacing"": ""sm"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""🔥"",
+                                ""color"": ""#aaaaaa"",
+                                ""size"": ""sm"",
+                                ""flex"": 1
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""剩餘名額：3 位"",
+                                ""wrap"": true,
+                                ""color"": ""#E53E3E"",
+                                ""size"": ""sm"",
+                                ""flex"": 5,
+                                ""weight"": ""bold""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""spacing"": ""sm"",
+        ""paddingAll"": ""lg"",
+        ""flex"": 0,
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""style"": ""secondary"",
+                ""flex"": 1,
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""課程詳情"",
+                    ""uri"": ""https://line.me/""
+                }
+            },
+            {
+                ""type"": ""button"",
+                ""style"": ""primary"",
+                ""color"": ""#E53E3E"",
+                ""flex"": 1,
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""立即報名"",
+                    ""uri"": ""https://line.me/""
+                }
+            }
+        ]
+    }
+}","1","95","0","0","1778305678","zh-TW","0","0","這是一個充滿活力的健身課程模板，適合展示高強度間歇訓練等課程。卡片醒目地標示了教練姓名、上課時間以及『剩餘名額』，利用稀缺性營造緊迫感。Hero 圖片展現運動場景，搭配『立即報名』按鈕，能有效激勵用戶參與，是健身房與教練不可或缺的招生工具。"
 "2","Tc81e728d9d4c2f636f067f89cc14862c","商家类","✂️ 美業預約卡片","系统内置模板","✂️","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""xl"",""contents"":[{""type"":""text"",""text"":""Celine 頂級沙龍"",""weight"":""bold"",""size"":""lg"",""color"":""#111111""},{""type"":""separator"",""margin"":""lg""},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""spacing"":""sm"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""服務項目"",""color"":""#aaaaaa"",""size"":""sm""},{""type"":""text"",""text"":""深層護髮 + 洗剪"",""color"":""#333333"",""size"":""sm"",""align"":""end""}]},{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""價格"",""color"":""#aaaaaa"",""size"":""sm""},{""type"":""text"",""text"":""NT$ 1,500"",""color"":""#E53E3E"",""size"":""sm"",""align"":""end"",""weight"":""bold""}]},{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""設計師"",""color"":""#aaaaaa"",""size"":""sm""},{""type"":""text"",""text"":""Tony 老師"",""color"":""#333333"",""size"":""sm"",""align"":""end""}]},{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""可約時間"",""color"":""#aaaaaa"",""size"":""sm""},{""type"":""text"",""text"":""今日 14:00"",""color"":""#06C755"",""size"":""sm"",""align"":""end""}]}]}]},""footer"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""lg"",""flex"":0,""contents"":[{""type"":""button"",""style"":""primary"",""color"":""#000000"",""action"":{""type"":""uri"",""label"":""立即預約"",""uri"":""https://line.me/""}}]}}","1","97","0","1777894806","0","zh-TW","17","0","此模板專為美容沙龍、理髮店或美甲業者量身打造。它清晰展示服務名稱與設計師資訊，利用水平 Box 精確對齊『服務項目』、『價格』、『設計師』及『可約時間』等關鍵數據。介面簡潔專業，讓顧客能一目了然地確認細節，並透過底部的按鈕快速完成預約流程。"
-"1","Tc4ca4238a0b923820dcc509a6f75849b","商家类","☕ 餐廳/咖啡店卡片","系统内置模板","☕","{""type"":""bubble"",""hero"":{""type"":""image"",""url"":""https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png"",""size"":""full"",""aspectRatio"":""20:13"",""aspectMode"":""cover""},""body"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""lg"",""contents"":[{""type"":""text"",""text"":""Brown's Bistro"",""weight"":""bold"",""size"":""xl""},{""type"":""box"",""layout"":""baseline"",""margin"":""md"",""contents"":[{""type"":""text"",""text"":""★★★★☆"",""size"":""sm"",""color"":""#FFD700"",""flex"":0},{""type"":""text"",""text"":""4.8"",""size"":""sm"",""color"":""#999999"",""margin"":""md"",""flex"":0}]},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""spacing"":""sm"",""contents"":[{""type"":""box"",""layout"":""baseline"",""spacing"":""sm"",""contents"":[{""type"":""text"",""text"":""📍"",""color"":""#aaaaaa"",""size"":""sm"",""flex"":1},{""type"":""text"",""text"":""台北市信義區松壽路 X 號"",""wrap"":true,""color"":""#666666"",""size"":""sm"",""flex"":5}]},{""type"":""box"",""layout"":""baseline"",""spacing"":""sm"",""contents"":[{""type"":""text"",""text"":""⏰"",""color"":""#aaaaaa"",""size"":""sm"",""flex"":1},{""type"":""text"",""text"":""10:00 - 22:00"",""wrap"":true,""color"":""#666666"",""size"":""sm"",""flex"":5}]}]}]},""footer"":{""type"":""box"",""layout"":""horizontal"",""spacing"":""sm"",""paddingAll"":""lg"",""flex"":0,""contents"":[{""type"":""button"",""style"":""secondary"",""flex"":1,""action"":{""type"":""uri"",""label"":""查看地圖"",""uri"":""https://line.me/""}},{""type"":""button"",""style"":""primary"",""color"":""#06C755"",""flex"":1,""action"":{""type"":""uri"",""label"":""立即預約"",""uri"":""https://line.me/""}}]}}","1","99","0","1777894806","0","zh-TW","16","0","這是一個經典的餐飲業推廣模板，專為咖啡廳或餐廳設計。它利用 Hero 圖片展示迷人的店面或招牌餐點，搭配醒目的標題與評分。卡片詳細列出了地址與營業時間，並在底部設置了『查看地圖』與『立即預約』按鈕，能有效將潛在顧客轉化為實際到店消費的客人，提升商家業績。"
+"1","Tc4ca4238a0b923820dcc509a6f75849b","商家类","☕ 餐廳/咖啡店卡片","系统内置模板","☕","{""type"":""bubble"",""hero"":{""type"":""image"",""url"":""https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png"",""size"":""full"",""aspectRatio"":""20:13"",""aspectMode"":""cover""},""body"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""lg"",""contents"":[{""type"":""text"",""text"":""Brown's Bistro"",""weight"":""bold"",""size"":""xl""},{""type"":""box"",""layout"":""baseline"",""margin"":""md"",""contents"":[{""type"":""text"",""text"":""★★★★☆"",""size"":""sm"",""color"":""#FFD700"",""flex"":0},{""type"":""text"",""text"":""4.8"",""size"":""sm"",""color"":""#999999"",""margin"":""md"",""flex"":0}]},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""spacing"":""sm"",""contents"":[{""type"":""box"",""layout"":""baseline"",""spacing"":""sm"",""contents"":[{""type"":""text"",""text"":""📍"",""color"":""#aaaaaa"",""size"":""sm"",""flex"":1},{""type"":""text"",""text"":""台北市信義區松壽路 X 號"",""wrap"":true,""color"":""#666666"",""size"":""sm"",""flex"":5}]},{""type"":""box"",""layout"":""baseline"",""spacing"":""sm"",""contents"":[{""type"":""text"",""text"":""⏰"",""color"":""#aaaaaa"",""size"":""sm"",""flex"":1},{""type"":""text"",""text"":""10:00 - 22:00"",""wrap"":true,""color"":""#666666"",""size"":""sm"",""flex"":5}]}]}]},""footer"":{""type"":""box"",""layout"":""horizontal"",""spacing"":""sm"",""paddingAll"":""lg"",""flex"":0,""contents"":[{""type"":""button"",""style"":""secondary"",""flex"":1,""action"":{""type"":""uri"",""label"":""查看地圖"",""uri"":""https://line.me/""}},{""type"":""button"",""style"":""primary"",""color"":""#06C755"",""flex"":1,""action"":{""type"":""uri"",""label"":""立即預約"",""uri"":""https://line.me/""}}]}}","1","98","0","1777894806","0","zh-TW","16","0","這是一個經典的餐飲業推廣模板，專為咖啡廳或餐廳設計。它利用 Hero 圖片展示迷人的店面或招牌餐點，搭配醒目的標題與評分。卡片詳細列出了地址與營業時間，並在底部設置了『查看地圖』與『立即預約』按鈕，能有效將潛在顧客轉化為實際到店消費的客人，提升商家業績。"

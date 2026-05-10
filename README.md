@@ -33,6 +33,7 @@
 
 #### ZH-TW
 
+- [🌦️ 每日天氣概況](https://liming.me/zh-TW/tpl/Tebd5650538c034e1cd2a8b3c902b527d)
 - [🏆 遊戲排行榜](https://liming.me/zh-TW/tpl/T6e43280b5d88fa775f1824f7b25c457d)
 - [活動 QR 票券](https://liming.me/zh-TW/tpl/Td645920e395fedad7bbbed0eca3fe2e0)
 - [課程時間表](https://liming.me/zh-TW/tpl/Td67d8ab4f4c10bf22aa353e27879133c)
@@ -62,6 +63,7 @@
 
 #### JA
 
+- [🌦️ 毎日の天気概況](https://liming.me/ja/tpl/Tbd57c1cbc423ed997fbe5930771f82ca)
 - [🏆 今週の戦力ランキング](https://liming.me/ja/tpl/T90687c27e577cc01d6c2f90413eacf08)
 - [イベント QR チケット](https://liming.me/ja/tpl/Tc0c7c76d30bd3dcaefc96f40275bdc0a)
 - [時間割表](https://liming.me/ja/tpl/Tf457c545a9ded88f18ecee47145a72c0)
@@ -88,7 +90,6 @@
 - [🏋️ フィットネス予約](https://liming.me/ja/tpl/T6f4922f45568161a8cdf4ad2299f6d23)
 - [✂️ サロン予約カード](https://liming.me/ja/tpl/T70efdf2ec9b086079795c442636b55fb)
 - [☕ レストラン/カフェカード](https://liming.me/ja/tpl/Tc74d97b01eae257e44aa9d5bade97baf)
-
 
 ## ⚙️ Developer Integration
 Directly load JSON files from the `jsons/` folder and pass the content to the LINE Messaging API SDK.
