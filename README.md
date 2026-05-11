@@ -29,6 +29,7 @@
 - **Hospitality**: Digital menus, reservation confirmations, location maps.
 - **System**: OTP verification, maintenance notices, error reports.
 
+
 ## 📂 Full Template List
 
 #### ZH-TW
@@ -48,16 +49,16 @@
 - **13**: [🪪 個人名片](https://liming.me/zh-TW/tpl/Tc51ce410c124a10e0db5e4b97fc2af39)
 - **14**: [📝 問卷入口](https://liming.me/zh-TW/tpl/Taab3238922bcc25a6f606eb525ffdc56)
 - **15**: [📊 每日數據簡報](https://liming.me/zh-TW/tpl/T9bf31c7ff062936a96d3c8bd1f8f2ff3)
-- **16**: [登機證/車票](https://liming.me/zh-TW/tpl/Tc16a5320fa475530d9583c34fd356ef5)
-- **17**: [酒店預約詳情](https://liming.me/zh-TW/tpl/T6364d3f0f495b6ab9dcf8d3b5c6e0b01)
-- **18**: [房源/車型詳情](https://liming.me/zh-TW/tpl/T182be0c5cdcd5072bb1864cdee4d3d6e)
-- **19**: [預約確認卡](https://liming.me/zh-TW/tpl/Te369853df766fa44e1ed0ff613f563bd)
-- **20**: [體檢報告概覽](https://liming.me/zh-TW/tpl/T1c383cd30b7c298ab50293adfecb7b18)
-- **21**: [診所叫號進度](https://liming.me/zh-TW/tpl/T19ca14e7ea6328a42e0eb13d585e4c22)
-- **22**: [信用卡賬單摘要](https://liming.me/zh-TW/tpl/Ta5bfc9e07964f8dddeb95fc584cd965d)
-- **23**: [投資組合快訊](https://liming.me/zh-TW/tpl/Ta5771bce93e200c36f7cd9dfd0e5deaa)
-- **24**: [課程時間表](https://liming.me/zh-TW/tpl/Td67d8ab4f4c10bf22aa353e27879133c)
-- **25**: [活動 QR 票券](https://liming.me/zh-TW/tpl/Td645920e395fedad7bbbed0eca3fe2e0)
+- **16**: [🎫登機證/車票](https://liming.me/zh-TW/tpl/Tc16a5320fa475530d9583c34fd356ef5)
+- **17**: [🏨酒店預約詳情](https://liming.me/zh-TW/tpl/T6364d3f0f495b6ab9dcf8d3b5c6e0b01)
+- **18**: [🏠房源/車型詳情](https://liming.me/zh-TW/tpl/T182be0c5cdcd5072bb1864cdee4d3d6e)
+- **19**: [✅預約確認卡](https://liming.me/zh-TW/tpl/Te369853df766fa44e1ed0ff613f563bd)
+- **20**: [🩺體檢報告概覽](https://liming.me/zh-TW/tpl/T1c383cd30b7c298ab50293adfecb7b18)
+- **21**: [🏥診所叫號進度](https://liming.me/zh-TW/tpl/T19ca14e7ea6328a42e0eb13d585e4c22)
+- **22**: [💳信用卡賬單摘要](https://liming.me/zh-TW/tpl/Ta5bfc9e07964f8dddeb95fc584cd965d)
+- **23**: [📈投資組合快訊](https://liming.me/zh-TW/tpl/Ta5771bce93e200c36f7cd9dfd0e5deaa)
+- **24**: [🗓️課程時間表](https://liming.me/zh-TW/tpl/Td67d8ab4f4c10bf22aa353e27879133c)
+- **25**: [🎟️活動 QR 票券](https://liming.me/zh-TW/tpl/Td645920e395fedad7bbbed0eca3fe2e0)
 - **26**: [🏆 遊戲排行榜](https://liming.me/zh-TW/tpl/T6e43280b5d88fa775f1824f7b25c457d)
 - **27**: [🌦️ 每日天氣概況](https://liming.me/zh-TW/tpl/Tebd5650538c034e1cd2a8b3c902b527d)
 - **28**: [🍱 餐廳推薦與美食點單](https://liming.me/zh-TW/tpl/T1ddf6ae24acdfbd399ef2d509ba26a20)
@@ -82,21 +83,20 @@
 - **14**: [📝 アンケート](https://liming.me/ja/tpl/T6ea9ab1baa0efb9e19094440c317e21b)
 - **15**: [📊 デイリーレポート](https://liming.me/ja/tpl/T34173cb38f07f89ddbebc2ac9128303f)
 - **16**: [搭乗券・チケット](https://liming.me/ja/tpl/T3416a75f4cea9109507cacd8e2f2aefc)
-- **17**: [ホテル予約詳細](https://liming.me/ja/tpl/Ta1d0c6e83f027327d8461063f4ac58a6)
-- **18**: [物件・車種詳細](https://liming.me/ja/tpl/T17e62166fc8586dfa4d1bc0e1742c08b)
-- **19**: [予約確認カード](https://liming.me/ja/tpl/Tf7177163c833dff4b38fc8d2872f1ec6)
-- **20**: [診断結果サマリー](https://liming.me/ja/tpl/T6c8349cc7260ae62e3b1396831a8398f)
-- **21**: [診療待ち状況](https://liming.me/ja/tpl/Td9d4f495e875a2e075a1a4a6e1b9770f)
-- **22**: [カード利用明細](https://liming.me/ja/tpl/T67c6a1e7ce56d3d6fa748ab6d9af3fd7)
-- **23**: [ポートフォリオ概要](https://liming.me/ja/tpl/T642e92efb79421734881b53e1e1b18b6)
-- **24**: [時間割表](https://liming.me/ja/tpl/Tf457c545a9ded88f18ecee47145a72c0)
-- **25**: [イベント QR チケット](https://liming.me/ja/tpl/Tc0c7c76d30bd3dcaefc96f40275bdc0a)
+- **17**: [🏨ホテル予約詳細](https://liming.me/ja/tpl/Ta1d0c6e83f027327d8461063f4ac58a6)
+- **18**: [🏠物件・車種詳細](https://liming.me/ja/tpl/T17e62166fc8586dfa4d1bc0e1742c08b)
+- **19**: [✅予約確認カード](https://liming.me/ja/tpl/Tf7177163c833dff4b38fc8d2872f1ec6)
+- **20**: [🩺診断結果サマリー](https://liming.me/ja/tpl/T6c8349cc7260ae62e3b1396831a8398f)
+- **21**: [🏥診療待ち状況](https://liming.me/ja/tpl/Td9d4f495e875a2e075a1a4a6e1b9770f)
+- **22**: [💳カード利用明細](https://liming.me/ja/tpl/T67c6a1e7ce56d3d6fa748ab6d9af3fd7)
+- **23**: [📈ポートフォリオ概要](https://liming.me/ja/tpl/T642e92efb79421734881b53e1e1b18b6)
+- **24**: [🗓️時間割表](https://liming.me/ja/tpl/Tf457c545a9ded88f18ecee47145a72c0)
+- **25**: [🎟️イベント QR チケット](https://liming.me/ja/tpl/Tc0c7c76d30bd3dcaefc96f40275bdc0a)
 - **26**: [🏆 今週の戦力ランキング](https://liming.me/ja/tpl/T90687c27e577cc01d6c2f90413eacf08)
 - **27**: [🌦️ 毎日の天気概況](https://liming.me/ja/tpl/Tbd57c1cbc423ed997fbe5930771f82ca)
 - **28**: [🍱 おすすめレストランとグルメ注文](https://liming.me/ja/tpl/T04de741f6e17bf538179d481bdfad91b)
 - **29**: [🏠 スマートホームステータス](https://liming.me/ja/tpl/T4786e472a24f31d35baed4cbbb2a757a)
 - **30**: [♻️ ゴミ収集日の通知](https://liming.me/ja/tpl/Tfc0e5b5a7530e943cd777f1c405edaf4)
-
 
 ## ⚙️ Developer Integration
 Directly load JSON files from the `jsons/` folder and pass the content to the LINE Messaging API SDK.

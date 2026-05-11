@@ -822,519 +822,1100 @@
 }","1","60","0","1777894806","0","ja","13","0","デジタル名刺として使えるテンプレートです。名前、肩書、顔写真、連絡先情報を表示し、「友だち追加」ボタンで簡単に繋がることができます。","bubble"
 "29","T6ea9ab1baa0efb9e19094440c317e21b","フォーム","📝 アンケート","システム標準テンプレート","📝","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""xl"",""contents"":[{""type"":""text"",""text"":""📋 満足度アンケート"",""weight"":""bold"",""size"":""lg"",""color"":""#111111""},{""type"":""text"",""text"":""サービスをご利用いただきありがとうございます！今後のサービス向上のため、簡単なアンケートにご協力をお願いいたします（所要時間約1分）。"",""size"":""sm"",""color"":""#666666"",""wrap"":true,""margin"":""lg""},{""type"":""text"",""text"":""🎁 アンケート完了で 500円クーポンプレゼント！"",""size"":""xs"",""color"":""#E53E3E"",""margin"":""lg"",""weight"":""bold""}]},""footer"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""lg"",""flex"":0,""contents"":[{""type"":""button"",""style"":""primary"",""color"":""#111111"",""action"":{""type"":""uri"",""label"":""回答を始める"",""uri"":""https://line.me/""}}]}}","1","58","0","1777894806","0","ja","14","0","アンケート協力のお願いテンプレートです。調査の目的と所要時間（約1分）を明記し、完了特典（クーポン）を提示することで、ユーザーの協力率を高めます。","bubble"
 "30","T34173cb38f07f89ddbebc2ac9128303f","データ","📊 デイリーレポート","システム標準テンプレート","📊","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""xl"",""contents"":[{""type"":""text"",""text"":""📈 デイリー運用レポート"",""weight"":""bold"",""size"":""lg"",""color"":""#111111""},{""type"":""text"",""text"":""日付：2025/05/04"",""size"":""xs"",""color"":""#aaaaaa"",""margin"":""xs""},{""type"":""separator"",""margin"":""lg""},{""type"":""box"",""layout"":""horizontal"",""margin"":""lg"",""contents"":[{""type"":""box"",""layout"":""vertical"",""flex"":1,""alignItems"":""center"",""contents"":[{""type"":""text"",""text"":""本日の注文"",""size"":""xs"",""color"":""#888888""},{""type"":""text"",""text"":""128"",""size"":""xl"",""color"":""#06C755"",""weight"":""bold"",""margin"":""sm""}]},{""type"":""box"",""layout"":""vertical"",""flex"":1,""alignItems"":""center"",""contents"":[{""type"":""text"",""text"":""売上高"",""size"":""xs"",""color"":""#888888""},{""type"":""text"",""text"":""¥150k"",""size"":""xl"",""color"":""#111111"",""weight"":""bold"",""margin"":""sm""}]},{""type"":""box"",""layout"":""vertical"",""flex"":1,""alignItems"":""center"",""contents"":[{""type"":""text"",""text"":""新規ユーザー"",""size"":""xs"",""color"":""#888888""},{""type"":""text"",""text"":""+45"",""size"":""xl"",""color"":""#3b82f6"",""weight"":""bold"",""margin"":""sm""}]}]}]},""footer"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""lg"",""flex"":0,""contents"":[{""type"":""button"",""style"":""secondary"",""height"":""sm"",""action"":{""type"":""uri"",""label"":""フルレポートを表示"",""uri"":""https://line.me/""}}]}}","1","56","0","1777894806","0","ja","15","0","データ可視化された日報テンプレートです。売上高、注文数、新規ユーザー数などのキーメトリクスを大きなフォントで表示し、管理者が業務状況を瞬時に把握できるように設計されています。","bubble"
-"31","Tc16a5320fa475530d9583c34fd356ef5","旅遊類","登機證/車票","系統內置模板","🎫","{
-  ""type"": ""bubble"",
-  ""direction"": ""ltr"",
-  ""header"": {
-    ""type"": ""box"",
-    ""layout"": ""vertical"",
-    ""backgroundColor"": ""#2B6CB0"",
-    ""cornerRadius"": ""md"",
-    ""paddingAll"": ""18px"",
-    ""contents"": [
-      {
-        ""type"": ""text"",
-        ""text"": ""外 國 人 登 錄 證"",
-        ""color"": ""#FFFFFF"",
-        ""weight"": ""bold"",
-        ""size"": ""xl"",
-        ""align"": ""center"",
-        ""letterSpacing"": ""2px""
-      },
-      {
-        ""type"": ""text"",
-        ""text"": ""Alien Registration Card"",
-        ""color"": ""#FFFFFFCC"",
-        ""size"": ""xs"",
-        ""align"": ""center""
-      }
-    ]
-  },
-  ""body"": {
-    ""type"": ""box"",
-    ""layout"": ""vertical"",
-    ""paddingTop"": ""xxl"",
-    ""paddingBottom"": ""xl"",
-    ""contents"": [
-      {
-        ""type"": ""box"",
-        ""layout"": ""baseline"",
-        ""spacing"": ""xs"",
-        ""contents"": [
-          {
-            ""type"": ""text"",
-            ""text"": ""Name:"",
-            ""color"": ""#A0AEC0"",
-            ""size"": ""xs"",
-            ""flex"": 2
-          },
-          {
-            ""type"": ""text"",
-            ""text"": ""WANG XIAO MING"",
-            ""color"": ""#111111"",
-            ""weight"": ""bold"",
-            ""size"": ""lg"",
-            ""flex"": 8
-          }
-        ]
-      },
-      {
-        ""type"": ""separator"",
-        ""margin"": ""xl""
-      },
-      {
+"31","Tc16a5320fa475530d9583c34fd356ef5","旅遊類","🎫登機證/車票","系統內置模板","🎫","{
+    ""type"": ""bubble"",
+    ""direction"": ""ltr"",
+    ""header"": {
         ""type"": ""box"",
         ""layout"": ""vertical"",
-        ""margin"": ""xl"",
-        ""spacing"": ""md"",
-        ""contents"": [
-          {
-            ""type"": ""box"",
-            ""layout"": ""baseline"",
-            ""spacing"": ""sm"",
-            ""contents"": [
-              {
-                ""type"": ""text"",
-                ""text"": ""國籍/Nationality"",
-                ""color"": ""#AAAAAA"",
-                ""size"": ""sm"",
-                ""flex"": 4
-              },
-              {
-                ""type"": ""text"",
-                ""text"": ""CHINA (PRC)"",
-                ""color"": ""#444444"",
-                ""size"": ""sm"",
-                ""flex"": 6
-              }
-            ]
-          },
-          {
-            ""type"": ""box"",
-            ""layout"": ""baseline"",
-            ""spacing"": ""sm"",
-            ""contents"": [
-              {
-                ""type"": ""text"",
-                ""text"": ""居留資格/Status"",
-                ""color"": ""#AAAAAA"",
-                ""size"": ""sm"",
-                ""flex"": 4
-              },
-              {
-                ""type"": ""text"",
-                ""text"": ""PROFESSIONAL (F-5)"",
-                ""color"": ""#2B6CB0"",
-                ""weight"": ""bold"",
-                ""size"": ""sm"",
-                ""flex"": 6
-              }
-            ]
-          },
-          {
-            ""type"": ""box"",
-            ""layout"": ""baseline"",
-            ""spacing"": ""sm"",
-            ""contents"": [
-              {
-                ""type"": ""text"",
-                ""text"": ""到期日/Valid Until"",
-                ""color"": ""#AAAAAA"",
-                ""size"": ""sm"",
-                ""flex"": 4
-              },
-              {
-                ""type"": ""text"",
-                ""text"": ""2030.12.31"",
-                ""color"": ""#E53E3E"",
-                ""weight"": ""bold"",
-                ""size"": ""sm"",
-                ""flex"": 6
-              }
-            ]
-          }
-        ]
-      },
-      {
-        ""type"": ""box"",
-        ""layout"": ""vertical"",
-        ""backgroundColor"": ""#F7FAFC"",
-        ""paddingAll"": ""md"",
-        ""cornerRadius"": ""sm"",
-        ""margin"": ""xxl"",
-        ""contents"": [
-          {
-            ""type"": ""text"",
-            ""text"": ""📍 此證件為外國人持有者在韓身分證明。請妥善保管並在必要時向當局出示。"",
-            ""color"": ""#718096"",
-            ""size"": ""xs"",
-            ""wrap"": true
-          }
-        ]
-      }
-    ]
-  },
-  ""footer"": {
-    ""type"": ""box"",
-    ""layout"": ""vertical"",
-    ""spacing"": ""sm"",
-    ""paddingAll"": ""lg"",
-    ""contents"": [
-      {
-        ""type"": ""button"",
-        ""style"": ""primary"",
-        ""color"": ""#2B6CB0"",
-        ""action"": {
-          ""type"": ""uri"",
-          ""label"": ""查看更多詳情"",
-          ""uri"": ""https://line.me/""
-        }
-      }
-    ]
-  }
-}","1","69","0","1714980000","0","zh-TW","41","0","這是一個登機證或車票模板，專為旅遊場景設計。它採用橫向長條設計，清晰地展示出發地、目的地、航班號、日期與登機門資訊。深藍色的背景設計呼應航空主題，提供了一種專業且時尚的票券視覺效果，方便用戶快速查閱行程細節。","bubble"
-"32","T6364d3f0f495b6ab9dcf8d3b5c6e0b01","旅遊類","酒店預約詳情","系統內置模板","🏨","{""type"":""bubble"",""hero"":{""type"":""image"",""url"":""https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"",""size"":""full"",""aspectRatio"":""20:13"",""aspectMode"":""cover""},""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""Grand Hyatt Taipei"",""weight"":""bold"",""size"":""xl""},{""type"":""box"",""layout"":""horizontal"",""margin"":""md"",""contents"":[{""type"":""box"",""layout"":""vertical"",""flex"":1,""contents"":[{""type"":""text"",""text"":""入住日期"",""size"":""xs"",""color"":""#888888""},{""type"":""text"",""text"":""2024-05-10"",""size"":""sm"",""weight"":""bold""}]},{""type"":""box"",""layout"":""vertical"",""flex"":0,""width"":""40px"",""alignItems"":""center"",""justifyContent"":""center"",""contents"":[{""type"":""text"",""text"":""➡️"",""size"":""sm""}]},{""type"":""box"",""layout"":""vertical"",""flex"":1,""contents"":[{""type"":""text"",""text"":""退房日期"",""size"":""xs"",""color"":""#888888"",""align"":""end""},{""type"":""text"",""text"":""2024-05-12"",""size"":""sm"",""weight"":""bold"",""align"":""end""}]}]}]},""footer"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""button"",""style"":""primary"",""color"":""#06C755"",""action"":{""type"":""uri"",""label"":""查看訂單詳情"",""uri"":""https://line.me/""}}]}}","1","67","0","1714980000","0","zh-TW","42","0","這是一個酒店預訂詳情模板。它利用 Hero 圖片展示酒店外觀或豪華房間，搭配酒店名稱與入住退房日期。卡片設計簡潔大方，讓用戶能快速確認預訂資訊，並提供『查看訂單詳情』按鈕以獲取更多服務，是旅遊業者必備的確認通知工具。","bubble"
-"33","T182be0c5cdcd5072bb1864cdee4d3d6e","房產類","房源/車型詳情","系統內置模板","🏠","{""type"":""bubble"",""hero"":{""type"":""image"",""url"":""https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"",""size"":""full"",""aspectRatio"":""16:9"",""aspectMode"":""cover""},""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""極簡美學高級住宅"",""weight"":""bold"",""size"":""lg""},{""type"":""text"",""text"":""台北市信義區信義路五段"",""size"":""xs"",""color"":""#888888"",""margin"":""xs""},{""type"":""box"",""layout"":""horizontal"",""margin"":""lg"",""spacing"":""sm"",""contents"":[{""type"":""box"",""layout"":""vertical"",""backgroundColor"":""#f3f4f6"",""paddingAll"":""sm"",""cornerRadius"":""md"",""contents"":[{""type"":""text"",""text"":""坪數"",""size"":""xs"",""color"":""#6b7280"",""align"":""center""},{""type"":""text"",""text"":""45 坪"",""size"":""sm"",""weight"":""bold"",""align"":""center""}]},{""type"":""box"",""layout"":""vertical"",""backgroundColor"":""#f3f4f6"",""paddingAll"":""sm"",""cornerRadius"":""md"",""contents"":[{""type"":""text"",""text"":""格局"",""size"":""xs"",""color"":""#6b7280"",""align"":""center""},{""type"":""text"",""text"":""3 房 2 廳"",""size"":""sm"",""weight"":""bold"",""align"":""center""}]},{""type"":""box"",""layout"":""vertical"",""backgroundColor"":""#f3f4f6"",""paddingAll"":""sm"",""cornerRadius"":""md"",""contents"":[{""type"":""text"",""text"":""屋齡"",""size"":""xs"",""color"":""#6b7280"",""align"":""center""},{""type"":""text"",""text"":""2 年"",""size"":""sm"",""weight"":""bold"",""align"":""center""}]}]}]},""footer"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""button"",""style"":""primary"",""color"":""#1d4ed8"",""action"":{""type"":""uri"",""label"":""預約看房"",""uri"":""https://line.me/""}}]}}","1","57","0","1714980000","0","zh-TW","43","0","這是一個房產或車型詳情展示模板。它利用 Hero 圖片展示房源外觀或車輛實拍，並在卡片內詳細列出關鍵規格（如坪數、格局、屋齡或車型年份）。這種設計能讓潛在買家或租客快速篩選感興趣的物件，並透過按鈕預約看房或試駕。","bubble"
-"34","Te369853df766fa44e1ed0ff613f563bd","房產類","預約確認卡","系統內置模板","📅","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""預約確認成功"",""weight"":""bold"",""size"":""xl"",""color"":""#059669""},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""spacing"":""sm"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""預約項目"",""size"":""sm"",""color"":""#888888"",""flex"":1},{""type"":""text"",""text"":""信義之星 - A1 戶"",""size"":""sm"",""weight"":""bold"",""flex"":2}]},{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""預約時間"",""size"":""sm"",""color"":""#888888"",""flex"":1},{""type"":""text"",""text"":""2024/05/15 14:00"",""size"":""sm"",""weight"":""bold"",""flex"":2}]}]}]},""footer"":{""type"":""box"",""layout"":""vertical"",""spacing"":""sm"",""contents"":[{""type"":""button"",""style"":""primary"",""color"":""#059669"",""action"":{""type"":""uri"",""label"":""一鍵導航"",""uri"":""https://www.google.com/maps""}},{""type"":""button"",""style"":""link"",""color"":""#888888"",""action"":{""type"":""postback"",""label"":""取消預約"",""data"":""cancel_appointment""}}]}}","1","55","0","1714980000","0","zh-TW","44","0","這是一個預約確認卡片，適用於各類服務的確認通知。卡片醒目地顯示『預約確認成功』字樣，並詳細列出預約項目、時間與地點。它給用戶帶來強烈的安心感，確保雙方對服務細節達成共識，減少臨時變更或爭議。","bubble"
-"35","T1c383cd30b7c298ab50293adfecb7b18","醫療類","體檢報告概覽","系統內置模板","🩺","{
-  ""type"": ""bubble"",
-  ""size"": ""mega"",
-  ""body"": {
-    ""type"": ""box"",
-    ""layout"": ""vertical"",
-    ""paddingAll"": ""0px"",
-    ""contents"": [
-      {
-        ""type"": ""box"",
-        ""layout"": ""vertical"",
-        ""paddingAll"": ""24px"",
-        ""backgroundColor"": ""#06C755"",
-        ""contents"": [
-          {
-            ""type"": ""text"",
-            ""text"": ""HEALTH SUMMARY"",
-            ""color"": ""#FFFFFFCC"",
-            ""size"": ""xxs"",
-            ""weight"": ""bold"",
-            ""letterSpacing"": ""2px""
-          },
-          {
-            ""type"": ""text"",
-            ""text"": ""年度體檢報告摘要"",
-            ""color"": ""#FFFFFF"",
-            ""weight"": ""bold"",
-            ""size"": ""xl"",
-            ""margin"": ""sm""
-          },
-          {
-            ""type"": ""box"",
-            ""layout"": ""horizontal"",
-            ""margin"": ""lg"",
-            ""contents"": [
-              {
-                ""type"": ""text"",
-                ""text"": ""受檢者：陳先生"",
-                ""color"": ""#FFFFFFCC"",
-                ""size"": ""xs""
-              },
-              {
-                ""type"": ""text"",
-                ""text"": ""ID: HB-99283"",
-                ""color"": ""#FFFFFFCC"",
-                ""size"": ""xs"",
-                ""align"": ""end""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        ""type"": ""box"",
-        ""layout"": ""vertical"",
-        ""paddingAll"": ""24px"",
-        ""spacing"": ""xl"",
-        ""contents"": [
-          {
-            ""type"": ""box"",
-            ""layout"": ""horizontal"",
-            ""spacing"": ""xl"",
-            ""contents"": [
-              {
-                ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""flex"": 1,
-                ""backgroundColor"": ""#F8F9FB"",
-                ""cornerRadius"": ""lg"",
-                ""paddingAll"": ""16px"",
-                ""contents"": [
-                  {
-                    ""type"": ""text"",
-                    ""text"": ""空腹血糖"",
-                    ""size"": ""xs"",
-                    ""color"": ""#999999""
-                  },
-                  {
-                    ""type"": ""text"",
-                    ""text"": ""4.8"",
-                    ""size"": ""xxl"",
-                    ""weight"": ""bold"",
-                    ""color"": ""#111111"",
-                    ""margin"": ""md""
-                  },
-                  {
-                    ""type"": ""text"",
-                    ""text"": ""● 正常"",
-                    ""size"": ""xxs"",
-                    ""color"": ""#06C755"",
-                    ""weight"": ""bold""
-                  }
-                ]
-              },
-              {
-                ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""flex"": 1,
-                ""backgroundColor"": ""#F8F9FB"",
-                ""cornerRadius"": ""lg"",
-                ""paddingAll"": ""16px"",
-                ""contents"": [
-                  {
-                    ""type"": ""text"",
-                    ""text"": ""總膽固醇"",
-                    ""size"": ""xs"",
-                    ""color"": ""#999999""
-                  },
-                  {
-                    ""type"": ""text"",
-                    ""text"": ""6.2"",
-                    ""size"": ""xxl"",
-                    ""weight"": ""bold"",
-                    ""color"": ""#EF4444"",
-                    ""margin"": ""md""
-                  },
-                  {
-                    ""type"": ""text"",
-                    ""text"": ""● 偏高"",
-                    ""size"": ""xxs"",
-                    ""color"": ""#EF4444"",
-                    ""weight"": ""bold""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            ""type"": ""box"",
-            ""layout"": ""vertical"",
-            ""borderWidth"": ""1px"",
-            ""borderColor"": ""#F0F0F0"",
-            ""cornerRadius"": ""md"",
-            ""paddingAll"": ""16px"",
-            ""contents"": [
-              {
-                ""type"": ""text"",
-                ""text"": ""醫囑建議"",
-                ""size"": ""xs"",
-                ""color"": ""#111111"",
-                ""weight"": ""bold""
-              },
-              {
-                ""type"": ""text"",
-                ""text"": ""總膽固醇數值已超出參考範圍，建議調整飲食結構並適量運動。"",
-                ""size"": ""xs"",
-                ""color"": ""#666666"",
-                ""margin"": ""sm"",
-                ""wrap"": true
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  ""footer"": {
-    ""type"": ""box"",
-    ""layout"": ""vertical"",
-    ""paddingAll"": ""24px"",
-    ""paddingTop"": ""0px"",
-    ""contents"": [
-      {
-        ""type"": ""button"",
-        ""action"": {
-          ""type"": ""uri"",
-          ""label"": ""查看完整 PDF 報告"",
-          ""uri"": ""https://line.me/""
-        },
-        ""style"": ""secondary"",
-        ""height"": ""md"",
-        ""color"": ""#06C755""
-      }
-    ]
-  }
-}","1","45","0","1714980000","0","zh-TW","45","0","這是一個體檢報告概覽模板，用於醫療健康領域。它將複雜的醫學數據（如血壓、膽固醇）簡化為直觀的數值與狀態標籤（如正常、偏高），並使用顏色（綠色/紅色）進行區分。這能幫助用戶快速理解健康狀況，並採取相應的改善措施。","bubble"
-"36","T19ca14e7ea6328a42e0eb13d585e4c22","醫療類","診所叫號進度","系統內置模板","🏥","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""目前叫號進度"",""size"":""sm"",""color"":""#888888""},{""type"":""text"",""text"":""小兒科 - 3 診"",""weight"":""bold"",""size"":""lg"",""margin"":""xs""},{""type"":""box"",""layout"":""vertical"",""margin"":""xxl"",""alignItems"":""center"",""contents"":[{""type"":""text"",""text"":""25"",""size"":""5xl"",""weight"":""bold"",""color"":""#06C755""},{""type"":""text"",""text"":""當前號碼"",""size"":""xs"",""color"":""#aaaaaa""}]},{""type"":""box"",""layout"":""vertical"",""margin"":""xl"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""您的號碼"",""size"":""sm"",""color"":""#555555""},{""type"":""text"",""text"":""32 號"",""size"":""sm"",""weight"":""bold"",""align"":""end""}]},{""type"":""text"",""text"":""預計還需等待約 15 分鐘"",""size"":""xs"",""color"":""#f59e0b"",""margin"":""sm"",""align"":""center""}]}]}}","1","43","0","1714980000","0","zh-TW","46","0","這是一個診所叫號進度模板，旨在減少候診焦慮。卡片中央醒目地顯示當前叫號（如25號）與用戶的號碼（如32號），並提示預計等待時間。用戶無需頻繁抬頭看螢幕，透過手機即可掌握即時進度，提升就醫體驗。","bubble"
-"37","Ta5bfc9e07964f8dddeb95fc584cd965d","金融類","信用卡賬單摘要","系統內置模板","💳","{
-  ""type"": ""bubble"",
-  ""size"": ""kilo"",
-  ""body"": {
-    ""type"": ""box"",
-    ""layout"": ""vertical"",
-    ""spacing"": ""md"",
-    ""paddingAll"": ""lg"",
-    ""backgroundColor"": ""#F8FAFC"",
-    ""cornerRadius"": ""xl"",
-    ""contents"": [
-      {
-        ""type"": ""box"",
-        ""layout"": ""horizontal"",
-        ""alignItems"": ""center"",
-        ""justifyContent"": ""space-between"",
-        ""contents"": [
-          {
-            ""type"": ""text"",
-            ""text"": ""信用卡 05 月賬單"",
-            ""weight"": ""bold"",
-            ""size"": ""sm"",
-            ""color"": ""#0F172A"",
-            ""flex"": 1
-          },
-          {
-            ""type"": ""image"",
-            ""url"": ""https://ui-avatars.com/api/?name=VISA&background=1E3A8A&color=fff"",
-            ""size"": ""xs"",
-            ""flex"": 0
-          }
-        ]
-      },
-      {
-        ""type"": ""separator"",
-        ""margin"": ""sm"",
-        ""color"": ""#E2E8F0""
-      },
-      {
-        ""type"": ""box"",
-        ""layout"": ""vertical"",
-        ""margin"": ""sm"",
-        ""contents"": [
-          {
-            ""type"": ""text"",
-            ""text"": ""本期應付總額"",
-            ""size"": ""xs"",
-            ""color"": ""#64748B""
-          },
-          {
-            ""type"": ""text"",
-            ""text"": ""TWD 12,850"",
-            ""size"": ""xxl"",
-            ""weight"": ""bold"",
-            ""color"": ""#0F172A"",
-            ""margin"": ""xs""
-          }
-        ]
-      },
-      {
-        ""type"": ""box"",
-        ""layout"": ""horizontal"",
-        ""alignItems"": ""center"",
-        ""justifyContent"": ""space-between"",
-        ""margin"": ""sm"",
-        ""contents"": [
-          {
-            ""type"": ""text"",
-            ""text"": ""繳款截止日"",
-            ""size"": ""sm"",
-            ""color"": ""#64748B""
-          },
-          {
-            ""type"": ""text"",
-            ""text"": ""2024 / 05 / 25"",
-            ""size"": ""sm"",
-            ""weight"": ""bold"",
-            ""color"": ""#0F172A""
-          }
-        ]
-      }
-    ]
-  },
-  ""footer"": {
-    ""type"": ""box"",
-    ""layout"": ""vertical"",
-    ""paddingTop"": ""sm"",
-    ""paddingBottom"": ""lg"",
-    ""paddingStart"": ""lg"",
-    ""paddingEnd"": ""lg"",
-    ""contents"": [
-      {
-        ""type"": ""button"",
-        ""style"": ""primary"",
-        ""height"": ""sm"",
-        ""color"": ""#1E3A8A"",
+        ""backgroundColor"": ""#2B6CB0"",
         ""cornerRadius"": ""md"",
-        ""action"": {
-          ""type"": ""uri"",
-          ""label"": ""立即繳費"",
-          ""uri"": ""https://line.me/""
-        }
-      }
-    ]
-  }
-}
-","1","33","0","1714980000","0","zh-TW","47","0","這是一個信用卡賬單摘要模板。它清晰地列出本期應付總額、繳款截止日與卡別資訊。大字體的金額顯示讓用戶一目了然，並提供『立即繳費』按鈕，方便用戶直接完成支付，避免逾期繳款，是金融機構高效的催收工具。","bubble"
-"38","Ta5771bce93e200c36f7cd9dfd0e5deaa","金融類","投資組合快訊","系統內置模板","📈","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""投資組合盈虧摘要"",""weight"":""bold"",""size"":""md""},{""type"":""box"",""layout"":""horizontal"",""margin"":""lg"",""contents"":[{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""總資產 (TWD)"",""size"":""xs"",""color"":""#888888""},{""type"":""text"",""text"":""1,240,500"",""weight"":""bold"",""size"":""lg""}]},{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""本日盈虧"",""size"":""xs"",""color"":""#888888"",""align"":""end""},{""type"":""text"",""text"":""+2.45%"",""weight"":""bold"",""size"":""lg"",""color"":""#EF4444"",""align"":""end""}]}]},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""spacing"":""sm"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""台積電 (2330)"",""size"":""sm"",""flex"":3},{""type"":""text"",""text"":""▲ 5.0"",""size"":""sm"",""color"":""#EF4444"",""flex"":2,""align"":""end""}]},{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""鴻海 (2317)"",""size"":""sm"",""flex"":3},{""type"":""text"",""text"":""▼ 1.5"",""size"":""sm"",""color"":""#059669"",""flex"":2,""align"":""end""}]}]}]}}","1","31","0","1714980000","0","zh-TW","48","0","這是一個投資組合快訊模板。它將總資產、本日盈虧百分比以及個股的漲跌情況（如台積電、鴻海）集中展示。透過顏色區分紅綠盤（紅色上漲、綠色下跌），投資者能快速掌握資產變動趨勢，做出及時的投資決策。","bubble"
-"39","Td67d8ab4f4c10bf22aa353e27879133c","教育類","課程時間表","系統內置模板","🗓️","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""今日課程安排"",""weight"":""bold"",""size"":""lg""},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""spacing"":""lg"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""spacing"":""md"",""contents"":[{""type"":""text"",""text"":""09:00"",""size"":""xs"",""color"":""#888888"",""flex"":2},{""type"":""box"",""layout"":""vertical"",""flex"":8,""contents"":[{""type"":""text"",""text"":""高等數學"",""size"":""sm"",""weight"":""bold""},{""type"":""text"",""text"":""教 A-302"",""size"":""xs"",""color"":""#aaaaaa""}]}]},{""type"":""box"",""layout"":""horizontal"",""spacing"":""md"",""contents"":[{""type"":""text"",""text"":""13:30"",""size"":""xs"",""color"":""#888888"",""flex"":2},{""type"":""box"",""layout"":""vertical"",""flex"":8,""contents"":[{""type"":""text"",""text"":""計算機概論"",""size"":""sm"",""weight"":""bold""},{""type"":""text"",""text"":""資工實驗室"",""size"":""xs"",""color"":""#aaaaaa""}]}]}]}]}}","1","21","0","1714980000","0","zh-TW","49","0","這是一個課程時間表模板，適用於學校或教育機構。卡片清晰地列出今日的上課時間、課程名稱與教室地點。這種結構化的排版幫助學生與教職員有效管理時間，避免錯過重要課程，是校園生活的實用助手。","bubble"
-"40","Td645920e395fedad7bbbed0eca3fe2e0","教育類","活動 QR 票券","系統內置模板","🎟️","{
-  ""type"": ""bubble"",
-  ""body"": {
-    ""type"": ""box"",
-    ""layout"": ""vertical"",
-    ""paddingAll"": ""0px"",
-    ""contents"": [
-      {
+        ""paddingAll"": ""18px"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""外 國 人 登 錄 證"",
+                ""color"": ""#FFFFFF"",
+                ""weight"": ""bold"",
+                ""size"": ""xl"",
+                ""align"": ""center"",
+                ""letterSpacing"": ""2px""
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""Alien Registration Card"",
+                ""color"": ""#FFFFFFCC"",
+                ""size"": ""xs"",
+                ""align"": ""center""
+            }
+        ]
+    },
+    ""body"": {
         ""type"": ""box"",
         ""layout"": ""vertical"",
-        ""paddingAll"": ""xl"",
-        ""backgroundColor"": ""#F5F6FA"",
+        ""paddingTop"": ""xxl"",
+        ""paddingBottom"": ""xl"",
         ""contents"": [
-          {
-            ""type"": ""text"",
-            ""text"": ""2024 台北爵士音樂節"",
-            ""weight"": ""bold"",
-            ""size"": ""lg"",
-            ""color"": ""#1F2937""
-          },
-          {
-            ""type"": ""text"",
-            ""text"": ""大安森林公園露天音樂台"",
-            ""size"": ""xs"",
-            ""color"": ""#6B7280"",
-            ""margin"": ""xs""
-          }
+            {
+                ""type"": ""box"",
+                ""layout"": ""baseline"",
+                ""spacing"": ""xs"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""Name:"",
+                        ""color"": ""#A0AEC0"",
+                        ""size"": ""xs"",
+                        ""flex"": 2
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""WANG XIAO MING"",
+                        ""color"": ""#111111"",
+                        ""weight"": ""bold"",
+                        ""size"": ""lg"",
+                        ""flex"": 8
+                    }
+                ]
+            },
+            {
+                ""type"": ""separator"",
+                ""margin"": ""xl""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""xl"",
+                ""spacing"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""baseline"",
+                        ""spacing"": ""sm"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""國籍/Nationality"",
+                                ""color"": ""#AAAAAA"",
+                                ""size"": ""sm"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""CHINA (PRC)"",
+                                ""color"": ""#444444"",
+                                ""size"": ""sm"",
+                                ""flex"": 6
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""baseline"",
+                        ""spacing"": ""sm"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""居留資格/Status"",
+                                ""color"": ""#AAAAAA"",
+                                ""size"": ""sm"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""PROFESSIONAL (F-5)"",
+                                ""color"": ""#2B6CB0"",
+                                ""weight"": ""bold"",
+                                ""size"": ""sm"",
+                                ""flex"": 6
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""baseline"",
+                        ""spacing"": ""sm"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""到期日/Valid Until"",
+                                ""color"": ""#AAAAAA"",
+                                ""size"": ""sm"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""2030.12.31"",
+                                ""color"": ""#E53E3E"",
+                                ""weight"": ""bold"",
+                                ""size"": ""sm"",
+                                ""flex"": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""backgroundColor"": ""#F7FAFC"",
+                ""paddingAll"": ""md"",
+                ""cornerRadius"": ""sm"",
+                ""margin"": ""xxl"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""📍 此證件為外國人持有者在韓身分證明。請妥善保管並在必要時向當局出示。"",
+                        ""color"": ""#718096"",
+                        ""size"": ""xs"",
+                        ""wrap"": true
+                    }
+                ]
+            }
         ]
-      },
-      {
+    },
+    ""footer"": {
         ""type"": ""box"",
         ""layout"": ""vertical"",
-        ""paddingAll"": ""xl"",
-        ""alignItems"": ""center"", 
+        ""spacing"": ""sm"",
+        ""paddingAll"": ""lg"",
         ""contents"": [
-          {
-            ""type"": ""image"",
-            ""url"": ""https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=FlexCraft"",
-            ""size"": ""md"",
-            ""aspectMode"": ""cover""
-          },
-          {
-            ""type"": ""text"",
-            ""text"": ""請在入場時出示此 QR Code"",
-            ""size"": ""xs"",
-            ""color"": ""#9CA3AF"",
-            ""margin"": ""md""
-          }
+            {
+                ""type"": ""button"",
+                ""style"": ""primary"",
+                ""color"": ""#2B6CB0"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""查看更多詳情"",
+                    ""uri"": ""https://line.me/""
+                }
+            }
         ]
-      }
-    ]
-  }
-}","1","19","0","1714980000","0","zh-TW","50","0","這是一個活動 QR 票券模板，用於線下活動入場。卡片設計簡約，中央放置巨大的 QR Code，並附上活動名稱與地點。用戶出示此卡片即可快速掃碼入場，無需繁瑣的紙本核對，提升了活動管理的效率與科技感。","bubble"
+    }
+}","1","69","0","0","1778467437","zh-TW","41","0","這是一個登機證或車票模板，專為旅遊場景設計。它採用橫向長條設計，清晰地展示出發地、目的地、航班號、日期與登機門資訊。深藍色的背景設計呼應航空主題，提供了一種專業且時尚的票券視覺效果，方便用戶快速查閱行程細節。","bubble"
+"32","T6364d3f0f495b6ab9dcf8d3b5c6e0b01","旅遊類","🏨酒店預約詳情","系統內置模板","🏨","{
+    ""type"": ""bubble"",
+    ""hero"": {
+        ""type"": ""image"",
+        ""url"": ""https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"",
+        ""size"": ""full"",
+        ""aspectRatio"": ""20:13"",
+        ""aspectMode"": ""cover""
+    },
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""Grand Hyatt Taipei"",
+                ""weight"": ""bold"",
+                ""size"": ""xl""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""margin"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""flex"": 1,
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""入住日期"",
+                                ""size"": ""xs"",
+                                ""color"": ""#888888""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""2024-05-10"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""flex"": 0,
+                        ""width"": ""40px"",
+                        ""alignItems"": ""center"",
+                        ""justifyContent"": ""center"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""➡️"",
+                                ""size"": ""sm""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""flex"": 1,
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""退房日期"",
+                                ""size"": ""xs"",
+                                ""color"": ""#888888"",
+                                ""align"": ""end""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""2024-05-12"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""style"": ""primary"",
+                ""color"": ""#06C755"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""查看訂單詳情"",
+                    ""uri"": ""https://line.me/""
+                }
+            }
+        ]
+    }
+}","1","67","0","0","1778467461","zh-TW","42","0","這是一個酒店預訂詳情模板。它利用 Hero 圖片展示酒店外觀或豪華房間，搭配酒店名稱與入住退房日期。卡片設計簡潔大方，讓用戶能快速確認預訂資訊，並提供『查看訂單詳情』按鈕以獲取更多服務，是旅遊業者必備的確認通知工具。","bubble"
+"33","T182be0c5cdcd5072bb1864cdee4d3d6e","房產類","🏠房源/車型詳情","系統內置模板","🏠","{
+    ""type"": ""bubble"",
+    ""hero"": {
+        ""type"": ""image"",
+        ""url"": ""https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"",
+        ""size"": ""full"",
+        ""aspectRatio"": ""16:9"",
+        ""aspectMode"": ""cover""
+    },
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""極簡美學高級住宅"",
+                ""weight"": ""bold"",
+                ""size"": ""lg""
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""台北市信義區信義路五段"",
+                ""size"": ""xs"",
+                ""color"": ""#888888"",
+                ""margin"": ""xs""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""margin"": ""lg"",
+                ""spacing"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""backgroundColor"": ""#f3f4f6"",
+                        ""paddingAll"": ""sm"",
+                        ""cornerRadius"": ""md"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""坪數"",
+                                ""size"": ""xs"",
+                                ""color"": ""#6b7280"",
+                                ""align"": ""center""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""45 坪"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""center""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""backgroundColor"": ""#f3f4f6"",
+                        ""paddingAll"": ""sm"",
+                        ""cornerRadius"": ""md"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""格局"",
+                                ""size"": ""xs"",
+                                ""color"": ""#6b7280"",
+                                ""align"": ""center""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""3 房 2 廳"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""center""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""backgroundColor"": ""#f3f4f6"",
+                        ""paddingAll"": ""sm"",
+                        ""cornerRadius"": ""md"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""屋齡"",
+                                ""size"": ""xs"",
+                                ""color"": ""#6b7280"",
+                                ""align"": ""center""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""2 年"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""center""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""style"": ""primary"",
+                ""color"": ""#1d4ed8"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""預約看房"",
+                    ""uri"": ""https://line.me/""
+                }
+            }
+        ]
+    }
+}","1","57","0","0","1778467590","zh-TW","43","0","這是一個房產或車型詳情展示模板。它利用 Hero 圖片展示房源外觀或車輛實拍，並在卡片內詳細列出關鍵規格（如坪數、格局、屋齡或車型年份）。這種設計能讓潛在買家或租客快速篩選感興趣的物件，並透過按鈕預約看房或試駕。","bubble"
+"34","Te369853df766fa44e1ed0ff613f563bd","房產類","✅預約確認卡","系統內置模板","✅","{
+    ""type"": ""bubble"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""預約確認成功"",
+                ""weight"": ""bold"",
+                ""size"": ""xl"",
+                ""color"": ""#059669""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""spacing"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""預約項目"",
+                                ""size"": ""sm"",
+                                ""color"": ""#888888"",
+                                ""flex"": 1
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""信義之星 - A1 戶"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""flex"": 2
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""預約時間"",
+                                ""size"": ""sm"",
+                                ""color"": ""#888888"",
+                                ""flex"": 1
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""2024/05/15 14:00"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""flex"": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""spacing"": ""sm"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""style"": ""primary"",
+                ""color"": ""#059669"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""一鍵導航"",
+                    ""uri"": ""https://www.google.com/maps""
+                }
+            },
+            {
+                ""type"": ""button"",
+                ""style"": ""link"",
+                ""color"": ""#888888"",
+                ""action"": {
+                    ""type"": ""postback"",
+                    ""label"": ""取消預約"",
+                    ""data"": ""cancel_appointment""
+                }
+            }
+        ]
+    }
+}","1","55","0","0","1778467601","zh-TW","44","0","這是一個預約確認卡片，適用於各類服務的確認通知。卡片醒目地顯示『預約確認成功』字樣，並詳細列出預約項目、時間與地點。它給用戶帶來強烈的安心感，確保雙方對服務細節達成共識，減少臨時變更或爭議。","bubble"
+"35","T1c383cd30b7c298ab50293adfecb7b18","醫療類","🩺體檢報告概覽","系統內置模板","🩺","{
+    ""type"": ""bubble"",
+    ""size"": ""mega"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""0px"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""paddingAll"": ""24px"",
+                ""backgroundColor"": ""#06C755"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""HEALTH SUMMARY"",
+                        ""color"": ""#FFFFFFCC"",
+                        ""size"": ""xxs"",
+                        ""weight"": ""bold"",
+                        ""letterSpacing"": ""2px""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""年度體檢報告摘要"",
+                        ""color"": ""#FFFFFF"",
+                        ""weight"": ""bold"",
+                        ""size"": ""xl"",
+                        ""margin"": ""sm""
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""margin"": ""lg"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""受檢者：陳先生"",
+                                ""color"": ""#FFFFFFCC"",
+                                ""size"": ""xs""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""ID: HB-99283"",
+                                ""color"": ""#FFFFFFCC"",
+                                ""size"": ""xs"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""paddingAll"": ""24px"",
+                ""spacing"": ""xl"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""spacing"": ""xl"",
+                        ""contents"": [
+                            {
+                                ""type"": ""box"",
+                                ""layout"": ""vertical"",
+                                ""flex"": 1,
+                                ""backgroundColor"": ""#F8F9FB"",
+                                ""cornerRadius"": ""lg"",
+                                ""paddingAll"": ""16px"",
+                                ""contents"": [
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""空腹血糖"",
+                                        ""size"": ""xs"",
+                                        ""color"": ""#999999""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""4.8"",
+                                        ""size"": ""xxl"",
+                                        ""weight"": ""bold"",
+                                        ""color"": ""#111111"",
+                                        ""margin"": ""md""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""● 正常"",
+                                        ""size"": ""xxs"",
+                                        ""color"": ""#06C755"",
+                                        ""weight"": ""bold""
+                                    }
+                                ]
+                            },
+                            {
+                                ""type"": ""box"",
+                                ""layout"": ""vertical"",
+                                ""flex"": 1,
+                                ""backgroundColor"": ""#F8F9FB"",
+                                ""cornerRadius"": ""lg"",
+                                ""paddingAll"": ""16px"",
+                                ""contents"": [
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""總膽固醇"",
+                                        ""size"": ""xs"",
+                                        ""color"": ""#999999""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""6.2"",
+                                        ""size"": ""xxl"",
+                                        ""weight"": ""bold"",
+                                        ""color"": ""#EF4444"",
+                                        ""margin"": ""md""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""● 偏高"",
+                                        ""size"": ""xxs"",
+                                        ""color"": ""#EF4444"",
+                                        ""weight"": ""bold""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""borderWidth"": ""1px"",
+                        ""borderColor"": ""#F0F0F0"",
+                        ""cornerRadius"": ""md"",
+                        ""paddingAll"": ""16px"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""醫囑建議"",
+                                ""size"": ""xs"",
+                                ""color"": ""#111111"",
+                                ""weight"": ""bold""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""總膽固醇數值已超出參考範圍，建議調整飲食結構並適量運動。"",
+                                ""size"": ""xs"",
+                                ""color"": ""#666666"",
+                                ""margin"": ""sm"",
+                                ""wrap"": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""24px"",
+        ""paddingTop"": ""0px"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""查看完整 PDF 報告"",
+                    ""uri"": ""https://line.me/""
+                },
+                ""style"": ""secondary"",
+                ""height"": ""md"",
+                ""color"": ""#06C755""
+            }
+        ]
+    }
+}","1","45","0","0","1778467625","zh-TW","45","0","這是一個體檢報告概覽模板，用於醫療健康領域。它將複雜的醫學數據（如血壓、膽固醇）簡化為直觀的數值與狀態標籤（如正常、偏高），並使用顏色（綠色/紅色）進行區分。這能幫助用戶快速理解健康狀況，並採取相應的改善措施。","bubble"
+"36","T19ca14e7ea6328a42e0eb13d585e4c22","醫療類","🏥診所叫號進度","系統內置模板","🏥","{
+    ""type"": ""bubble"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""目前叫號進度"",
+                ""size"": ""sm"",
+                ""color"": ""#888888""
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""小兒科 - 3 診"",
+                ""weight"": ""bold"",
+                ""size"": ""lg"",
+                ""margin"": ""xs""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""xxl"",
+                ""alignItems"": ""center"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""25"",
+                        ""size"": ""5xl"",
+                        ""weight"": ""bold"",
+                        ""color"": ""#06C755""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""當前號碼"",
+                        ""size"": ""xs"",
+                        ""color"": ""#aaaaaa""
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""xl"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""您的號碼"",
+                                ""size"": ""sm"",
+                                ""color"": ""#555555""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""32 號"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""預計還需等待約 15 分鐘"",
+                        ""size"": ""xs"",
+                        ""color"": ""#f59e0b"",
+                        ""margin"": ""sm"",
+                        ""align"": ""center""
+                    }
+                ]
+            }
+        ]
+    }
+}","1","43","0","0","1778467631","zh-TW","46","0","這是一個診所叫號進度模板，旨在減少候診焦慮。卡片中央醒目地顯示當前叫號（如25號）與用戶的號碼（如32號），並提示預計等待時間。用戶無需頻繁抬頭看螢幕，透過手機即可掌握即時進度，提升就醫體驗。","bubble"
+"37","Ta5bfc9e07964f8dddeb95fc584cd965d","金融類","💳信用卡賬單摘要","系統內置模板","💳","{
+    ""type"": ""bubble"",
+    ""size"": ""kilo"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""spacing"": ""md"",
+        ""paddingAll"": ""lg"",
+        ""backgroundColor"": ""#F8FAFC"",
+        ""cornerRadius"": ""xl"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""alignItems"": ""center"",
+                ""justifyContent"": ""space-between"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""信用卡 05 月賬單"",
+                        ""weight"": ""bold"",
+                        ""size"": ""sm"",
+                        ""color"": ""#0F172A"",
+                        ""flex"": 1
+                    },
+                    {
+                        ""type"": ""image"",
+                        ""url"": ""https://ui-avatars.com/api/?name=VISA&background=1E3A8A&color=fff"",
+                        ""size"": ""xs"",
+                        ""flex"": 0
+                    }
+                ]
+            },
+            {
+                ""type"": ""separator"",
+                ""margin"": ""sm"",
+                ""color"": ""#E2E8F0""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""本期應付總額"",
+                        ""size"": ""xs"",
+                        ""color"": ""#64748B""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""TWD 12,850"",
+                        ""size"": ""xxl"",
+                        ""weight"": ""bold"",
+                        ""color"": ""#0F172A"",
+                        ""margin"": ""xs""
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""alignItems"": ""center"",
+                ""justifyContent"": ""space-between"",
+                ""margin"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""繳款截止日"",
+                        ""size"": ""sm"",
+                        ""color"": ""#64748B""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""2024 / 05 / 25"",
+                        ""size"": ""sm"",
+                        ""weight"": ""bold"",
+                        ""color"": ""#0F172A""
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingTop"": ""sm"",
+        ""paddingBottom"": ""lg"",
+        ""paddingStart"": ""lg"",
+        ""paddingEnd"": ""lg"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""style"": ""primary"",
+                ""height"": ""sm"",
+                ""color"": ""#1E3A8A"",
+                ""cornerRadius"": ""md"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""立即繳費"",
+                    ""uri"": ""https://line.me/""
+                }
+            }
+        ]
+    }
+}","1","33","0","0","1778467653","zh-TW","47","0","這是一個信用卡賬單摘要模板。它清晰地列出本期應付總額、繳款截止日與卡別資訊。大字體的金額顯示讓用戶一目了然，並提供『立即繳費』按鈕，方便用戶直接完成支付，避免逾期繳款，是金融機構高效的催收工具。","bubble"
+"38","Ta5771bce93e200c36f7cd9dfd0e5deaa","金融類","📈投資組合快訊","系統內置模板","📈","{
+    ""type"": ""bubble"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""投資組合盈虧摘要"",
+                ""weight"": ""bold"",
+                ""size"": ""md""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""margin"": ""lg"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""總資產 (TWD)"",
+                                ""size"": ""xs"",
+                                ""color"": ""#888888""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""1,240,500"",
+                                ""weight"": ""bold"",
+                                ""size"": ""lg""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""本日盈虧"",
+                                ""size"": ""xs"",
+                                ""color"": ""#888888"",
+                                ""align"": ""end""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""+2.45%"",
+                                ""weight"": ""bold"",
+                                ""size"": ""lg"",
+                                ""color"": ""#EF4444"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""spacing"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""台積電 (2330)"",
+                                ""size"": ""sm"",
+                                ""flex"": 3
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""▲ 5.0"",
+                                ""size"": ""sm"",
+                                ""color"": ""#EF4444"",
+                                ""flex"": 2,
+                                ""align"": ""end""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""鴻海 (2317)"",
+                                ""size"": ""sm"",
+                                ""flex"": 3
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""▼ 1.5"",
+                                ""size"": ""sm"",
+                                ""color"": ""#059669"",
+                                ""flex"": 2,
+                                ""align"": ""end""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}","1","31","0","0","1778467660","zh-TW","48","0","這是一個投資組合快訊模板。它將總資產、本日盈虧百分比以及個股的漲跌情況（如台積電、鴻海）集中展示。透過顏色區分紅綠盤（紅色上漲、綠色下跌），投資者能快速掌握資產變動趨勢，做出及時的投資決策。","bubble"
+"39","Td67d8ab4f4c10bf22aa353e27879133c","教育類","🗓️課程時間表","系統內置模板","🗓️","{
+    ""type"": ""bubble"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""今日課程安排"",
+                ""weight"": ""bold"",
+                ""size"": ""lg""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""spacing"": ""lg"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""spacing"": ""md"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""09:00"",
+                                ""size"": ""xs"",
+                                ""color"": ""#888888"",
+                                ""flex"": 2
+                            },
+                            {
+                                ""type"": ""box"",
+                                ""layout"": ""vertical"",
+                                ""flex"": 8,
+                                ""contents"": [
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""高等數學"",
+                                        ""size"": ""sm"",
+                                        ""weight"": ""bold""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""教 A-302"",
+                                        ""size"": ""xs"",
+                                        ""color"": ""#aaaaaa""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""spacing"": ""md"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""13:30"",
+                                ""size"": ""xs"",
+                                ""color"": ""#888888"",
+                                ""flex"": 2
+                            },
+                            {
+                                ""type"": ""box"",
+                                ""layout"": ""vertical"",
+                                ""flex"": 8,
+                                ""contents"": [
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""計算機概論"",
+                                        ""size"": ""sm"",
+                                        ""weight"": ""bold""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""資工實驗室"",
+                                        ""size"": ""xs"",
+                                        ""color"": ""#aaaaaa""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}","1","21","0","0","1778467680","zh-TW","49","0","這是一個課程時間表模板，適用於學校或教育機構。卡片清晰地列出今日的上課時間、課程名稱與教室地點。這種結構化的排版幫助學生與教職員有效管理時間，避免錯過重要課程，是校園生活的實用助手。","bubble"
+"40","Td645920e395fedad7bbbed0eca3fe2e0","教育類","🎟️活動 QR 票券","系統內置模板","🎟️","{
+    ""type"": ""bubble"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""0px"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""paddingAll"": ""xl"",
+                ""backgroundColor"": ""#F5F6FA"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""2024 台北爵士音樂節"",
+                        ""weight"": ""bold"",
+                        ""size"": ""lg"",
+                        ""color"": ""#1F2937""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""大安森林公園露天音樂台"",
+                        ""size"": ""xs"",
+                        ""color"": ""#6B7280"",
+                        ""margin"": ""xs""
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""paddingAll"": ""xl"",
+                ""alignItems"": ""center"",
+                ""contents"": [
+                    {
+                        ""type"": ""image"",
+                        ""url"": ""https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=FlexCraft"",
+                        ""size"": ""md"",
+                        ""aspectMode"": ""cover""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""請在入場時出示此 QR Code"",
+                        ""size"": ""xs"",
+                        ""color"": ""#9CA3AF"",
+                        ""margin"": ""md""
+                    }
+                ]
+            }
+        ]
+    }
+}","1","19","0","0","1778467686","zh-TW","50","0","這是一個活動 QR 票券模板，用於線下活動入場。卡片設計簡約，中央放置巨大的 QR Code，並附上活動名稱與地點。用戶出示此卡片即可快速掃碼入場，無需繁瑣的紙本核對，提升了活動管理的效率與科技感。","bubble"
 "41","T3416a75f4cea9109507cacd8e2f2aefc","トラベル","搭乗券・チケット","システム標準テンプレート","🎫","{
   ""type"": ""bubble"",
   ""direction"": ""ltr"",
@@ -1500,296 +2081,929 @@
       }
     ]
   }
-}","1","59","0","1714980000","0","ja","31","0","搭乗券や切符のテンプレートで、旅行シーンに最適です。発着地、便名、日付、ゲート情報を明確に表示します。青系の背景デザインが航空ムードを演出し、ユーザーがスムーズに旅程を確認できる視覚効果を提供します。","bubble"
-"42","Ta1d0c6e83f027327d8461063f4ac58a6","トラベル","ホテル予約詳細","システム標準テンプレート","🏨","{""type"":""bubble"",""hero"":{""type"":""image"",""url"":""https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"",""size"":""full"",""aspectRatio"":""20:13"",""aspectMode"":""cover""},""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""ハイアット リージェンシー 東京"",""weight"":""bold"",""size"":""xl""},{""type"":""box"",""layout"":""horizontal"",""margin"":""md"",""contents"":[{""type"":""box"",""layout"":""vertical"",""flex"":1,""contents"":[{""type"":""text"",""text"":""チェックイン"",""size"":""xs"",""color"":""#888888""},{""type"":""text"",""text"":""2024-05-10"",""size"":""sm"",""weight"":""bold""}]},{""type"":""box"",""layout"":""vertical"",""flex"":0,""width"":""40px"",""alignItems"":""center"",""justifyContent"":""center"",""contents"":[{""type"":""text"",""text"":""➡️"",""size"":""sm""}]},{""type"":""box"",""layout"":""vertical"",""flex"":1,""contents"":[{""type"":""text"",""text"":""チェックアウト"",""size"":""xs"",""color"":""#888888"",""align"":""end""},{""type"":""text"",""text"":""2024-05-12"",""size"":""sm"",""weight"":""bold"",""align"":""end""}]}]}]},""footer"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""button"",""style"":""primary"",""color"":""#06C755"",""action"":{""type"":""uri"",""label"":""予約詳細を見る"",""uri"":""https://line.me/""}}]}}","1","57","0","1714980000","0","ja","32","0","ホテル予約詳細テンプレートです。ヒーロー画像でホテル外観や客室を紹介し、チェックイン・チェックアウト日を明記します。シンプルで洗練されたデザインにより、ユーザーは予約内容を素早く確認でき、「予約詳細を見る」ボタンで追加サービスを提供します。","bubble"
-"43","T17e62166fc8586dfa4d1bc0e1742c08b","不動産","物件・車種詳細","システム標準テンプレート","🏠","{""type"":""bubble"",""hero"":{""type"":""image"",""url"":""https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"",""size"":""full"",""aspectRatio"":""16:9"",""aspectMode"":""cover""},""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""モダンレジデンス"",""weight"":""bold"",""size"":""lg""},{""type"":""text"",""text"":""東京都港区"",""size"":""xs"",""color"":""#888888"",""margin"":""xs""},{""type"":""box"",""layout"":""horizontal"",""margin"":""lg"",""spacing"":""sm"",""contents"":[{""type"":""box"",""layout"":""vertical"",""backgroundColor"":""#f3f4f6"",""paddingAll"":""sm"",""cornerRadius"":""md"",""contents"":[{""type"":""text"",""text"":""面積"",""size"":""xs"",""color"":""#6b7280"",""align"":""center""},{""type"":""text"",""text"":""85 ㎡"",""size"":""sm"",""weight"":""bold"",""align"":""center""}]},{""type"":""box"",""layout"":""vertical"",""backgroundColor"":""#f3f4f6"",""paddingAll"":""sm"",""cornerRadius"":""md"",""contents"":[{""type"":""text"",""text"":""間取り"",""size"":""xs"",""color"":""#6b7280"",""align"":""center""},{""type"":""text"",""text"":""3LDK"",""size"":""sm"",""weight"":""bold"",""align"":""center""}]},{""type"":""box"",""layout"":""vertical"",""backgroundColor"":""#f3f4f6"",""paddingAll"":""sm"",""cornerRadius"":""md"",""contents"":[{""type"":""text"",""text"":""築年数"",""size"":""xs"",""color"":""#6b7280"",""align"":""center""},{""type"":""text"",""text"":""2 年"",""size"":""sm"",""weight"":""bold"",""align"":""center""}]}]}]},""footer"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""button"",""style"":""primary"",""color"":""#1d4ed8"",""action"":{""type"":""uri"",""label"":""内見を予約する"",""uri"":""https://line.me/""}}]}}","1","47","0","1714980000","0","ja","33","0","不動産や車種紹介のテンプレートです。物件や車両の実写画像を活用し、面積、間取り、築年数などの詳細な仕様を列記します。これにより潜在的な購入者や賃借人が興味ある物件を素早くスクリーニングでき、内見予約を促進します。","bubble"
-"44","Tf7177163c833dff4b38fc8d2872f1ec6","不動産","予約確認カード","システム標準テンプレート","📅","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""予約が確定しました"",""weight"":""bold"",""size"":""xl"",""color"":""#059669""},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""spacing"":""sm"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""予約内容"",""size"":""sm"",""color"":""#888888"",""flex"":1},{""type"":""text"",""text"":""六本木ヒルズ - A1"",""size"":""sm"",""weight"":""bold"",""flex"":2}]},{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""予約日時"",""size"":""sm"",""color"":""#888888"",""flex"":1},{""type"":""text"",""text"":""2024/05/15 14:00"",""size"":""sm"",""weight"":""bold"",""flex"":2}]}]}]},""footer"":{""type"":""box"",""layout"":""vertical"",""spacing"":""sm"",""contents"":[{""type"":""button"",""style"":""primary"",""color"":""#059669"",""action"":{""type"":""uri"",""label"":""ルート案内"",""uri"":""https://www.google.com/maps""}},{""type"":""button"",""style"":""link"",""color"":""#888888"",""action"":{""type"":""postback"",""label"":""予約をキャンセル"",""data"":""cancel""}}]}}","1","45","0","1714980000","0","ja","34","0","予約確認カードで、各種サービスの確認通知に使用されます。目立つ「予約が確定しました」の文字と、詳細な日時・内容を表示します。ユーザーに強い安心感を与え、双方がサービス内容で合意することを保証します。","bubble"
-"45","T6c8349cc7260ae62e3b1396831a8398f","医療","診断結果サマリー","システム標準テンプレート","🩺","{
-  ""type"": ""bubble"",
-  ""size"": ""mega"",
-  ""body"": {
-    ""type"": ""box"",
-    ""layout"": ""vertical"",
-    ""paddingAll"": ""0px"",
-    ""contents"": [
-      {
+}","1","59","0","1714980000","1778467437","ja","31","0","搭乗券や切符のテンプレートで、旅行シーンに最適です。発着地、便名、日付、ゲート情報を明確に表示します。青系の背景デザインが航空ムードを演出し、ユーザーがスムーズに旅程を確認できる視覚効果を提供します。","bubble"
+"42","Ta1d0c6e83f027327d8461063f4ac58a6","トラベル","🏨ホテル予約詳細","システム標準テンプレート","🏨","{
+    ""type"": ""bubble"",
+    ""hero"": {
+        ""type"": ""image"",
+        ""url"": ""https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"",
+        ""size"": ""full"",
+        ""aspectRatio"": ""20:13"",
+        ""aspectMode"": ""cover""
+    },
+    ""body"": {
         ""type"": ""box"",
         ""layout"": ""vertical"",
-        ""paddingAll"": ""24px"",
-        ""backgroundColor"": ""#06C755"",
         ""contents"": [
-          {
-            ""type"": ""text"",
-            ""text"": ""HEALTH SUMMARY"",
-            ""color"": ""#FFFFFFCC"",
-            ""size"": ""xxs"",
-            ""weight"": ""bold"",
-            ""letterSpacing"": ""2px""
-          },
-          {
-            ""type"": ""text"",
-            ""text"": ""健康診断結果のお知らせ"",
-            ""color"": ""#FFFFFF"",
-            ""weight"": ""bold"",
-            ""size"": ""xl"",
-            ""margin"": ""sm""
-          },
-          {
-            ""type"": ""box"",
-            ""layout"": ""horizontal"",
-            ""margin"": ""lg"",
-            ""contents"": [
-              {
+            {
                 ""type"": ""text"",
-                ""text"": ""氏名：田中 様"",
-                ""color"": ""#FFFFFFCC"",
-                ""size"": ""xs""
-              },
-              {
-                ""type"": ""text"",
-                ""text"": ""ID: HB-99283"",
-                ""color"": ""#FFFFFFCC"",
-                ""size"": ""xs"",
-                ""align"": ""end""
-              }
-            ]
-          }
+                ""text"": ""ハイアット リージェンシー 東京"",
+                ""weight"": ""bold"",
+                ""size"": ""xl""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""margin"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""flex"": 1,
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""チェックイン"",
+                                ""size"": ""xs"",
+                                ""color"": ""#888888""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""2024-05-10"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""flex"": 0,
+                        ""width"": ""40px"",
+                        ""alignItems"": ""center"",
+                        ""justifyContent"": ""center"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""➡️"",
+                                ""size"": ""sm""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""flex"": 1,
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""チェックアウト"",
+                                ""size"": ""xs"",
+                                ""color"": ""#888888"",
+                                ""align"": ""end""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""2024-05-12"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
-      },
-      {
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""style"": ""primary"",
+                ""color"": ""#06C755"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""予約詳細を見る"",
+                    ""uri"": ""https://line.me/""
+                }
+            }
+        ]
+    }
+}","1","57","0","0","1778467461","ja","32","0","ホテル予約詳細テンプレートです。ヒーロー画像でホテル外観や客室を紹介し、チェックイン・チェックアウト日を明記します。シンプルで洗練されたデザインにより、ユーザーは予約内容を素早く確認でき、「予約詳細を見る」ボタンで追加サービスを提供します。","bubble"
+"43","T17e62166fc8586dfa4d1bc0e1742c08b","不動産","🏠物件・車種詳細","システム標準テンプレート","🏠","{
+    ""type"": ""bubble"",
+    ""hero"": {
+        ""type"": ""image"",
+        ""url"": ""https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"",
+        ""size"": ""full"",
+        ""aspectRatio"": ""16:9"",
+        ""aspectMode"": ""cover""
+    },
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""モダンレジデンス"",
+                ""weight"": ""bold"",
+                ""size"": ""lg""
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""東京都港区"",
+                ""size"": ""xs"",
+                ""color"": ""#888888"",
+                ""margin"": ""xs""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""margin"": ""lg"",
+                ""spacing"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""backgroundColor"": ""#f3f4f6"",
+                        ""paddingAll"": ""sm"",
+                        ""cornerRadius"": ""md"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""面積"",
+                                ""size"": ""xs"",
+                                ""color"": ""#6b7280"",
+                                ""align"": ""center""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""85 ㎡"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""center""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""backgroundColor"": ""#f3f4f6"",
+                        ""paddingAll"": ""sm"",
+                        ""cornerRadius"": ""md"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""間取り"",
+                                ""size"": ""xs"",
+                                ""color"": ""#6b7280"",
+                                ""align"": ""center""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""3LDK"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""center""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""backgroundColor"": ""#f3f4f6"",
+                        ""paddingAll"": ""sm"",
+                        ""cornerRadius"": ""md"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""築年数"",
+                                ""size"": ""xs"",
+                                ""color"": ""#6b7280"",
+                                ""align"": ""center""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""2 年"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""center""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""style"": ""primary"",
+                ""color"": ""#1d4ed8"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""内見を予約する"",
+                    ""uri"": ""https://line.me/""
+                }
+            }
+        ]
+    }
+}","1","47","0","0","1778467590","ja","33","0","不動産や車種紹介のテンプレートです。物件や車両の実写画像を活用し、面積、間取り、築年数などの詳細な仕様を列記します。これにより潜在的な購入者や賃借人が興味ある物件を素早くスクリーニングでき、内見予約を促進します。","bubble"
+"44","Tf7177163c833dff4b38fc8d2872f1ec6","不動産","✅予約確認カード","システム標準テンプレート","✅","{
+    ""type"": ""bubble"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""予約が確定しました"",
+                ""weight"": ""bold"",
+                ""size"": ""xl"",
+                ""color"": ""#059669""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""spacing"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""予約内容"",
+                                ""size"": ""sm"",
+                                ""color"": ""#888888"",
+                                ""flex"": 1
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""六本木ヒルズ - A1"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""flex"": 2
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""予約日時"",
+                                ""size"": ""sm"",
+                                ""color"": ""#888888"",
+                                ""flex"": 1
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""2024/05/15 14:00"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""flex"": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""spacing"": ""sm"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""style"": ""primary"",
+                ""color"": ""#059669"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""ルート案内"",
+                    ""uri"": ""https://www.google.com/maps""
+                }
+            },
+            {
+                ""type"": ""button"",
+                ""style"": ""link"",
+                ""color"": ""#888888"",
+                ""action"": {
+                    ""type"": ""postback"",
+                    ""label"": ""予約をキャンセル"",
+                    ""data"": ""cancel""
+                }
+            }
+        ]
+    }
+}","1","45","0","0","1778467601","ja","34","0","予約確認カードで、各種サービスの確認通知に使用されます。目立つ「予約が確定しました」の文字と、詳細な日時・内容を表示します。ユーザーに強い安心感を与え、双方がサービス内容で合意することを保証します。","bubble"
+"45","T6c8349cc7260ae62e3b1396831a8398f","医療","🩺診断結果サマリー","システム標準テンプレート","🩺","{
+    ""type"": ""bubble"",
+    ""size"": ""mega"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""0px"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""paddingAll"": ""24px"",
+                ""backgroundColor"": ""#06C755"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""HEALTH SUMMARY"",
+                        ""color"": ""#FFFFFFCC"",
+                        ""size"": ""xxs"",
+                        ""weight"": ""bold"",
+                        ""letterSpacing"": ""2px""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""健康診断結果のお知らせ"",
+                        ""color"": ""#FFFFFF"",
+                        ""weight"": ""bold"",
+                        ""size"": ""xl"",
+                        ""margin"": ""sm""
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""margin"": ""lg"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""氏名：田中 様"",
+                                ""color"": ""#FFFFFFCC"",
+                                ""size"": ""xs""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""ID: HB-99283"",
+                                ""color"": ""#FFFFFFCC"",
+                                ""size"": ""xs"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""paddingAll"": ""24px"",
+                ""spacing"": ""xl"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""spacing"": ""xl"",
+                        ""contents"": [
+                            {
+                                ""type"": ""box"",
+                                ""layout"": ""vertical"",
+                                ""flex"": 1,
+                                ""backgroundColor"": ""#F8F9FB"",
+                                ""cornerRadius"": ""lg"",
+                                ""paddingAll"": ""16px"",
+                                ""contents"": [
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""空腹時血糖"",
+                                        ""size"": ""xs"",
+                                        ""color"": ""#999999""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""88"",
+                                        ""size"": ""xxl"",
+                                        ""weight"": ""bold"",
+                                        ""color"": ""#111111"",
+                                        ""margin"": ""md""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""● 基準値内"",
+                                        ""size"": ""xxs"",
+                                        ""color"": ""#06C755"",
+                                        ""weight"": ""bold""
+                                    }
+                                ]
+                            },
+                            {
+                                ""type"": ""box"",
+                                ""layout"": ""vertical"",
+                                ""flex"": 1,
+                                ""backgroundColor"": ""#F8F9FB"",
+                                ""cornerRadius"": ""lg"",
+                                ""paddingAll"": ""16px"",
+                                ""contents"": [
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""総コレステロール"",
+                                        ""size"": ""xs"",
+                                        ""color"": ""#999999""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""245"",
+                                        ""size"": ""xxl"",
+                                        ""weight"": ""bold"",
+                                        ""color"": ""#EF4444"",
+                                        ""margin"": ""md""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""● 異常あり"",
+                                        ""size"": ""xxs"",
+                                        ""color"": ""#EF4444"",
+                                        ""weight"": ""bold""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""borderWidth"": ""1px"",
+                        ""borderColor"": ""#F0F0F0"",
+                        ""cornerRadius"": ""md"",
+                        ""paddingAll"": ""16px"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""総合判定・コメント"",
+                                ""size"": ""xs"",
+                                ""color"": ""#111111"",
+                                ""weight"": ""bold""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""総コレステロール値が基準範囲を超えています。食生活の改善と適度な運動を心がけてください。"",
+                                ""size"": ""xs"",
+                                ""color"": ""#666666"",
+                                ""margin"": ""sm"",
+                                ""wrap"": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
         ""type"": ""box"",
         ""layout"": ""vertical"",
         ""paddingAll"": ""24px"",
-        ""spacing"": ""xl"",
+        ""paddingTop"": ""0px"",
         ""contents"": [
-          {
-            ""type"": ""box"",
-            ""layout"": ""horizontal"",
-            ""spacing"": ""xl"",
-            ""contents"": [
-              {
+            {
+                ""type"": ""button"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""詳細レポートを表示"",
+                    ""uri"": ""https://line.me/""
+                },
+                ""style"": ""secondary"",
+                ""height"": ""md"",
+                ""color"": ""#06C755""
+            }
+        ]
+    }
+}","1","35","0","0","1778467625","ja","35","0","健康診断結果のテンプレートです。血圧やコレステロールなどの複雑な数値を、正常/要改善などのラベルで簡潔に可視化します。色分け（緑/赤）で状態を一目で理解できるため、ユーザーが健康状態を把握し、適切な対応を取る手助けをします。","bubble"
+"46","Td9d4f495e875a2e075a1a4a6e1b9770f","医療","🏥診療待ち状況","システム標準テンプレート","🏥","{
+    ""type"": ""bubble"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""現在の呼び出し状況"",
+                ""size"": ""sm"",
+                ""color"": ""#888888""
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""小児科 - 3 診"",
+                ""weight"": ""bold"",
+                ""size"": ""lg"",
+                ""margin"": ""xs""
+            },
+            {
                 ""type"": ""box"",
                 ""layout"": ""vertical"",
-                ""flex"": 1,
-                ""backgroundColor"": ""#F8F9FB"",
-                ""cornerRadius"": ""lg"",
-                ""paddingAll"": ""16px"",
+                ""margin"": ""xxl"",
+                ""alignItems"": ""center"",
                 ""contents"": [
-                  {
-                    ""type"": ""text"",
-                    ""text"": ""空腹時血糖"",
-                    ""size"": ""xs"",
-                    ""color"": ""#999999""
-                  },
-                  {
-                    ""type"": ""text"",
-                    ""text"": ""88"",
-                    ""size"": ""xxl"",
-                    ""weight"": ""bold"",
-                    ""color"": ""#111111"",
-                    ""margin"": ""md""
-                  },
-                  {
-                    ""type"": ""text"",
-                    ""text"": ""● 基準値内"",
-                    ""size"": ""xxs"",
-                    ""color"": ""#06C755"",
-                    ""weight"": ""bold""
-                  }
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""25"",
+                        ""size"": ""5xl"",
+                        ""weight"": ""bold"",
+                        ""color"": ""#06C755""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""現在の番号"",
+                        ""size"": ""xs"",
+                        ""color"": ""#aaaaaa""
+                    }
                 ]
-              },
-              {
+            },
+            {
                 ""type"": ""box"",
                 ""layout"": ""vertical"",
-                ""flex"": 1,
-                ""backgroundColor"": ""#F8F9FB"",
-                ""cornerRadius"": ""lg"",
-                ""paddingAll"": ""16px"",
+                ""margin"": ""xl"",
                 ""contents"": [
-                  {
-                    ""type"": ""text"",
-                    ""text"": ""総コレステロール"",
-                    ""size"": ""xs"",
-                    ""color"": ""#999999""
-                  },
-                  {
-                    ""type"": ""text"",
-                    ""text"": ""245"",
-                    ""size"": ""xxl"",
-                    ""weight"": ""bold"",
-                    ""color"": ""#EF4444"",
-                    ""margin"": ""md""
-                  },
-                  {
-                    ""type"": ""text"",
-                    ""text"": ""● 異常あり"",
-                    ""size"": ""xxs"",
-                    ""color"": ""#EF4444"",
-                    ""weight"": ""bold""
-                  }
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""あなたの番号"",
+                                ""size"": ""sm"",
+                                ""color"": ""#555555""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""32 番"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""待ち時間の目安：約 15 分"",
+                        ""size"": ""xs"",
+                        ""color"": ""#f59e0b"",
+                        ""margin"": ""sm"",
+                        ""align"": ""center""
+                    }
                 ]
-              }
-            ]
-          },
-          {
-            ""type"": ""box"",
-            ""layout"": ""vertical"",
-            ""borderWidth"": ""1px"",
-            ""borderColor"": ""#F0F0F0"",
-            ""cornerRadius"": ""md"",
-            ""paddingAll"": ""16px"",
-            ""contents"": [
-              {
-                ""type"": ""text"",
-                ""text"": ""総合判定・コメント"",
-                ""size"": ""xs"",
-                ""color"": ""#111111"",
-                ""weight"": ""bold""
-              },
-              {
-                ""type"": ""text"",
-                ""text"": ""総コレステロール値が基準範囲を超えています。食生活の改善と適度な運動を心がけてください。"",
-                ""size"": ""xs"",
-                ""color"": ""#666666"",
+            }
+        ]
+    }
+}","1","33","0","0","1778467631","ja","36","0","診療待ち状況のお知らせテンプレートです。現在の呼び出し番号とユーザーの番号を中央に大きく表示し、待ち時間を明記します。ユーザーは頻繁に受付を確認する必要がなく、スマートフォンでリアルタイムの進捗を把握でき、ストレスのない受診体験を提供します。","bubble"
+"47","T67c6a1e7ce56d3d6fa748ab6d9af3fd7","金融","💳カード利用明細","システム標準テンプレート","💳","{
+    ""type"": ""bubble"",
+    ""size"": ""kilo"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""spacing"": ""md"",
+        ""paddingAll"": ""lg"",
+        ""backgroundColor"": ""#F8FAFC"",
+        ""cornerRadius"": ""xl"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""alignItems"": ""center"",
+                ""justifyContent"": ""space-between"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""クレジットカード 05月明細"",
+                        ""weight"": ""bold"",
+                        ""size"": ""sm"",
+                        ""color"": ""#0F172A"",
+                        ""flex"": 1
+                    },
+                    {
+                        ""type"": ""image"",
+                        ""url"": ""https://ui-avatars.com/api/?name=VISA&background=1E3A8A&color=fff"",
+                        ""size"": ""xs"",
+                        ""flex"": 0
+                    }
+                ]
+            },
+            {
+                ""type"": ""separator"",
                 ""margin"": ""sm"",
-                ""wrap"": true
-              }
-            ]
-          }
+                ""color"": ""#E2E8F0""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""今月のお支払い合計額"",
+                        ""size"": ""xs"",
+                        ""color"": ""#64748B""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""12,850 円"",
+                        ""size"": ""xxl"",
+                        ""weight"": ""bold"",
+                        ""color"": ""#0F172A"",
+                        ""margin"": ""xs""
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""alignItems"": ""center"",
+                ""justifyContent"": ""space-between"",
+                ""margin"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""お支払い期日"",
+                        ""size"": ""sm"",
+                        ""color"": ""#64748B""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""2024 / 05 / 25"",
+                        ""size"": ""sm"",
+                        ""weight"": ""bold"",
+                        ""color"": ""#0F172A""
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  },
-  ""footer"": {
-    ""type"": ""box"",
-    ""layout"": ""vertical"",
-    ""paddingAll"": ""24px"",
-    ""paddingTop"": ""0px"",
-    ""contents"": [
-      {
-        ""type"": ""button"",
-        ""action"": {
-          ""type"": ""uri"",
-          ""label"": ""詳細レポートを表示"",
-          ""uri"": ""https://line.me/""
-        },
-        ""style"": ""secondary"",
-        ""height"": ""md"",
-        ""color"": ""#06C755""
-      }
-    ]
-  }
-}","1","35","0","1714980000","0","ja","35","0","健康診断結果のテンプレートです。血圧やコレステロールなどの複雑な数値を、正常/要改善などのラベルで簡潔に可視化します。色分け（緑/赤）で状態を一目で理解できるため、ユーザーが健康状態を把握し、適切な対応を取る手助けをします。","bubble"
-"46","Td9d4f495e875a2e075a1a4a6e1b9770f","医療","診療待ち状況","システム標準テンプレート","🏥","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""現在の呼び出し状況"",""size"":""sm"",""color"":""#888888""},{""type"":""text"",""text"":""小児科 - 3 診"",""weight"":""bold"",""size"":""lg"",""margin"":""xs""},{""type"":""box"",""layout"":""vertical"",""margin"":""xxl"",""alignItems"":""center"",""contents"":[{""type"":""text"",""text"":""25"",""size"":""5xl"",""weight"":""bold"",""color"":""#06C755""},{""type"":""text"",""text"":""現在の番号"",""size"":""xs"",""color"":""#aaaaaa""}]},{""type"":""box"",""layout"":""vertical"",""margin"":""xl"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""あなたの番号"",""size"":""sm"",""color"":""#555555""},{""type"":""text"",""text"":""32 番"",""size"":""sm"",""weight"":""bold"",""align"":""end""}]},{""type"":""text"",""text"":""待ち時間の目安：約 15 分"",""size"":""xs"",""color"":""#f59e0b"",""margin"":""sm"",""align"":""center""}]}]}}","1","33","0","1714980000","0","ja","36","0","診療待ち状況のお知らせテンプレートです。現在の呼び出し番号とユーザーの番号を中央に大きく表示し、待ち時間を明記します。ユーザーは頻繁に受付を確認する必要がなく、スマートフォンでリアルタイムの進捗を把握でき、ストレスのない受診体験を提供します。","bubble"
-"47","T67c6a1e7ce56d3d6fa748ab6d9af3fd7","金融","カード利用明細","システム標準テンプレート","💳","{
-  ""type"": ""bubble"",
-  ""size"": ""kilo"",
-  ""body"": {
-    ""type"": ""box"",
-    ""layout"": ""vertical"",
-    ""spacing"": ""md"",
-    ""paddingAll"": ""lg"",
-    ""backgroundColor"": ""#F8FAFC"",
-    ""cornerRadius"": ""xl"",
-    ""contents"": [
-      {
-        ""type"": ""box"",
-        ""layout"": ""horizontal"",
-        ""alignItems"": ""center"",
-        ""justifyContent"": ""space-between"",
-        ""contents"": [
-          {
-            ""type"": ""text"",
-            ""text"": ""クレジットカード 05月明細"",
-            ""weight"": ""bold"",
-            ""size"": ""sm"",
-            ""color"": ""#0F172A"",
-            ""flex"": 1
-          },
-          {
-            ""type"": ""image"",
-            ""url"": ""https://ui-avatars.com/api/?name=VISA&background=1E3A8A&color=fff"",
-            ""size"": ""xs"",
-            ""flex"": 0
-          }
-        ]
-      },
-      {
-        ""type"": ""separator"",
-        ""margin"": ""sm"",
-        ""color"": ""#E2E8F0""
-      },
-      {
+    },
+    ""footer"": {
         ""type"": ""box"",
         ""layout"": ""vertical"",
-        ""margin"": ""sm"",
+        ""paddingTop"": ""sm"",
+        ""paddingBottom"": ""lg"",
+        ""paddingStart"": ""lg"",
+        ""paddingEnd"": ""lg"",
         ""contents"": [
-          {
-            ""type"": ""text"",
-            ""text"": ""今月のお支払い合計額"",
-            ""size"": ""xs"",
-            ""color"": ""#64748B""
-          },
-          {
-            ""type"": ""text"",
-            ""text"": ""12,850 円"",
-            ""size"": ""xxl"",
-            ""weight"": ""bold"",
-            ""color"": ""#0F172A"",
-            ""margin"": ""xs""
-          }
+            {
+                ""type"": ""button"",
+                ""style"": ""primary"",
+                ""height"": ""sm"",
+                ""color"": ""#1E3A8A"",
+                ""cornerRadius"": ""md"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""今すぐお支払い"",
+                    ""uri"": ""https://line.me/""
+                }
+            }
         ]
-      },
-      {
+    }
+}","1","23","0","0","1778467653","ja","37","0","クレジットカードの請求テンプレートです。今回のお支払い額、支払期日、カードブランドを明確に列記します。大きなフォントで金額を表示することで、ユーザーは一目で確認でき、「今すぐ支払う」ボタンで即時決済を促進します。","bubble"
+"48","T642e92efb79421734881b53e1e1b18b6","金融","📈ポートフォリオ概要","システム標準テンプレート","📈","{
+    ""type"": ""bubble"",
+    ""body"": {
         ""type"": ""box"",
-        ""layout"": ""horizontal"",
-        ""alignItems"": ""center"",
-        ""justifyContent"": ""space-between"",
-        ""margin"": ""sm"",
+        ""layout"": ""vertical"",
         ""contents"": [
-          {
-            ""type"": ""text"",
-            ""text"": ""お支払い期日"",
-            ""size"": ""sm"",
-            ""color"": ""#64748B""
-          },
-          {
-            ""type"": ""text"",
-            ""text"": ""2024 / 05 / 25"",
-            ""size"": ""sm"",
-            ""weight"": ""bold"",
-            ""color"": ""#0F172A""
-          }
+            {
+                ""type"": ""text"",
+                ""text"": ""運用状況サマリー"",
+                ""weight"": ""bold"",
+                ""size"": ""md""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""margin"": ""lg"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""総資産 (JPY)"",
+                                ""size"": ""xs"",
+                                ""color"": ""#888888""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""5,240,500"",
+                                ""weight"": ""bold"",
+                                ""size"": ""lg""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""当日損益"",
+                                ""size"": ""xs"",
+                                ""color"": ""#888888"",
+                                ""align"": ""end""
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""+2.45%"",
+                                ""weight"": ""bold"",
+                                ""size"": ""lg"",
+                                ""color"": ""#EF4444"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""spacing"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""銘柄 A"",
+                                ""size"": ""sm"",
+                                ""flex"": 3
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""▲ 5.0"",
+                                ""size"": ""sm"",
+                                ""color"": ""#EF4444"",
+                                ""flex"": 2,
+                                ""align"": ""end""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""銘柄 B"",
+                                ""size"": ""sm"",
+                                ""flex"": 3
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""▼ 1.5"",
+                                ""size"": ""sm"",
+                                ""color"": ""#059669"",
+                                ""flex"": 2,
+                                ""align"": ""end""
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  },
-  ""footer"": {
-    ""type"": ""box"",
-    ""layout"": ""vertical"",
-    ""paddingTop"": ""sm"",
-    ""paddingBottom"": ""lg"",
-    ""paddingStart"": ""lg"",
-    ""paddingEnd"": ""lg"",
-    ""contents"": [
-      {
-        ""type"": ""button"",
-        ""style"": ""primary"",
-        ""height"": ""sm"",
-        ""color"": ""#1E3A8A"",
-        ""cornerRadius"": ""md"",
-        ""action"": {
-          ""type"": ""uri"",
-          ""label"": ""今すぐお支払い"",
-          ""uri"": ""https://line.me/""
-        }
-      }
-    ]
-  }
-}","1","23","0","1714980000","0","ja","37","0","クレジットカードの請求テンプレートです。今回のお支払い額、支払期日、カードブランドを明確に列記します。大きなフォントで金額を表示することで、ユーザーは一目で確認でき、「今すぐ支払う」ボタンで即時決済を促進します。","bubble"
-"48","T642e92efb79421734881b53e1e1b18b6","金融","ポートフォリオ概要","システム標準テンプレート","📈","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""運用状況サマリー"",""weight"":""bold"",""size"":""md""},{""type"":""box"",""layout"":""horizontal"",""margin"":""lg"",""contents"":[{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""総資産 (JPY)"",""size"":""xs"",""color"":""#888888""},{""type"":""text"",""text"":""5,240,500"",""weight"":""bold"",""size"":""lg""}]},{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""当日損益"",""size"":""xs"",""color"":""#888888"",""align"":""end""},{""type"":""text"",""text"":""+2.45%"",""weight"":""bold"",""size"":""lg"",""color"":""#EF4444"",""align"":""end""}]}]},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""spacing"":""sm"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""銘柄 A"",""size"":""sm"",""flex"":3},{""type"":""text"",""text"":""▲ 5.0"",""size"":""sm"",""color"":""#EF4444"",""flex"":2,""align"":""end""}]},{""type"":""box"",""layout"":""horizontal"",""contents"":[{""type"":""text"",""text"":""銘柄 B"",""size"":""sm"",""flex"":3},{""type"":""text"",""text"":""▼ 1.5"",""size"":""sm"",""color"":""#059669"",""flex"":2,""align"":""end""}]}]}]}}","1","21","0","1714980000","0","ja","38","0","投資ポートフォリオのテンプレートです。総資産、当日損益、銘柄別の騰落を一覧で表示します。赤と緑で損益を区別することで、投資家は資産の変動トレンドを瞬時に把握し、迅速な投資判断を下すことができます。","bubble"
-"49","Tf457c545a9ded88f18ecee47145a72c0","教育","時間割表","システム標準テンプレート","🗓️","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""contents"":[{""type"":""text"",""text"":""本日のスケジュール"",""weight"":""bold"",""size"":""lg""},{""type"":""box"",""layout"":""vertical"",""margin"":""lg"",""spacing"":""lg"",""contents"":[{""type"":""box"",""layout"":""horizontal"",""spacing"":""md"",""contents"":[{""type"":""text"",""text"":""09:00"",""size"":""xs"",""color"":""#888888"",""flex"":2},{""type"":""box"",""layout"":""vertical"",""flex"":8,""contents"":[{""type"":""text"",""text"":""高等数学"",""size"":""sm"",""weight"":""bold""},{""type"":""text"",""text"":""講義棟 A-302"",""size"":""xs"",""color"":""#aaaaaa""}]}]},{""type"":""box"",""layout"":""horizontal"",""spacing"":""md"",""contents"":[{""type"":""text"",""text"":""13:30"",""size"":""xs"",""color"":""#888888"",""flex"":2},{""type"":""box"",""layout"":""vertical"",""flex"":8,""contents"":[{""type"":""text"",""text"":""計算機概論"",""size"":""sm"",""weight"":""bold""},{""type"":""text"",""text"":""情報工学ラボ"",""size"":""xs"",""color"":""#aaaaaa""}]}]}]}]}}","1","11","0","1714980000","0","ja","39","0","時間割表テンプレートで、学校や教育機関に適しています。本日の授業時間、科目名、教室場所を明確に列記します。構造化されたレイアウトにより、生徒や教職員は時間を効率的に管理でき、授業の欠席を防ぎます。","bubble"
-"50","Tc0c7c76d30bd3dcaefc96f40275bdc0a","教育","イベント QR チケット","システム標準テンプレート","🎟️","{""type"":""bubble"",""body"":{""type"":""box"",""layout"":""vertical"",""paddingAll"":""0px"",""contents"":[{""type"":""box"",""layout"":""vertical"",""paddingAll"":""xl"",""backgroundColor"":""#F5F6FA"",""contents"":[{""type"":""text"",""text"":""JAZZ フェスティバル 2024"",""weight"":""bold"",""size"":""lg"",""color"":""#1F2937""},{""type"":""text"",""text"":""日比谷野外音楽堂"",""size"":""xs"",""color"":""#6B7280"",""margin"":""xs""}]},{""type"":""box"",""layout"":""vertical"",""paddingAll"":""xl"",""contents"":[{""type"":""image"",""url"":""https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=FlexCraft"",""size"":""md""},{""type"":""text"",""text"":""入場時にこの QR コードを提示してください"",""size"":""xs"",""color"":""#9CA3AF"",""align"":""center"",""margin"":""md""}]}]}}","1","9","0","1714980000","0","ja","40","0","イベント入場用のQRチケットテンプレートです。シンプルなデザインで中央に大きなQRコードを配置し、イベント名と会場を記載します。ユーザーはこのカードを提示するだけで素早くスキャン入場でき、紙媒体の確認作業が不要なため、イベント運営の効率を高めます。","bubble"
+    }
+}","1","21","0","0","1778467660","ja","38","0","投資ポートフォリオのテンプレートです。総資産、当日損益、銘柄別の騰落を一覧で表示します。赤と緑で損益を区別することで、投資家は資産の変動トレンドを瞬時に把握し、迅速な投資判断を下すことができます。","bubble"
+"49","Tf457c545a9ded88f18ecee47145a72c0","教育","🗓️時間割表","システム標準テンプレート","🗓️","{
+    ""type"": ""bubble"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""本日のスケジュール"",
+                ""weight"": ""bold"",
+                ""size"": ""lg""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""spacing"": ""lg"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""spacing"": ""md"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""09:00"",
+                                ""size"": ""xs"",
+                                ""color"": ""#888888"",
+                                ""flex"": 2
+                            },
+                            {
+                                ""type"": ""box"",
+                                ""layout"": ""vertical"",
+                                ""flex"": 8,
+                                ""contents"": [
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""高等数学"",
+                                        ""size"": ""sm"",
+                                        ""weight"": ""bold""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""講義棟 A-302"",
+                                        ""size"": ""xs"",
+                                        ""color"": ""#aaaaaa""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""spacing"": ""md"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""13:30"",
+                                ""size"": ""xs"",
+                                ""color"": ""#888888"",
+                                ""flex"": 2
+                            },
+                            {
+                                ""type"": ""box"",
+                                ""layout"": ""vertical"",
+                                ""flex"": 8,
+                                ""contents"": [
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""計算機概論"",
+                                        ""size"": ""sm"",
+                                        ""weight"": ""bold""
+                                    },
+                                    {
+                                        ""type"": ""text"",
+                                        ""text"": ""情報工学ラボ"",
+                                        ""size"": ""xs"",
+                                        ""color"": ""#aaaaaa""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}","1","11","0","0","1778467680","ja","39","0","時間割表テンプレートで、学校や教育機関に適しています。本日の授業時間、科目名、教室場所を明確に列記します。構造化されたレイアウトにより、生徒や教職員は時間を効率的に管理でき、授業の欠席を防ぎます。","bubble"
+"50","Tc0c7c76d30bd3dcaefc96f40275bdc0a","教育","🎟️イベント QR チケット","システム標準テンプレート","🎟️","{
+    ""type"": ""bubble"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""0px"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""paddingAll"": ""xl"",
+                ""backgroundColor"": ""#F5F6FA"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""JAZZ フェスティバル 2024"",
+                        ""weight"": ""bold"",
+                        ""size"": ""lg"",
+                        ""color"": ""#1F2937""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""日比谷野外音楽堂"",
+                        ""size"": ""xs"",
+                        ""color"": ""#6B7280"",
+                        ""margin"": ""xs""
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""paddingAll"": ""xl"",
+                ""contents"": [
+                    {
+                        ""type"": ""image"",
+                        ""url"": ""https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=FlexCraft"",
+                        ""size"": ""md""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""入場時にこの QR コードを提示してください"",
+                        ""size"": ""xs"",
+                        ""color"": ""#9CA3AF"",
+                        ""align"": ""center"",
+                        ""margin"": ""md""
+                    }
+                ]
+            }
+        ]
+    }
+}","1","9","0","0","1778467686","ja","40","0","イベント入場用のQRチケットテンプレートです。シンプルなデザインで中央に大きなQRコードを配置し、イベント名と会場を記載します。ユーザーはこのカードを提示するだけで素早くスキャン入場でき、紙媒体の確認作業が不要なため、イベント運営の効率を高めます。","bubble"
 "803534273990661","T6e43280b5d88fa775f1824f7b25c457d","遊戲","🏆 遊戲排行榜","系統內置模板","🏆 ","{
     ""type"": ""bubble"",
     ""size"": ""mega"",
@@ -1836,7 +3050,7 @@
                     },
                     {
                         ""type"": ""image"",
-                        ""url"": ""https://upload.cc/i1/2026/05/09/f1l5sr.jpg"",
+                        ""url"": ""https://api.dicebear.com/7.x/bottts/svg?seed=Aiden"",
                         ""size"": ""xxs"",
                         ""aspectMode"": ""cover"",
                         ""cornerRadius"": ""full"",
@@ -1884,7 +3098,7 @@
                     },
                     {
                         ""type"": ""image"",
-                        ""url"": ""https://upload.cc/i1/2026/05/09/Tof1mQ.jpg"",
+                        ""url"": ""https://api.dicebear.com/7.x/avataaars/svg?seed=Felix"",
                         ""size"": ""xxs"",
                         ""aspectMode"": ""cover"",
                         ""cornerRadius"": ""full"",
@@ -1931,7 +3145,7 @@
                     },
                     {
                         ""type"": ""image"",
-                        ""url"": ""https://upload.cc/i1/2026/05/09/tFkSor.jpg"",
+                        ""url"": ""https://api.dicebear.com/7.x/pixel-art/svg?seed=Kevin"",
                         ""size"": ""xxs"",
                         ""aspectMode"": ""cover"",
                         ""cornerRadius"": ""full"",
@@ -1982,7 +3196,7 @@
             }
         ]
     }
-}","1","100","0","0","1778374070","zh-TW","803542136750085","0","專為遊戲化營銷設計，採用金銀銅視覺對比，清楚展示玩家等級與戰力，底部附帶個人排名與分享按鈕，提升社群互動率。","bubble"
+}","1","100","0","0","1778463768","zh-TW","803542136750085","0","專為遊戲化營銷設計，採用金銀銅視覺對比，清楚展示玩家等級與戰力，底部附帶個人排名與分享按鈕，提升社群互動率。","bubble"
 "803542136750085","T90687c27e577cc01d6c2f90413eacf08","遊戯","🏆 今週の戦力ランキング","システム標準テンプレート","🏆 ","{
     ""type"": ""bubble"",
     ""size"": ""mega"",
@@ -2029,7 +3243,7 @@
                     },
                     {
                         ""type"": ""image"",
-                        ""url"": ""https://upload.cc/i1/2026/05/09/f1l5sr.jpg"",
+                        ""url"": ""https://api.dicebear.com/7.x/bottts/svg?seed=Aiden"",
                         ""size"": ""xxs"",
                         ""aspectMode"": ""cover"",
                         ""cornerRadius"": ""full"",
@@ -2077,7 +3291,7 @@
                     },
                     {
                         ""type"": ""image"",
-                        ""url"": ""https://upload.cc/i1/2026/05/09/Tof1mQ.jpg"",
+                        ""url"": ""https://api.dicebear.com/7.x/avataaars/svg?seed=Felix"",
                         ""size"": ""xxs"",
                         ""aspectMode"": ""cover"",
                         ""cornerRadius"": ""full"",
@@ -2124,7 +3338,7 @@
                     },
                     {
                         ""type"": ""image"",
-                        ""url"": ""https://upload.cc/i1/2026/05/09/tFkSor.jpg"",
+                        ""url"": ""https://api.dicebear.com/7.x/pixel-art/svg?seed=Kevin"",
                         ""size"": ""xxs"",
                         ""aspectMode"": ""cover"",
                         ""cornerRadius"": ""full"",
@@ -2175,7 +3389,7 @@
             }
         ]
     }
-}","1","100","0","0","1778374070","ja","803534273990661","0","ゲーミフィケーションを活用したマーケティング向けに設計。金・銀・銅の視覚的なコントラストにより、プレイヤーのレベルや戦闘力を明確に表示します。下部には個人の順位とシェアボタンを配置し、ソーシャルメディアでのエンゲージメントを高めます。","bubble"
+}","1","100","0","0","1778463768","ja","803534273990661","0","ゲーミフィケーションを活用したマーケティング向けに設計。金・銀・銅の視覚的なコントラストにより、プレイヤーのレベルや戦闘力を明確に表示します。下部には個人の順位とシェアボタンを配置し、ソーシャルメディアでのエンゲージメントを高めます。","bubble"
 "803785047441413","Tebd5650538c034e1cd2a8b3c902b527d","天氣","🌦️ 每日天氣概況","系統內置模板","🌦️","{
     ""type"": ""bubble"",
     ""size"": ""mega"",
@@ -2848,7 +4062,7 @@
         }
     ]
 }","1","105","0","0","1778402199","ja","803891260280837","0","テンプレートには 1:1 の正方形 Hero 画像比率 を統一して採用しています。この構図は、料理のディテールと色彩を最大限に強調し、ユーザーの食欲（Appetite Appeal）をそそるだけでなく、カルーセル表示でスワイプした際にも高い視覚的安定性を維持し、画像高さの違いによるガタつきを防ぎます。また、aspectMode: cover 技術を組み合わせることで、元の画像サイズに関わらず、すべての料理写真を最も魅力的なセンター構図で表示することが可能です。","carousel"
-"803970618605573","T3ea4c4ba4dc027c7d6aab254b0913937","通知","🏠 智慧家居狀態","系統內置模板","🏠","{
+"803970618605573","T3ea4c4ba4dc027c7d6aab254b0913937","提醒","🏠 智慧家居狀態","系統內置模板","🏠","{
     ""type"": ""carousel"",
     ""contents"": [
         {

@@ -30,6 +30,7 @@
 - **飲食**: デジタルメニュー、予約完了通知、店舗案内。
 - **システム通知**: メンテナンス告知、認証コード、アラート通知。
 
+
 ## 📂 テンプレートリスト
 
 - **1**: [☕ レストラン/カフェカード](https://liming.me/ja/tpl/Tc74d97b01eae257e44aa9d5bade97baf)
@@ -48,20 +49,21 @@
 - **14**: [📝 アンケート](https://liming.me/ja/tpl/T6ea9ab1baa0efb9e19094440c317e21b)
 - **15**: [📊 デイリーレポート](https://liming.me/ja/tpl/T34173cb38f07f89ddbebc2ac9128303f)
 - **16**: [搭乗券・チケット](https://liming.me/ja/tpl/T3416a75f4cea9109507cacd8e2f2aefc)
-- **17**: [ホテル予約詳細](https://liming.me/ja/tpl/Ta1d0c6e83f027327d8461063f4ac58a6)
-- **18**: [物件・車種詳細](https://liming.me/ja/tpl/T17e62166fc8586dfa4d1bc0e1742c08b)
-- **19**: [予約確認カード](https://liming.me/ja/tpl/Tf7177163c833dff4b38fc8d2872f1ec6)
-- **20**: [診断結果サマリー](https://liming.me/ja/tpl/T6c8349cc7260ae62e3b1396831a8398f)
-- **21**: [診療待ち状況](https://liming.me/ja/tpl/Td9d4f495e875a2e075a1a4a6e1b9770f)
-- **22**: [カード利用明細](https://liming.me/ja/tpl/T67c6a1e7ce56d3d6fa748ab6d9af3fd7)
-- **23**: [ポートフォリオ概要](https://liming.me/ja/tpl/T642e92efb79421734881b53e1e1b18b6)
-- **24**: [時間割表](https://liming.me/ja/tpl/Tf457c545a9ded88f18ecee47145a72c0)
-- **25**: [イベント QR チケット](https://liming.me/ja/tpl/Tc0c7c76d30bd3dcaefc96f40275bdc0a)
+- **17**: [🏨ホテル予約詳細](https://liming.me/ja/tpl/Ta1d0c6e83f027327d8461063f4ac58a6)
+- **18**: [🏠物件・車種詳細](https://liming.me/ja/tpl/T17e62166fc8586dfa4d1bc0e1742c08b)
+- **19**: [✅予約確認カード](https://liming.me/ja/tpl/Tf7177163c833dff4b38fc8d2872f1ec6)
+- **20**: [🩺診断結果サマリー](https://liming.me/ja/tpl/T6c8349cc7260ae62e3b1396831a8398f)
+- **21**: [🏥診療待ち状況](https://liming.me/ja/tpl/Td9d4f495e875a2e075a1a4a6e1b9770f)
+- **22**: [💳カード利用明細](https://liming.me/ja/tpl/T67c6a1e7ce56d3d6fa748ab6d9af3fd7)
+- **23**: [📈ポートフォリオ概要](https://liming.me/ja/tpl/T642e92efb79421734881b53e1e1b18b6)
+- **24**: [🗓️時間割表](https://liming.me/ja/tpl/Tf457c545a9ded88f18ecee47145a72c0)
+- **25**: [🎟️イベント QR チケット](https://liming.me/ja/tpl/Tc0c7c76d30bd3dcaefc96f40275bdc0a)
 - **26**: [🏆 今週の戦力ランキング](https://liming.me/ja/tpl/T90687c27e577cc01d6c2f90413eacf08)
 - **27**: [🌦️ 毎日の天気概況](https://liming.me/ja/tpl/Tbd57c1cbc423ed997fbe5930771f82ca)
 - **28**: [🍱 おすすめレストランとグルメ注文](https://liming.me/ja/tpl/T04de741f6e17bf538179d481bdfad91b)
 - **29**: [🏠 スマートホームステータス](https://liming.me/ja/tpl/T4786e472a24f31d35baed4cbbb2a757a)
 - **30**: [♻️ ゴミ収集日の通知](https://liming.me/ja/tpl/Tfc0e5b5a7530e943cd777f1c405edaf4)
+
 
 
 ## 🛠️ 開発者向けインテグレーション

@@ -29,6 +29,8 @@
 - **餐飲與服務**：可視化數位菜單、預約成功通知、店家導航位置卡。
 - **系統與通知**：OTP 驗證碼、維護公告、系統異常警報。
 
+<catelist>
+
 ## 📂 範本清單
 
 - **1**: [☕ 餐廳/咖啡店卡片](https://liming.me/zh-TW/tpl/Tc4ca4238a0b923820dcc509a6f75849b)
@@ -46,21 +48,23 @@
 - **13**: [🪪 個人名片](https://liming.me/zh-TW/tpl/Tc51ce410c124a10e0db5e4b97fc2af39)
 - **14**: [📝 問卷入口](https://liming.me/zh-TW/tpl/Taab3238922bcc25a6f606eb525ffdc56)
 - **15**: [📊 每日數據簡報](https://liming.me/zh-TW/tpl/T9bf31c7ff062936a96d3c8bd1f8f2ff3)
-- **16**: [登機證/車票](https://liming.me/zh-TW/tpl/Tc16a5320fa475530d9583c34fd356ef5)
-- **17**: [酒店預約詳情](https://liming.me/zh-TW/tpl/T6364d3f0f495b6ab9dcf8d3b5c6e0b01)
-- **18**: [房源/車型詳情](https://liming.me/zh-TW/tpl/T182be0c5cdcd5072bb1864cdee4d3d6e)
-- **19**: [預約確認卡](https://liming.me/zh-TW/tpl/Te369853df766fa44e1ed0ff613f563bd)
-- **20**: [體檢報告概覽](https://liming.me/zh-TW/tpl/T1c383cd30b7c298ab50293adfecb7b18)
-- **21**: [診所叫號進度](https://liming.me/zh-TW/tpl/T19ca14e7ea6328a42e0eb13d585e4c22)
-- **22**: [信用卡賬單摘要](https://liming.me/zh-TW/tpl/Ta5bfc9e07964f8dddeb95fc584cd965d)
-- **23**: [投資組合快訊](https://liming.me/zh-TW/tpl/Ta5771bce93e200c36f7cd9dfd0e5deaa)
-- **24**: [課程時間表](https://liming.me/zh-TW/tpl/Td67d8ab4f4c10bf22aa353e27879133c)
-- **25**: [活動 QR 票券](https://liming.me/zh-TW/tpl/Td645920e395fedad7bbbed0eca3fe2e0)
+- **16**: [🎫登機證/車票](https://liming.me/zh-TW/tpl/Tc16a5320fa475530d9583c34fd356ef5)
+- **17**: [🏨酒店預約詳情](https://liming.me/zh-TW/tpl/T6364d3f0f495b6ab9dcf8d3b5c6e0b01)
+- **18**: [🏠房源/車型詳情](https://liming.me/zh-TW/tpl/T182be0c5cdcd5072bb1864cdee4d3d6e)
+- **19**: [✅預約確認卡](https://liming.me/zh-TW/tpl/Te369853df766fa44e1ed0ff613f563bd)
+- **20**: [🩺體檢報告概覽](https://liming.me/zh-TW/tpl/T1c383cd30b7c298ab50293adfecb7b18)
+- **21**: [🏥診所叫號進度](https://liming.me/zh-TW/tpl/T19ca14e7ea6328a42e0eb13d585e4c22)
+- **22**: [💳信用卡賬單摘要](https://liming.me/zh-TW/tpl/Ta5bfc9e07964f8dddeb95fc584cd965d)
+- **23**: [📈投資組合快訊](https://liming.me/zh-TW/tpl/Ta5771bce93e200c36f7cd9dfd0e5deaa)
+- **24**: [🗓️課程時間表](https://liming.me/zh-TW/tpl/Td67d8ab4f4c10bf22aa353e27879133c)
+- **25**: [🎟️活動 QR 票券](https://liming.me/zh-TW/tpl/Td645920e395fedad7bbbed0eca3fe2e0)
 - **26**: [🏆 遊戲排行榜](https://liming.me/zh-TW/tpl/T6e43280b5d88fa775f1824f7b25c457d)
 - **27**: [🌦️ 每日天氣概況](https://liming.me/zh-TW/tpl/Tebd5650538c034e1cd2a8b3c902b527d)
 - **28**: [🍱 餐廳推薦與美食點單](https://liming.me/zh-TW/tpl/T1ddf6ae24acdfbd399ef2d509ba26a20)
 - **29**: [🏠 智慧家居狀態](https://liming.me/zh-TW/tpl/T3ea4c4ba4dc027c7d6aab254b0913937)
 - **30**: [♻️ 垃圾清運提醒](https://liming.me/zh-TW/tpl/T03538289cb40ceff742aed16a9b9261e)
+
+</catelist>
 
 ## ⚙️ 開發者整合 (Developer Integration)
 您可以直接讀取 `jsons/` 目錄下的檔案，並將內容傳遞至 LINE Messaging API。
