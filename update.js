@@ -3,7 +3,7 @@ const fsSync = require('fs');
 const path = require('path');
 const csv = require('csv-parser');
 
-// 主函数（和 Python 逻辑完全一致）
+// 主函数
 async function slimSafeInject() {
   const csvPath = 'fc_template.csv';
 
@@ -13,13 +13,12 @@ async function slimSafeInject() {
     return;
   }
 
-  // 1. 读取 CSV（等价 pandas）
+  // 1. 读取 CSV
   const df = [];
   await new Promise((resolve, reject) => {
     fsSync.createReadStream(csvPath)
       .pipe(csv())
       .on('data', (row) => {
-        row.id = String(row.id);
         df.push(row);
       })
       .on('end', resolve)
@@ -28,7 +27,7 @@ async function slimSafeInject() {
 
   const FC_BASE_URL = 'https://liming.me';
 
-  // 2. 生成多语言内容缓存（和 Python 逻辑一模一样）
+  // 2. 生成多语言内容缓存
   const contentCache = {};
   const langs = ['zh-TW', 'ja', 'en'];
 
@@ -47,23 +46,27 @@ async function slimSafeInject() {
       for (const l of ['zh-TW', 'ja']) {
         lines.push(`#### ${l.toUpperCase()}\n`);
         const tmpDf = df.filter(row => row.lang === l);
+        let num = 1;
         for (const row of tmpDf) {
-          lines.push(`- [${row.title}](${FC_BASE_URL}/${row.lang}/tpl/${row.code})`);
+          lines.push(`- **${num}**: [${row.title}](${FC_BASE_URL}/${row.lang}/tpl/${row.code})`);
+          num++;
         }
         lines.push('');
       }
     } else {
       // 繁体/日语：只显示自己语言
       const tmpDf = df.filter(row => row.lang === lang);
+      let num = 1;
       for (const row of tmpDf) {
-        lines.push(`- **${row.id}**: [${row.title}](${FC_BASE_URL}/${row.lang}/tpl/${row.code})`);
+        lines.push(`- **${num}**: [${row.title}](${FC_BASE_URL}/${row.lang}/tpl/${row.code})`);
+        num++;
       }
     }
 
     contentCache[lang] = lines.join('\n');
   }
 
-  // 3. 流式更新 README 文件（和 Python 完全一样）
+  // 3. 更新 README 文件
   const filesToUpdate = {
     'README.md': 'en',
     'README.zh-TW.md': 'zh-TW',
@@ -80,7 +83,6 @@ async function slimSafeInject() {
     let foundTags = false;
     let skipMode = false;
 
-    // 逐行读取 + 写入
     const content = await fs.readFile(filename, 'utf8');
     const lines = content.split(/\r?\n/);
     const output = [];
@@ -107,7 +109,6 @@ async function slimSafeInject() {
       }
     }
 
-    // 写入临时文件
     await fs.writeFile(tempFilename, output.join('\n'), 'utf8');
 
     if (foundTags) {

@@ -27,8 +27,9 @@ def export_templates(csv_file, output_dir='jsons'):
     for _, row in df.iterrows():
         lang = row['lang']
         title_slug = slugify(row['title'])
-        # 生成文件名：编号_语言_标题.json
-        filename = f"{row['id']:02d}_{lang}_{title_slug}.json"
+        
+        # 👉 修复：把 id 转成 int 再格式化
+        filename = f"{int(row['id']):02d}_{lang}_{title_slug}.json"
         filepath = os.path.join(output_dir, filename)
         
         try:

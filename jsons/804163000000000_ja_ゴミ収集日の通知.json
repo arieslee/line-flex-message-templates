@@ -1,0 +1,150 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "0px",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "background": {
+          "type": "linearGradient",
+          "angle": "135deg",
+          "startColor": "#00B894",
+          "endColor": "#00E6B8"
+        },
+        "paddingAll": "28px",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "TOMORROW",
+                    "size": "xs",
+                    "color": "#FFFFFFCC",
+                    "weight": "bold",
+                    "letterSpacing": "2px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "燃えるゴミ",
+                    "color": "#FFFFFF",
+                    "size": "xxl",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "♻️",
+                "size": "4xl",
+                "align": "end",
+                "color": "#FFFFFF44",
+                "flex": 0
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "paddingAll": "12px",
+            "paddingStart": "16px",
+            "backgroundColor": "#FFFFFF22",
+            "cornerRadius": "lg",
+            "contents": [
+              {
+                "type": "text",
+                "text": "⏰ 明天上午 8:30 前请拿到集積所",
+                "color": "#FFFFFF",
+                "size": "sm",
+                "weight": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "24px",
+        "spacing": "lg",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "alignItems": "center",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "width": "44px",
+                "height": "44px",
+                "backgroundColor": "#E6F9F3",
+                "cornerRadius": "100px",
+                "alignItems": "center",
+                "justifyContent": "center",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "♻️",
+                    "size": "xl"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "明後日",
+                    "size": "xs",
+                    "color": "#555555"
+                  },
+                  {
+                    "type": "text",
+                    "text": "資源ゴミ（缶・ビン）",
+                    "size": "md",
+                    "color": "#1F2C2A",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "16px",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "查看完整垃圾回收日历",
+          "uri": "https://liming.me"
+        },
+        "style": "primary",
+        "color": "#006D5B",
+        "height": "sm"
+      }
+    ]
+  }
+}

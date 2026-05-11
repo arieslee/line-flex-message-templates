@@ -1,0 +1,251 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "standard",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "0px",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "background": {
+              "type": "linearGradient",
+              "angle": "135deg",
+              "startColor": "#2C3E50",
+              "endColor": "#4CA1AF"
+            },
+            "paddingAll": "25px",
+            "paddingTop": "30px",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "LIVING ROOM",
+                    "color": "#FFFFFF66",
+                    "size": "xxs",
+                    "weight": "bold",
+                    "letterSpacing": "2px",
+                    "flex": 1
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "width": "10px",
+                    "height": "10px",
+                    "backgroundColor": "#00FFC2",
+                    "cornerRadius": "xl",
+                    "flex": 0
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "24.5°C",
+                "color": "#FFFFFF",
+                "size": "xxl",
+                "weight": "bold",
+                "margin": "md"
+              },
+              {
+                "type": "text",
+                "text": "空調運行中 · 濕度 45%",
+                "color": "#FFFFFFCC",
+                "size": "xs"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "paddingAll": "20px",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "💡 客廳區域照明",
+                    "size": "sm",
+                    "color": "#333333",
+                    "flex": 1
+                  },
+                  {
+                    "type": "text",
+                    "text": "ON",
+                    "size": "sm",
+                    "color": "#4CA1AF",
+                    "align": "end",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "🍃 空氣清淨機",
+                    "size": "sm",
+                    "color": "#333333",
+                    "flex": 1
+                  },
+                  {
+                    "type": "text",
+                    "text": "AUTO",
+                    "size": "sm",
+                    "color": "#4CA1AF",
+                    "align": "end",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "15px",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "環境詳細設定",
+              "uri": "https://liming.me"
+            },
+            "style": "secondary",
+            "height": "sm",
+            "color": "#4CA1AF"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "standard",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "0px",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "background": {
+              "type": "linearGradient",
+              "angle": "135deg",
+              "startColor": "#8E2E2E",
+              "endColor": "#D93025"
+            },
+            "paddingAll": "25px",
+            "paddingTop": "30px",
+            "contents": [
+              {
+                "type": "text",
+                "text": "SECURITY SYSTEM",
+                "color": "#FFFFFF66",
+                "size": "xxs",
+                "weight": "bold",
+                "letterSpacing": "2px"
+              },
+              {
+                "type": "text",
+                "text": "PROTECTED",
+                "color": "#FFFFFF",
+                "size": "xl",
+                "weight": "bold",
+                "margin": "md"
+              },
+              {
+                "type": "text",
+                "text": "所有入口已上鎖 · 系統正常",
+                "color": "#FFFFFFCC",
+                "size": "xs"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "paddingAll": "20px",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "🔐 前門電子鎖",
+                    "size": "sm",
+                    "color": "#333333",
+                    "flex": 1
+                  },
+                  {
+                    "type": "text",
+                    "text": "LOCKED",
+                    "size": "sm",
+                    "color": "#D93025",
+                    "align": "end",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "📹 監控攝影機",
+                    "size": "sm",
+                    "color": "#333333",
+                    "flex": 1
+                  },
+                  {
+                    "type": "text",
+                    "text": "LIVE",
+                    "size": "sm",
+                    "color": "#D93025",
+                    "align": "end",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "15px",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "查看即時動態",
+              "uri": "https://liming.me"
+            },
+            "style": "secondary",
+            "height": "sm",
+            "color": "#D93025"
+          }
+        ]
+      }
+    }
+  ]
+}
