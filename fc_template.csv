@@ -4866,3 +4866,727 @@
     ]
   }
 }","1","109","0","1778465944","1778465944","zh-TW","804162968555525","0","針對台日市場設計，清楚區分「一般垃圾」、「資源回收」與「廚餘」時間，幫助用戶不再錯過清運車。","bubble"
+"806733836079109","T9746df44374c22045866f2499e3c685d","團購","🛍️ 社群團購","系統內置模板","🛍️","{
+    ""type"": ""bubble"",
+    ""size"": ""standard"",
+    ""hero"": {
+        ""type"": ""image"",
+        ""url"": ""https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"",
+        ""size"": ""full"",
+        ""aspectRatio"": ""4:3"",
+        ""aspectMode"": ""cover""
+    },
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""20px"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""🔥 限時開團"",
+                        ""color"": ""#E23E57"",
+                        ""size"": ""xs"",
+                        ""weight"": ""bold"",
+                        ""flex"": 0
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""剩餘：11 小時 42 分"",
+                        ""color"": ""#888888"",
+                        ""size"": ""xs"",
+                        ""align"": ""end""
+                    }
+                ]
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""【呼聲最高】法式小山園抹茶千層蛋糕 (6吋)"",
+                ""weight"": ""bold"",
+                ""size"": ""md"",
+                ""margin"": ""md"",
+                ""wrap"": true,
+                ""color"": ""#111111""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""baseline"",
+                ""margin"": ""lg"",
+                ""spacing"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""團購價 NT$ 680"",
+                        ""weight"": ""bold"",
+                        ""size"": ""xl"",
+                        ""color"": ""#E23E57"",
+                        ""flex"": 0
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""原價 980"",
+                        ""size"": ""xs"",
+                        ""color"": ""#AAAAAA"",
+                        ""decoration"": ""line-through""
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""md"",
+                ""backgroundColor"": ""#F9F9F9"",
+                ""paddingAll"": ""10px"",
+                ""cornerRadius"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""📦 滿 10 盒成團 · 目前已累計 8 盒"",
+                        ""size"": ""xs"",
+                        ""color"": ""#666666""
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""15px"",
+        ""paddingTop"": ""0px"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""action"": {
+                    ""type"": ""postback"",
+                    ""label"": ""立即➕ 1 下單"",
+                    ""data"": ""action=buy&item_id=matcha_01""
+                },
+                ""style"": ""primary"",
+                ""color"": ""#E23E57"",
+                ""height"": ""sm""
+            }
+        ]
+    }
+}","1","110","0","0","1779093570","zh-TW","806736235855877","0","強烈的高級感與誘客力：頂部（Hero）採用滿版且支援跨域的高畫質美食意象圖片，能第一時間勾起使用者的食慾，極大化提升點擊轉化率。","bubble"
+"806736235855877","Tf0171f812326e8d06ec941f447cda870","團購","🛍️電商團購","メニュー","🛍️","{
+    ""type"": ""bubble"",
+    ""size"": ""standard"",
+    ""hero"": {
+        ""type"": ""image"",
+        ""url"": ""https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"",
+        ""size"": ""full"",
+        ""aspectRatio"": ""4:3"",
+        ""aspectMode"": ""cover""
+    },
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""20px"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""🔥 共同購入"",
+                        ""color"": ""#E23E57"",
+                        ""size"": ""xs"",
+                        ""weight"": ""bold"",
+                        ""flex"": 0
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""残り時間：11時間42分"",
+                        ""color"": ""#888888"",
+                        ""size"": ""xs"",
+                        ""align"": ""end""
+                    }
+                ]
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""【大人気】贅沢宇治抹茶の濃厚千層ミルクレープ (6インチ)"",
+                ""weight"": ""bold"",
+                ""size"": ""md"",
+                ""margin"": ""md"",
+                ""wrap"": true,
+                ""color"": ""#111111""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""baseline"",
+                ""margin"": ""lg"",
+                ""spacing"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""特別価格 2,980円"",
+                        ""weight"": ""bold"",
+                        ""size"": ""xl"",
+                        ""color"": ""#E23E57"",
+                        ""flex"": 0
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""通常 4,200円"",
+                        ""size"": ""xs"",
+                        ""color"": ""#AAAAAA"",
+                        ""decoration"": ""line-through""
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""md"",
+                ""backgroundColor"": ""#F9F9F9"",
+                ""paddingAll"": ""10px"",
+                ""cornerRadius"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""📦 最小催行10個 · 現在の注文数：8個"",
+                        ""size"": ""xs"",
+                        ""color"": ""#666666""
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""15px"",
+        ""paddingTop"": ""0px"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""action"": {
+                    ""type"": ""postback"",
+                    ""label"": ""今すぐ共同購入に参加する"",
+                    ""data"": ""action=buy&item_id=matcha_01""
+                },
+                ""style"": ""primary"",
+                ""color"": ""#E23E57"",
+                ""height"": ""sm""
+            }
+        ]
+    }
+}","1","111","0","0","1779093570","ja","806733836079109","0","強烈な高級感と高いコンバージョン力：トップ（Hero）にドメイン制限のない高画質なグルメ画像をフルサイズで配置することで、ユーザーの食欲を一瞬で刺激し、クリック率（CTR）を最大化させます。","bubble"
+"806736886513669","T82aa38a4f5797792fa78bbf41aec29ac","通知","📅預約確認通知","系統內置模板","📅","{
+    ""type"": ""bubble"",
+    ""size"": ""standard"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""20px"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""預約確認通知"",
+                ""color"": ""#00A8CC"",
+                ""weight"": ""bold"",
+                ""size"": ""sm"",
+                ""letterSpacing"": ""1px""
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""晴天牙醫診所"",
+                ""weight"": ""bold"",
+                ""size"": ""lg"",
+                ""margin"": ""sm"",
+                ""color"": ""#111111""
+            },
+            {
+                ""type"": ""separator"",
+                ""margin"": ""md"",
+                ""color"": ""#EEEEEE""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""spacing"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""👨‍⚕️ 預約醫師"",
+                                ""color"": ""#888888"",
+                                ""size"": ""sm"",
+                                ""flex"": 1
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""林志明 院長"",
+                                ""color"": ""#222222"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""🕒 預約時間"",
+                                ""color"": ""#888888"",
+                                ""size"": ""sm"",
+                                ""flex"": 1
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""05月22日 (五) 14:30"",
+                                ""color"": ""#222222"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""📍 診所位置"",
+                                ""color"": ""#888888"",
+                                ""size"": ""sm"",
+                                ""flex"": 1
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""台北市大安區信義路X號"",
+                                ""color"": ""#222222"",
+                                ""size"": ""sm"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""backgroundColor"": ""#E6F7FF"",
+                ""paddingAll"": ""12px"",
+                ""cornerRadius"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""💡 溫馨提醒：請於預約時間前 10 分鐘至櫃檯報到。如欲取消，請提前一天線上變更。"",
+                        ""size"": ""xs"",
+                        ""color"": ""#00A8CC"",
+                        ""wrap"": true
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""15px"",
+        ""paddingTop"": ""0px"",
+        ""spacing"": ""none"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""spacing"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""button"",
+                        ""action"": {
+                            ""type"": ""postback"",
+                            ""label"": ""取消預約"",
+                            ""data"": ""action=cancel&id=rev_992""
+                        },
+                        ""style"": ""secondary"",
+                        ""height"": ""sm"",
+                        ""flex"": 1,
+                        ""color"": ""#95A5A6""
+                    },
+                    {
+                        ""type"": ""button"",
+                        ""action"": {
+                            ""type"": ""uri"",
+                            ""label"": ""地圖導航"",
+                            ""uri"": ""https://maps.google.com""
+                        },
+                        ""style"": ""primary"",
+                        ""color"": ""#00A8CC"",
+                        ""height"": ""sm"",
+                        ""margin"": ""md"",
+                        ""flex"": 1
+                    }
+                ]
+            }
+        ],
+        ""flex"": 1
+    }
+}","1","112","0","0","1779095345","zh-TW","806742043598853","0","清爽專業的信任感：整體色調採用明亮的醫療藍（#00A8CC）搭配純白背景，營造出乾淨、專業且令人安心的視覺氛圍。","bubble"
+"806738882097157","Tafd0efef241ed9a7d6021df6f4fe6305","DevOps","☁️ Cloud / DevOps 系統即時監控告警","系統內置模板","☁️","{
+    ""type"": ""bubble"",
+    ""size"": ""standard"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#121212"",
+        ""paddingAll"": ""20px"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""⚠️ SYSTEM ALERT"",
+                        ""color"": ""#FF4D4F"",
+                        ""weight"": ""bold"",
+                        ""size"": ""xs"",
+                        ""letterSpacing"": ""2px"",
+                        ""flex"": 1
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""width"": ""8px"",
+                        ""height"": ""8px"",
+                        ""backgroundColor"": ""#FF4D4F"",
+                        ""cornerRadius"": ""xl"",
+                        ""flex"": 0
+                    }
+                ]
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""CRITICAL: CPU Usage Exceeded"",
+                ""color"": ""#FFFFFF"",
+                ""weight"": ""bold"",
+                ""size"": ""md"",
+                ""margin"": ""lg""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""spacing"": ""xs"",
+                ""backgroundColor"": ""#1F1F1F"",
+                ""paddingAll"": ""12px"",
+                ""cornerRadius"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""Cluster: RDS-MySQL-Main"",
+                        ""color"": ""#A6A6A6"",
+                        ""size"": ""xs"",
+                        ""fontStyle"": ""italic""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""Metric: CPU Util >= 94.2%"",
+                        ""color"": ""#FF4D4F"",
+                        ""size"": ""xs"",
+                        ""weight"": ""bold""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""Time: 2026-05-18 17:25 JST"",
+                        ""color"": ""#A6A6A6"",
+                        ""size"": ""xs""
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#121212"",
+        ""paddingAll"": ""15px"",
+        ""paddingTop"": ""0px"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""Open Grafana Dashboard"",
+                    ""uri"": ""https://liming.me""
+                },
+                ""style"": ""primary"",
+                ""color"": ""#FF4D4F"",
+                ""height"": ""sm""
+            }
+        ]
+    }
+}","1","113","0","0","1779095194","zh-TW","806742619365381","0","極客風的深色主題（Dark Mode）：整體採用純黑底色（#121212），模仿終端機（Terminal）與專業監控面板的視覺風格。不僅能大幅降低夜間被警報驚醒時的視覺疲勞，更能突顯告警資訊的嚴重性。","bubble"
+"806742043598853","T720881f0c00f324165ebcd8676ae01d8","通知","📅ご予約確認通知","システム標準テンプレート","📅","{
+    ""type"": ""bubble"",
+    ""size"": ""standard"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""20px"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""📅 ご予約確認のお知らせ"",
+                ""color"": ""#00A8CC"",
+                ""weight"": ""bold"",
+                ""size"": ""sm"",
+                ""letterSpacing"": ""1px""
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""青空歯科クリニック"",
+                ""weight"": ""bold"",
+                ""size"": ""lg"",
+                ""margin"": ""sm"",
+                ""color"": ""#111111""
+            },
+            {
+                ""type"": ""separator"",
+                ""margin"": ""md"",
+                ""color"": ""#EEEEEE""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""spacing"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""👨‍⚕️ 担当医師"",
+                                ""color"": ""#888888"",
+                                ""size"": ""sm"",
+                                ""flex"": 1
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""林 院長"",
+                                ""color"": ""#222222"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""🕒 日時"",
+                                ""color"": ""#888888"",
+                                ""size"": ""sm"",
+                                ""flex"": 1
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""05月22日 (金) 14:30"",
+                                ""color"": ""#222222"",
+                                ""size"": ""sm"",
+                                ""weight"": ""bold"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""📍 アクセス"",
+                                ""color"": ""#888888"",
+                                ""size"": ""sm"",
+                                ""flex"": 1
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""東京都渋谷区神南X-X-X"",
+                                ""color"": ""#222222"",
+                                ""size"": ""sm"",
+                                ""align"": ""end""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""backgroundColor"": ""#E6F7FF"",
+                ""paddingAll"": ""12px"",
+                ""cornerRadius"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""💡 ご案内：ご予約時間の10分前までに受付をお済ませください。キャンセルの場合は、前日までにオンラインにてご変更をお願いいたします。"",
+                        ""size"": ""xs"",
+                        ""color"": ""#00A8CC"",
+                        ""wrap"": true
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""15px"",
+        ""paddingTop"": ""0px"",
+        ""spacing"": ""none"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""spacing"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""button"",
+                        ""action"": {
+                            ""type"": ""postback"",
+                            ""label"": ""予約キャンセル"",
+                            ""data"": ""action=cancel&id=rev_992""
+                        },
+                        ""style"": ""secondary"",
+                        ""height"": ""sm"",
+                        ""flex"": 1,
+                        ""color"": ""#95A5A6""
+                    },
+                    {
+                        ""type"": ""button"",
+                        ""action"": {
+                            ""type"": ""uri"",
+                            ""label"": ""地図ナビ"",
+                            ""uri"": ""https://maps.google.com""
+                        },
+                        ""style"": ""primary"",
+                        ""color"": ""#00A8CC"",
+                        ""height"": ""sm"",
+                        ""margin"": ""md"",
+                        ""flex"": 1
+                    }
+                ]
+            }
+        ],
+        ""flex"": 1
+    }
+}","1","114","0","0","1779095345","ja","806736886513669","0","さわやかでプロフェッショナルな信頼感：全体のカラーに鮮やかなメディカルブルー（#00A8CC）を採用し、純白の背景と組み合わせることで、清潔感とプロフェッショナルさ、そして安心感を与える視覚的アプローチを実現しています。","bubble"
+"806742619365381","T43d3a120c72cfcf6a6ba3c8f89fba4b3","DevOps","☁️ 【障害検知】システムリアルタイム監視アラート","システム標準テンプレート","☁️","{
+    ""type"": ""bubble"",
+    ""size"": ""standard"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#121212"",
+        ""paddingAll"": ""20px"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""⚠️ SYSTEM ALERT"",
+                        ""color"": ""#FF4D4F"",
+                        ""weight"": ""bold"",
+                        ""size"": ""xs"",
+                        ""letterSpacing"": ""2px"",
+                        ""flex"": 1
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""width"": ""8px"",
+                        ""height"": ""8px"",
+                        ""backgroundColor"": ""#FF4D4F"",
+                        ""cornerRadius"": ""xl"",
+                        ""flex"": 0
+                    }
+                ]
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""CRITICAL: CPU Usage Exceeded"",
+                ""color"": ""#FFFFFF"",
+                ""weight"": ""bold"",
+                ""size"": ""md"",
+                ""margin"": ""lg""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""spacing"": ""xs"",
+                ""backgroundColor"": ""#1F1F1F"",
+                ""paddingAll"": ""12px"",
+                ""cornerRadius"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""Cluster: RDS-MySQL-Main"",
+                        ""color"": ""#A6A6A6"",
+                        ""size"": ""xs"",
+                        ""fontStyle"": ""italic""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""Metric: CPU Util >= 94.2%"",
+                        ""color"": ""#FF4D4F"",
+                        ""size"": ""xs"",
+                        ""weight"": ""bold""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""Time: 2026-05-18 17:25 JST"",
+                        ""color"": ""#A6A6A6"",
+                        ""size"": ""xs""
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#121212"",
+        ""paddingAll"": ""15px"",
+        ""paddingTop"": ""0px"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""Open Grafana Dashboard"",
+                    ""uri"": ""https://liming.me""
+                },
+                ""style"": ""primary"",
+                ""color"": ""#FF4D4F"",
+                ""height"": ""sm""
+            }
+        ]
+    }
+}","1","115","0","0","1779095194","ja","806738882097157","0","ギークスタイルのダークモード：全体にピュアブラック（#121212）を採用し、ターミナルやプロ仕様の監視ダッシュボードの視覚的スタイルを再現しています。夜間にアラートで起こされた際の目の疲労を大幅に軽減するだけでなく、警告情報の深刻さをより際立たせる効果を持たせています。","bubble"

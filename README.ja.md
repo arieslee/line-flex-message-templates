@@ -63,6 +63,9 @@
 - **28**: [🍱 おすすめレストランとグルメ注文](https://liming.me/ja/tpl/T04de741f6e17bf538179d481bdfad91b)
 - **29**: [🏠 スマートホームステータス](https://liming.me/ja/tpl/T4786e472a24f31d35baed4cbbb2a757a)
 - **30**: [♻️ ゴミ収集日の通知](https://liming.me/ja/tpl/Tfc0e5b5a7530e943cd777f1c405edaf4)
+- **31**: [🛍️電商團購](https://liming.me/ja/tpl/Tf0171f812326e8d06ec941f447cda870)
+- **32**: [📅ご予約確認通知](https://liming.me/ja/tpl/T720881f0c00f324165ebcd8676ae01d8)
+- **33**: [☁️ 【障害検知】システムリアルタイム監視アラート](https://liming.me/ja/tpl/T43d3a120c72cfcf6a6ba3c8f89fba4b3)
 
 
 

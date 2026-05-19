@@ -64,6 +64,9 @@
 - **28**: [🍱 餐廳推薦與美食點單](https://liming.me/zh-TW/tpl/T1ddf6ae24acdfbd399ef2d509ba26a20)
 - **29**: [🏠 智慧家居狀態](https://liming.me/zh-TW/tpl/T3ea4c4ba4dc027c7d6aab254b0913937)
 - **30**: [♻️ 垃圾清運提醒](https://liming.me/zh-TW/tpl/T03538289cb40ceff742aed16a9b9261e)
+- **31**: [🛍️ 社群團購](https://liming.me/zh-TW/tpl/T9746df44374c22045866f2499e3c685d)
+- **32**: [📅預約確認通知](https://liming.me/zh-TW/tpl/T82aa38a4f5797792fa78bbf41aec29ac)
+- **33**: [☁️ Cloud / DevOps 系統即時監控告警](https://liming.me/zh-TW/tpl/Tafd0efef241ed9a7d6021df6f4fe6305)
 
 #### JA
 
@@ -97,6 +100,10 @@
 - **28**: [🍱 おすすめレストランとグルメ注文](https://liming.me/ja/tpl/T04de741f6e17bf538179d481bdfad91b)
 - **29**: [🏠 スマートホームステータス](https://liming.me/ja/tpl/T4786e472a24f31d35baed4cbbb2a757a)
 - **30**: [♻️ ゴミ収集日の通知](https://liming.me/ja/tpl/Tfc0e5b5a7530e943cd777f1c405edaf4)
+- **31**: [🛍️電商團購](https://liming.me/ja/tpl/Tf0171f812326e8d06ec941f447cda870)
+- **32**: [📅ご予約確認通知](https://liming.me/ja/tpl/T720881f0c00f324165ebcd8676ae01d8)
+- **33**: [☁️ 【障害検知】システムリアルタイム監視アラート](https://liming.me/ja/tpl/T43d3a120c72cfcf6a6ba3c8f89fba4b3)
+
 
 ## ⚙️ Developer Integration
 Directly load JSON files from the `jsons/` folder and pass the content to the LINE Messaging API SDK.

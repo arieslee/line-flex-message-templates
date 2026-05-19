@@ -29,8 +29,6 @@
 - **餐飲與服務**：可視化數位菜單、預約成功通知、店家導航位置卡。
 - **系統與通知**：OTP 驗證碼、維護公告、系統異常警報。
 
-<catelist>
-
 ## 📂 範本清單
 
 - **1**: [☕ 餐廳/咖啡店卡片](https://liming.me/zh-TW/tpl/Tc4ca4238a0b923820dcc509a6f75849b)
@@ -63,8 +61,9 @@
 - **28**: [🍱 餐廳推薦與美食點單](https://liming.me/zh-TW/tpl/T1ddf6ae24acdfbd399ef2d509ba26a20)
 - **29**: [🏠 智慧家居狀態](https://liming.me/zh-TW/tpl/T3ea4c4ba4dc027c7d6aab254b0913937)
 - **30**: [♻️ 垃圾清運提醒](https://liming.me/zh-TW/tpl/T03538289cb40ceff742aed16a9b9261e)
-
-</catelist>
+- **31**: [🛍️ 社群團購](https://liming.me/zh-TW/tpl/T9746df44374c22045866f2499e3c685d)
+- **32**: [📅預約確認通知](https://liming.me/zh-TW/tpl/T82aa38a4f5797792fa78bbf41aec29ac)
+- **33**: [☁️ Cloud / DevOps 系統即時監控告警](https://liming.me/zh-TW/tpl/Tafd0efef241ed9a7d6021df6f4fe6305)
 
 ## ⚙️ 開發者整合 (Developer Integration)
 您可以直接讀取 `jsons/` 目錄下的檔案，並將內容傳遞至 LINE Messaging API。
