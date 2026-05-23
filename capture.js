@@ -4,9 +4,9 @@ const path = require('path');
 const csv = require('csv-parser');
 
 // --- 配置 ---
-const CSV_FILE = './fc_template.csv';
+const CSV_FILE = './new.csv';
 const OUTPUT_DIR = './previews';
-const BASE_DOMAIN = 'http://192.168.253.1:3000'; 
+const BASE_DOMAIN = 'http://192.168.0.101:3000'; 
 
 // 使用属性选择器精准匹配你的手机壳容器
 const PREVIEW_SELECTOR = '[class*="phone-shell"]'; 
@@ -40,7 +40,7 @@ async function startCapture() {
                     await page.goto(targetUrl, { waitUntil: 'networkidle2', timeout: 30000 });
 
                     // 等待手机壳容器加载出来
-                    await page.waitForSelector(PREVIEW_SELECTOR, { timeout: 10000 });
+                    await page.waitForSelector(PREVIEW_SELECTOR, { timeout: 50000 });
                     
                     // 额外等待，确保内部的 LINE Flex 图片渲染完毕
                     await new Promise(r => setTimeout(r, 2000));

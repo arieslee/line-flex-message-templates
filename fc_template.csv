@@ -5590,3 +5590,831 @@
         ]
     }
 }","1","115","0","0","1779095194","ja","806738882097157","0","ギークスタイルのダークモード：全体にピュアブラック（#121212）を採用し、ターミナルやプロ仕様の監視ダッシュボードの視覚的スタイルを再現しています。夜間にアラートで起こされた際の目の疲労を大幅に軽減するだけでなく、警告情報の深刻さをより際立たせる効果を持たせています。","bubble"
+"807686385229829","T6983598dbc0eccc03e967bcea45a1fbb","儀表板","🚀Web3 數位資產儀表板","系統內置模板","🚀","{
+    ""type"": ""bubble"",
+    ""size"": ""standard"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#0D0D0D"",
+        ""paddingAll"": ""24px"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""WALLET BALANCE"",
+                        ""color"": ""#8C8C8C"",
+                        ""size"": ""xxs"",
+                        ""weight"": ""bold"",
+                        ""letterSpacing"": ""2px"",
+                        ""flex"": 1
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""Mainnet / ERC-20"",
+                        ""color"": ""#00FFA3"",
+                        ""size"": ""xxs"",
+                        ""align"": ""end"",
+                        ""flex"": 1
+                    }
+                ]
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""$ 42,850.12"",
+                ""weight"": ""bold"",
+                ""size"": ""xxl"",
+                ""color"": ""#FFFFFF"",
+                ""margin"": ""sm""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""margin"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""▲ +12.50%"",
+                        ""color"": ""#00FFA3"",
+                        ""size"": ""xs"",
+                        ""weight"": ""bold"",
+                        ""flex"": 0
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""last 24 hours"",
+                        ""color"": ""#595959"",
+                        ""size"": ""xs"",
+                        ""margin"": ""md""
+                    }
+                ]
+            },
+            {
+                ""type"": ""separator"",
+                ""margin"": ""xxl"",
+                ""color"": ""#262626""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""xxl"",
+                ""spacing"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""🪙 Bitcoin"",
+                                ""color"": ""#FFFFFF"",
+                                ""size"": ""sm"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""0.45 BTC"",
+                                ""color"": ""#FFFFFF"",
+                                ""size"": ""sm"",
+                                ""align"": ""end"",
+                                ""weight"": ""bold"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""+2.4%"",
+                                ""color"": ""#00FFA3"",
+                                ""size"": ""xs"",
+                                ""align"": ""end"",
+                                ""flex"": 2
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""🔷 Ethereum"",
+                                ""color"": ""#FFFFFF"",
+                                ""size"": ""sm"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""8.21 ETH"",
+                                ""color"": ""#FFFFFF"",
+                                ""size"": ""sm"",
+                                ""align"": ""end"",
+                                ""weight"": ""bold"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""-1.2%"",
+                                ""color"": ""#FF4D4F"",
+                                ""size"": ""xs"",
+                                ""align"": ""end"",
+                                ""flex"": 2
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""☀️ Solana"",
+                                ""color"": ""#FFFFFF"",
+                                ""size"": ""sm"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""142 SOL"",
+                                ""color"": ""#FFFFFF"",
+                                ""size"": ""sm"",
+                                ""align"": ""end"",
+                                ""weight"": ""bold"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""+15.8%"",
+                                ""color"": ""#00FFA3"",
+                                ""size"": ""xs"",
+                                ""align"": ""end"",
+                                ""flex"": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""xxl"",
+                ""backgroundColor"": ""#1A1A1A"",
+                ""paddingAll"": ""12px"",
+                ""cornerRadius"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""⚡ 交易動態：收到來自 0x71C... 的 2,500 USDC (已確認)"",
+                        ""size"": ""xs"",
+                        ""color"": ""#8C8C8C"",
+                        ""wrap"": true
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#0D0D0D"",
+        ""paddingAll"": ""24px"",
+        ""paddingTop"": ""0px"",
+        ""spacing"": ""none"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""spacing"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""button"",
+                        ""action"": {
+                            ""type"": ""uri"",
+                            ""label"": ""交易歷史"",
+                            ""uri"": ""https://liming.me""
+                        },
+                        ""style"": ""secondary"",
+                        ""color"": ""#C1392B"",
+                        ""height"": ""sm"",
+                        ""flex"": 1
+                    },
+                    {
+                        ""type"": ""button"",
+                        ""action"": {
+                            ""type"": ""uri"",
+                            ""label"": ""發送資產"",
+                            ""uri"": ""https://liming.me""
+                        },
+                        ""style"": ""primary"",
+                        ""color"": ""#06C755"",
+                        ""height"": ""sm"",
+                        ""flex"": 1
+                    }
+                ]
+            }
+        ]
+    }
+}","1","116","0","0","1779326861","zh-TW","807691723796485","0","「賽博龐克」金融美學：採用極致深黑（#0D0D0D）背景，搭配螢光綠（#00FFA3）的漲幅標註與純白文字。這種高對比度配色不僅營造出強烈的科技感與財富感，更能確保使用者在手機端瞬間辨識資產變動。","bubble"
+"807691723796485","T61e3c9c9f77a87a08050eb474e0024fe","ダッシュボード","🚀Web3 デジタル資産ダッシュボード","システム標準テンプレート","🚀","{
+    ""type"": ""bubble"",
+    ""size"": ""standard"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#0D0D0D"",
+        ""paddingAll"": ""24px"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""WALLET BALANCE"",
+                        ""color"": ""#8C8C8C"",
+                        ""size"": ""xxs"",
+                        ""weight"": ""bold"",
+                        ""letterSpacing"": ""2px"",
+                        ""flex"": 1
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""Mainnet / ERC-20"",
+                        ""color"": ""#00FFA3"",
+                        ""size"": ""xxs"",
+                        ""align"": ""end"",
+                        ""flex"": 1
+                    }
+                ]
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""$ 42,850.12"",
+                ""weight"": ""bold"",
+                ""size"": ""xxl"",
+                ""color"": ""#FFFFFF"",
+                ""margin"": ""sm""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""margin"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""▲ +12.50%"",
+                        ""color"": ""#00FFA3"",
+                        ""size"": ""xs"",
+                        ""weight"": ""bold"",
+                        ""flex"": 0
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""過去24時間"",
+                        ""color"": ""#595959"",
+                        ""size"": ""xs"",
+                        ""margin"": ""md""
+                    }
+                ]
+            },
+            {
+                ""type"": ""separator"",
+                ""margin"": ""xxl"",
+                ""color"": ""#262626""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""xxl"",
+                ""spacing"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""🪙 ビットコイン (BTC)"",
+                                ""color"": ""#FFFFFF"",
+                                ""size"": ""sm"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""0.45 BTC"",
+                                ""color"": ""#FFFFFF"",
+                                ""size"": ""sm"",
+                                ""align"": ""end"",
+                                ""weight"": ""bold"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""+2.4%"",
+                                ""color"": ""#00FFA3"",
+                                ""size"": ""xs"",
+                                ""align"": ""end"",
+                                ""flex"": 2
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""🔷 イーサリアム (ETH)"",
+                                ""color"": ""#FFFFFF"",
+                                ""size"": ""sm"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""8.21 ETH"",
+                                ""color"": ""#FFFFFF"",
+                                ""size"": ""sm"",
+                                ""align"": ""end"",
+                                ""weight"": ""bold"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""-1.2%"",
+                                ""color"": ""#FF4D4F"",
+                                ""size"": ""xs"",
+                                ""align"": ""end"",
+                                ""flex"": 2
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""horizontal"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""☀️ ソラナ (SOL)"",
+                                ""color"": ""#FFFFFF"",
+                                ""size"": ""sm"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""142 SOL"",
+                                ""color"": ""#FFFFFF"",
+                                ""size"": ""sm"",
+                                ""align"": ""end"",
+                                ""weight"": ""bold"",
+                                ""flex"": 4
+                            },
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""+15.8%"",
+                                ""color"": ""#00FFA3"",
+                                ""size"": ""xs"",
+                                ""align"": ""end"",
+                                ""flex"": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""xxl"",
+                ""backgroundColor"": ""#1A1A1A"",
+                ""paddingAll"": ""12px"",
+                ""cornerRadius"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""⚡ アクティビティ：0x71C... から 2,500 USDC を受信しました（確認済み）"",
+                        ""size"": ""xs"",
+                        ""color"": ""#8C8C8C"",
+                        ""wrap"": true
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#0D0D0D"",
+        ""paddingAll"": ""24px"",
+        ""paddingTop"": ""0px"",
+        ""spacing"": ""none"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""spacing"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""button"",
+                        ""action"": {
+                            ""type"": ""uri"",
+                            ""label"": ""取引履歴"",
+                            ""uri"": ""https://liming.me""
+                        },
+                        ""style"": ""secondary"",
+                        ""color"": ""#C1392B"",
+                        ""height"": ""sm"",
+                        ""flex"": 1
+                    },
+                    {
+                        ""type"": ""button"",
+                        ""action"": {
+                            ""type"": ""uri"",
+                            ""label"": ""資産を送金"",
+                            ""uri"": ""https://liming.me""
+                        },
+                        ""style"": ""primary"",
+                        ""color"": ""#06C755"",
+                        ""height"": ""sm"",
+                        ""flex"": 1
+                    }
+                ]
+            }
+        ]
+    }
+}","1","117","0","0","1779326861","ja","807686385229829","0","サイバーパンク風のフィンテックUI：ベースの漆黒（#0D0D0D）に、鮮やかなネオングリーン（#00FFA3）のプラス成長表示とホワイト文字。この圧倒的な高コントラスト設計が、洗練されたテック感と資産の躍動感を演出し、スマホ画面での一瞬の視認性を極限まで高めています。","bubble"
+"808382088372229","T9ca83a01e419f3e8f499f542c76ea32e","評價","⭐ 客服評價邀請","系统内置模板","⭐","{
+  ""type"": ""bubble"",
+  ""size"": ""standard"",
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""24px"",
+    ""contents"": [
+      {
+        ""type"": ""text"",
+        ""text"": ""✨ 服務評價邀請"",
+        ""color"": ""#06C755"",
+        ""weight"": ""bold"",
+        ""size"": ""xs"",
+        ""letterSpacing"": ""1px""
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""感謝您今天的諮詢！"",
+        ""weight"": ""bold"",
+        ""size"": ""lg"",
+        ""color"": ""#111111"",
+        ""margin"": ""md""
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""本次對話已結束。為了提供更優質的服務，誠摯邀請您花費 5 秒鐘，為本次客服人員的服務進行評價："",
+        ""color"": ""#666666"",
+        ""size"": ""xs"",
+        ""margin"": ""md"",
+        ""wrap"": true
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""xxl"",
+        ""backgroundColor"": ""#F9F9F9"",
+        ""paddingAll"": ""16px"",
+        ""cornerRadius"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""⭐⭐⭐⭐⭐"",
+            ""size"": ""xl"",
+            ""align"": ""center""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""非常滿意，極力推薦！"",
+            ""size"": ""xs"",
+            ""color"": ""#888888"",
+            ""align"": ""center"",
+            ""margin"": ""xs""
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""24px"",
+    ""paddingTop"": ""0px"",
+    ""spacing"": ""sm"",
+    ""contents"": [
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""postback"",
+          ""label"": ""🌟 給予 5 星好評"",
+          ""data"": ""action=rate_service&stars=5""
+        },
+        ""style"": ""primary"",
+        ""color"": ""#06C755"",
+        ""height"": ""sm""
+      },
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""postback"",
+          ""label"": ""其他評價反饋"",
+          ""data"": ""action=rate_service&stars=other""
+        },
+        ""style"": ""text"",
+        ""color"": ""#888888"",
+        ""height"": ""sm""
+      }
+    ]
+  }
+}","1","118","0","1779495310","1779495613","zh-TW","808383330975749","0","簡約而不失禮貌的設計，內建 1-5 星點擊區塊。能有效提升售後回饋率，幫助品牌收集最真實的用戶心聲。","bubble"
+"808383330975749","Tc7ec5733ef5805aa232608bed098eadb","調査","⭐満足度調査のお願い","システム標準テンプレート","⭐","{
+  ""type"": ""bubble"",
+  ""size"": ""standard"",
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""24px"",
+    ""contents"": [
+      {
+        ""type"": ""text"",
+        ""text"": ""✨ 満足度調査のお願い"",
+        ""color"": ""#06C755"",
+        ""weight"": ""bold"",
+        ""size"": ""xs"",
+        ""letterSpacing"": ""1px""
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""本日はお問い合わせありがとうございました！"",
+        ""weight"": ""bold"",
+        ""size"": ""sm"",
+        ""color"": ""#111111"",
+        ""margin"": ""md"",
+        ""wrap"": true
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""カスタマーサポートは終了いたしました。今後のサービス向上のため、今回の対応について5秒ほどの簡単な評価にご協力いただけますと幸いです。"",
+        ""color"": ""#666666"",
+        ""size"": ""xs"",
+        ""margin"": ""md"",
+        ""wrap"": true
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""xxl"",
+        ""backgroundColor"": ""#F9F9F9"",
+        ""paddingAll"": ""16px"",
+        ""cornerRadius"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""⭐⭐⭐⭐⭐"",
+            ""size"": ""xl"",
+            ""align"": ""center""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""大変満足、とてもおすすめ！"",
+            ""size"": ""xs"",
+            ""color"": ""#888888"",
+            ""align"": ""center"",
+            ""margin"": ""xs""
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""24px"",
+    ""paddingTop"": ""0px"",
+    ""spacing"": ""sm"",
+    ""contents"": [
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""postback"",
+          ""label"": ""🌟 星5つで評価する"",
+          ""data"": ""action=rate_service&stars=5""
+        },
+        ""style"": ""primary"",
+        ""color"": ""#06C755"",
+        ""height"": ""sm""
+      },
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""postback"",
+          ""label"": ""その他のフィードバック"",
+          ""data"": ""action=rate_service&stars=other""
+        },
+        ""style"": ""text"",
+        ""color"": ""#888888"",
+        ""height"": ""sm""
+      }
+    ]
+  }
+}","1","119","0","1779495613","1779495613","ja","808382088372229","0","シンプルかつ丁寧なデザインに、1〜5星のタップ領域を標準搭載。アフターサービスの回答率を効果的に高め、ブランドがユーザーのリアルな「生の声」を集めるのに役立ちます。","carousel"
+"808383803138053","T75a3a9da1a15f7125d1fa04b30d1f4a8","賀卡","🎂 專屬生日賀卡","系統內置模板","🎂","{
+    ""type"": ""bubble"",
+    ""size"": ""standard"",
+    ""header"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#FFF5F5"",
+        ""paddingAll"": ""20px"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""🎉 HAPPY BIRTHDAY"",
+                ""color"": ""#FF6B6B"",
+                ""weight"": ""bold"",
+                ""size"": ""xs"",
+                ""letterSpacing"": ""2px""
+            }
+        ]
+    },
+    ""hero"": {
+        ""type"": ""image"",
+        ""url"": ""https://raw.githubusercontent.com/arieslee/line-flex-message-templates/refs/heads/main/cafe.png"",
+        ""size"": ""full"",
+        ""aspectRatio"": ""20:13"",
+        ""aspectMode"": ""cover""
+    },
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#FFFFFF"",
+        ""paddingAll"": ""20px"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""親愛的貴賓，生日快樂！"",
+                ""weight"": ""bold"",
+                ""size"": ""md"",
+                ""color"": ""#111111""
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""在這個特別的日子裡，感謝您一直以來的支持。我們為您準備了一份專屬的生日驚喜，願您的每一天都充滿陽光與笑容。✨"",
+                ""color"": ""#666666"",
+                ""size"": ""xs"",
+                ""margin"": ""md"",
+                ""wrap"": true,
+                ""lineHeight"": ""1.6""
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""lg"",
+                ""backgroundColor"": ""#FFF9EB"",
+                ""paddingAll"": ""15px"",
+                ""cornerRadius"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""🎁 生日專屬禮遇：全館 85 折優惠券"",
+                        ""size"": ""xs"",
+                        ""color"": ""#D48806"",
+                        ""weight"": ""bold""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""使用期限：即日起至當月底"",
+                        ""size"": ""xxs"",
+                        ""color"": ""#D48806"",
+                        ""margin"": ""xs""
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#FFFFFF"",
+        ""paddingAll"": ""20px"",
+        ""paddingTop"": ""0px"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""立即領取生日驚喜"",
+                    ""uri"": ""https://liming.me""
+                },
+                ""style"": ""primary"",
+                ""color"": ""#FF6B6B"",
+                ""height"": ""sm""
+            }
+        ]
+    }
+}","1","120","0","0","1779498967","zh-TW","808397067059205","0","結合個人化名稱與精美生日素材。不僅是祝福，還能植入「專屬生日折價券」，將祝福轉化為實際的消費回扣。","bubble"
+"808397067059205","Tca0132a746e92c504242ae390c840132","グリーティングカード","🎂 バースデーカード","システム標準テンプレート","🎂","{
+  ""type"": ""bubble"",
+  ""size"": ""standard"",
+  ""header"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFF5F5"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""text"",
+        ""text"": ""🎉 HAPPY BIRTHDAY"",
+        ""color"": ""#FF6B6B"",
+        ""weight"": ""bold"",
+        ""size"": ""xs"",
+        ""letterSpacing"": ""2px""
+      }
+    ]
+  },
+  ""hero"": {
+    ""type"": ""image"",
+    ""url"": ""https://raw.githubusercontent.com/arieslee/line-flex-message-templates/refs/heads/main/cafe.png"",
+    ""size"": ""full"",
+    ""aspectRatio"": ""20:13"",
+    ""aspectMode"": ""cover""
+  },
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""text"",
+        ""text"": ""大切なあなたへ、お誕生日おめでとうございます！"",
+        ""weight"": ""bold"",
+        ""size"": ""sm"",
+        ""color"": ""#111111"",
+        ""wrap"": true
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""特別なこの日に、日頃の感謝の気持ちを込めて。ささやかではございますが、限定のバースデー特典をご用意いたしました。笑顔あふれる素敵な1年になりますように。✨"",
+        ""color"": ""#666666"",
+        ""size"": ""xs"",
+        ""margin"": ""md"",
+        ""wrap"": true,
+        ""lineHeight"": ""1.6""
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""lg"",
+        ""backgroundColor"": ""#FFF9EB"",
+        ""paddingAll"": ""15px"",
+        ""cornerRadius"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""🎁 誕生日限定特典：全品 15% OFF クーポン"",
+            ""size"": ""xs"",
+            ""color"": ""#D48806"",
+            ""weight"": ""bold""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""有効期限：今月末日まで"",
+            ""size"": ""xxs"",
+            ""color"": ""#D48806"",
+            ""margin"": ""xs""
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""20px"",
+    ""paddingTop"": ""0px"",
+    ""contents"": [
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""uri"",
+          ""label"": ""バースデー特典を受け取る"",
+          ""uri"": ""https://liming.me""
+        },
+        ""style"": ""primary"",
+        ""color"": ""#FF6B6B"",
+        ""height"": ""sm""
+      }
+    ]
+  }
+}","1","121","0","1779498967","1779498967","ja","808383803138053","0","パーソナライズされた名前と洗練されたバースデー素材を融合。単なるお祝いにとどまらず、「専用の誕生日クーポン」を組み込むことで、祝福の気持ちを実際の購買（リピート消費）へと効果的に転換します。","bubble"
