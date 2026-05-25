@@ -29,7 +29,6 @@
 - **Hospitality**: Digital menus, reservation confirmations, location maps.
 - **System**: OTP verification, maintenance notices, error reports.
 
-
 ## 📂 Full Template List
 
 #### ZH-TW
@@ -67,6 +66,11 @@
 - **31**: [🛍️ 社群團購](https://liming.me/zh-TW/tpl/T9746df44374c22045866f2499e3c685d)
 - **32**: [📅預約確認通知](https://liming.me/zh-TW/tpl/T82aa38a4f5797792fa78bbf41aec29ac)
 - **33**: [☁️ Cloud / DevOps 系統即時監控告警](https://liming.me/zh-TW/tpl/Tafd0efef241ed9a7d6021df6f4fe6305)
+- **34**: [🚀Web3 數位資產儀表板](https://liming.me/zh-TW/tpl/T6983598dbc0eccc03e967bcea45a1fbb)
+- **35**: [⭐ 客服評價邀請](https://liming.me/zh-TW/tpl/T9ca83a01e419f3e8f499f542c76ea32e)
+- **36**: [🎂 專屬生日賀卡](https://liming.me/zh-TW/tpl/T75a3a9da1a15f7125d1fa04b30d1f4a8)
+- **37**: [🔮 每日運勢速報](https://liming.me/zh-TW/tpl/Tc0dd9a559f7845b1862b9d6662ddc14c)
+- **38**: [✍️ 每日知識金句](https://liming.me/zh-TW/tpl/T303f38ed5d95c0ab5846ce777c5cf76e)
 
 #### JA
 
@@ -103,6 +107,11 @@
 - **31**: [🛍️電商團購](https://liming.me/ja/tpl/Tf0171f812326e8d06ec941f447cda870)
 - **32**: [📅ご予約確認通知](https://liming.me/ja/tpl/T720881f0c00f324165ebcd8676ae01d8)
 - **33**: [☁️ 【障害検知】システムリアルタイム監視アラート](https://liming.me/ja/tpl/T43d3a120c72cfcf6a6ba3c8f89fba4b3)
+- **34**: [🚀Web3 デジタル資産ダッシュボード](https://liming.me/ja/tpl/T61e3c9c9f77a87a08050eb474e0024fe)
+- **35**: [⭐満足度調査のお願い](https://liming.me/ja/tpl/Tc7ec5733ef5805aa232608bed098eadb)
+- **36**: [🎂 バースデーカード](https://liming.me/ja/tpl/Tca0132a746e92c504242ae390c840132)
+- **37**: [🔮 毎日の運勢速報情報](https://liming.me/ja/tpl/T6988533ac853fbb3f68a203d13a6401b)
+- **38**: [✍️ 毎日のみ言葉・ライフハック](https://liming.me/ja/tpl/T0ff4b2ff139aa49ac6adb8a25f0339cb)
 
 
 ## ⚙️ Developer Integration

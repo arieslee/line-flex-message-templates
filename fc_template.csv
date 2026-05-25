@@ -4063,506 +4063,502 @@
     ]
 }","1","105","0","0","1778402199","ja","803891260280837","0","テンプレートには 1:1 の正方形 Hero 画像比率 を統一して採用しています。この構図は、料理のディテールと色彩を最大限に強調し、ユーザーの食欲（Appetite Appeal）をそそるだけでなく、カルーセル表示でスワイプした際にも高い視覚的安定性を維持し、画像高さの違いによるガタつきを防ぎます。また、aspectMode: cover 技術を組み合わせることで、元の画像サイズに関わらず、すべての料理写真を最も魅力的なセンター構図で表示することが可能です。","carousel"
 "803970618605573","T3ea4c4ba4dc027c7d6aab254b0913937","提醒","🏠 智慧家居狀態","系統內置模板","🏠","{
-    ""type"": ""carousel"",
-    ""contents"": [
-        {
-            ""type"": ""bubble"",
-            ""size"": ""standard"",
-            ""body"": {
-                ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""paddingAll"": ""0px"",
-                ""contents"": [
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""vertical"",
-                        ""background"": {
-                            ""type"": ""linearGradient"",
-                            ""angle"": ""135deg"",
-                            ""startColor"": ""#2C3E50"",
-                            ""endColor"": ""#4CA1AF""
-                        },
-                        ""paddingAll"": ""25px"",
-                        ""paddingTop"": ""30px"",
-                        ""contents"": [
-                            {
-                                ""type"": ""box"",
-                                ""layout"": ""horizontal"",
-                                ""contents"": [
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""LIVING ROOM"",
-                                        ""color"": ""#FFFFFF66"",
-                                        ""size"": ""xxs"",
-                                        ""weight"": ""bold"",
-                                        ""letterSpacing"": ""2px"",
-                                        ""flex"": 1
-                                    },
-                                    {
-                                        ""type"": ""box"",
-                                        ""layout"": ""vertical"",
-                                        ""width"": ""10px"",
-                                        ""height"": ""10px"",
-                                        ""backgroundColor"": ""#00FFC2"",
-                                        ""cornerRadius"": ""xl"",
-                                        ""flex"": 0
-                                    }
-                                ]
-                            },
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""24.5°C"",
-                                ""color"": ""#FFFFFF"",
-                                ""size"": ""xxl"",
-                                ""weight"": ""bold"",
-                                ""margin"": ""md""
-                            },
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""空調運行中 · 濕度 45%"",
-                                ""color"": ""#FFFFFFCC"",
-                                ""size"": ""xs""
-                            }
-                        ]
-                    },
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""vertical"",
-                        ""paddingAll"": ""20px"",
-                        ""spacing"": ""md"",
-                        ""contents"": [
-                            {
-                                ""type"": ""box"",
-                                ""layout"": ""horizontal"",
-                                ""contents"": [
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""💡 客廳區域照明"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#333333"",
-                                        ""flex"": 1
-                                    },
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""ON"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#4CA1AF"",
-                                        ""align"": ""end"",
-                                        ""weight"": ""bold""
-                                    }
-                                ]
-                            },
-                            {
-                                ""type"": ""box"",
-                                ""layout"": ""horizontal"",
-                                ""contents"": [
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""🍃 空氣清淨機"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#333333"",
-                                        ""flex"": 1
-                                    },
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""AUTO"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#4CA1AF"",
-                                        ""align"": ""end"",
-                                        ""weight"": ""bold""
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+  ""type"": ""carousel"",
+  ""contents"": [
+    {
+      ""type"": ""bubble"",
+      ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""0px"",
+        ""contents"": [
+          {
+            ""type"": ""box"",
+            ""layout"": ""vertical"",
+            ""background"": {
+              ""type"": ""linearGradient"",
+              ""angle"": ""135deg"",
+              ""startColor"": ""#2C3E50"",
+              ""endColor"": ""#4CA1AF""
             },
-            ""footer"": {
+            ""paddingAll"": ""25px"",
+            ""paddingTop"": ""30px"",
+            ""contents"": [
+              {
                 ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""paddingAll"": ""15px"",
+                ""layout"": ""horizontal"",
                 ""contents"": [
-                    {
-                        ""type"": ""button"",
-                        ""action"": {
-                            ""type"": ""uri"",
-                            ""label"": ""環境詳細設定"",
-                            ""uri"": ""https://liming.me""
-                        },
-                        ""style"": ""secondary"",
-                        ""height"": ""sm"",
-                        ""color"": ""#4CA1AF""
-                    }
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""LIVING ROOM"",
+                    ""color"": ""#FFFFFF66"",
+                    ""size"": ""xxs"",
+                    ""weight"": ""bold"",
+                    ""letterSpacing"": ""2px"",
+                    ""flex"": 1
+                  },
+                  {
+                    ""type"": ""box"",
+                    ""layout"": ""vertical"",
+                    ""width"": ""10px"",
+                    ""height"": ""10px"",
+                    ""backgroundColor"": ""#00FFC2"",
+                    ""cornerRadius"": ""xl"",
+                    ""flex"": 0
+                  }
                 ]
-            }
-        },
-        {
-            ""type"": ""bubble"",
-            ""size"": ""standard"",
-            ""body"": {
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""24.5°C"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""xxl"",
+                ""weight"": ""bold"",
+                ""margin"": ""md""
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""空調運行中 · 濕度 45%"",
+                ""color"": ""#FFFFFFCC"",
+                ""size"": ""xs""
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""vertical"",
+            ""paddingAll"": ""20px"",
+            ""spacing"": ""md"",
+            ""contents"": [
+              {
                 ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""paddingAll"": ""0px"",
+                ""layout"": ""horizontal"",
                 ""contents"": [
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""vertical"",
-                        ""background"": {
-                            ""type"": ""linearGradient"",
-                            ""angle"": ""135deg"",
-                            ""startColor"": ""#8E2E2E"",
-                            ""endColor"": ""#D93025""
-                        },
-                        ""paddingAll"": ""25px"",
-                        ""paddingTop"": ""30px"",
-                        ""contents"": [
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""SECURITY SYSTEM"",
-                                ""color"": ""#FFFFFF66"",
-                                ""size"": ""xxs"",
-                                ""weight"": ""bold"",
-                                ""letterSpacing"": ""2px""
-                            },
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""PROTECTED"",
-                                ""color"": ""#FFFFFF"",
-                                ""size"": ""xl"",
-                                ""weight"": ""bold"",
-                                ""margin"": ""md""
-                            },
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""所有入口已上鎖 · 系統正常"",
-                                ""color"": ""#FFFFFFCC"",
-                                ""size"": ""xs""
-                            }
-                        ]
-                    },
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""vertical"",
-                        ""paddingAll"": ""20px"",
-                        ""spacing"": ""md"",
-                        ""contents"": [
-                            {
-                                ""type"": ""box"",
-                                ""layout"": ""horizontal"",
-                                ""contents"": [
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""🔐 前門電子鎖"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#333333"",
-                                        ""flex"": 1
-                                    },
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""LOCKED"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#D93025"",
-                                        ""align"": ""end"",
-                                        ""weight"": ""bold""
-                                    }
-                                ]
-                            },
-                            {
-                                ""type"": ""box"",
-                                ""layout"": ""horizontal"",
-                                ""contents"": [
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""📹 監控攝影機"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#333333"",
-                                        ""flex"": 1
-                                    },
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""LIVE"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#D93025"",
-                                        ""align"": ""end"",
-                                        ""weight"": ""bold""
-                                    }
-                                ]
-                            }
-                        ]
-                    }
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""💡 客廳區域照明"",
+                    ""size"": ""sm"",
+                    ""color"": ""#333333"",
+                    ""flex"": 1
+                  },
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""ON"",
+                    ""size"": ""sm"",
+                    ""color"": ""#4CA1AF"",
+                    ""align"": ""end"",
+                    ""weight"": ""bold""
+                  }
                 ]
+              },
+              {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""contents"": [
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""🍃 空氣清淨機"",
+                    ""size"": ""sm"",
+                    ""color"": ""#333333"",
+                    ""flex"": 1
+                  },
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""AUTO"",
+                    ""size"": ""sm"",
+                    ""color"": ""#4CA1AF"",
+                    ""align"": ""end"",
+                    ""weight"": ""bold""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""15px"",
+        ""contents"": [
+          {
+            ""type"": ""button"",
+            ""action"": {
+              ""type"": ""uri"",
+              ""label"": ""環境詳細設定"",
+              ""uri"": ""https://liming.me""
             },
-            ""footer"": {
+            ""style"": ""secondary"",
+            ""height"": ""sm"",
+            ""color"": ""#4CA1AF""
+          }
+        ]
+      }
+    },
+    {
+      ""type"": ""bubble"",
+      ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""0px"",
+        ""contents"": [
+          {
+            ""type"": ""box"",
+            ""layout"": ""vertical"",
+            ""background"": {
+              ""type"": ""linearGradient"",
+              ""angle"": ""135deg"",
+              ""startColor"": ""#8E2E2E"",
+              ""endColor"": ""#D93025""
+            },
+            ""paddingAll"": ""25px"",
+            ""paddingTop"": ""30px"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""SECURITY SYSTEM"",
+                ""color"": ""#FFFFFF66"",
+                ""size"": ""xxs"",
+                ""weight"": ""bold"",
+                ""letterSpacing"": ""2px""
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""PROTECTED"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""xl"",
+                ""weight"": ""bold"",
+                ""margin"": ""md""
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""所有入口已上鎖 · 系統正常"",
+                ""color"": ""#FFFFFFCC"",
+                ""size"": ""xs""
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""vertical"",
+            ""paddingAll"": ""20px"",
+            ""spacing"": ""md"",
+            ""contents"": [
+              {
                 ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""paddingAll"": ""15px"",
+                ""layout"": ""horizontal"",
                 ""contents"": [
-                    {
-                        ""type"": ""button"",
-                        ""action"": {
-                            ""type"": ""uri"",
-                            ""label"": ""查看即時動態"",
-                            ""uri"": ""https://liming.me""
-                        },
-                        ""style"": ""secondary"",
-                        ""height"": ""sm"",
-                        ""color"": ""#D93025""
-                    }
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""🔐 前門電子鎖"",
+                    ""size"": ""sm"",
+                    ""color"": ""#333333"",
+                    ""flex"": 1
+                  },
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""LOCKED"",
+                    ""size"": ""sm"",
+                    ""color"": ""#D93025"",
+                    ""align"": ""end"",
+                    ""weight"": ""bold""
+                  }
                 ]
-            }
-        }
-    ]
+              },
+              {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""contents"": [
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""📹 監控攝影機"",
+                    ""size"": ""sm"",
+                    ""color"": ""#333333"",
+                    ""flex"": 1
+                  },
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""LIVE"",
+                    ""size"": ""sm"",
+                    ""color"": ""#D93025"",
+                    ""align"": ""end"",
+                    ""weight"": ""bold""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""15px"",
+        ""contents"": [
+          {
+            ""type"": ""button"",
+            ""action"": {
+              ""type"": ""uri"",
+              ""label"": ""查看即時動態"",
+              ""uri"": ""https://liming.me""
+            },
+            ""style"": ""secondary"",
+            ""height"": ""sm"",
+            ""color"": ""#D93025""
+          }
+        ]
+      }
+    }
+  ]
 }","1","106","0","0","1778464999","zh-TW","804161935249413","0","將 IoT 數據視覺化，一目瞭然家中的空氣品質、耗電量與家電開關狀態。採用簡潔的儀表板佈局，操作感十足。","carousel"
 "804161935249413","T4786e472a24f31d35baed4cbbb2a757a","メニュー","🏠 スマートホームステータス","システム標準テンプレート","🏠","{
-    ""type"": ""carousel"",
-    ""contents"": [
-        {
-            ""type"": ""bubble"",
-            ""size"": ""standard"",
-            ""body"": {
-                ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""paddingAll"": ""0px"",
-                ""contents"": [
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""vertical"",
-                        ""background"": {
-                            ""type"": ""linearGradient"",
-                            ""angle"": ""135deg"",
-                            ""startColor"": ""#2C3E50"",
-                            ""endColor"": ""#4CA1AF""
-                        },
-                        ""paddingAll"": ""25px"",
-                        ""paddingTop"": ""30px"",
-                        ""contents"": [
-                            {
-                                ""type"": ""box"",
-                                ""layout"": ""horizontal"",
-                                ""contents"": [
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""LIVING ROOM"",
-                                        ""color"": ""#FFFFFF66"",
-                                        ""size"": ""xxs"",
-                                        ""weight"": ""bold"",
-                                        ""letterSpacing"": ""2px"",
-                                        ""flex"": 1
-                                    },
-                                    {
-                                        ""type"": ""box"",
-                                        ""layout"": ""vertical"",
-                                        ""width"": ""10px"",
-                                        ""height"": ""10px"",
-                                        ""backgroundColor"": ""#00FFC2"",
-                                        ""cornerRadius"": ""xl"",
-                                        ""flex"": 0
-                                    }
-                                ]
-                            },
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""24.5°C"",
-                                ""color"": ""#FFFFFF"",
-                                ""size"": ""xxl"",
-                                ""weight"": ""bold"",
-                                ""margin"": ""md""
-                            },
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""エアコン作動中 · 湿度 45%"",
-                                ""color"": ""#FFFFFFCC"",
-                                ""size"": ""xs""
-                            }
-                        ]
-                    },
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""vertical"",
-                        ""paddingAll"": ""20px"",
-                        ""spacing"": ""md"",
-                        ""contents"": [
-                            {
-                                ""type"": ""box"",
-                                ""layout"": ""horizontal"",
-                                ""contents"": [
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""💡 リビング照明"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#333333"",
-                                        ""flex"": 1
-                                    },
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""ON"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#4CA1AF"",
-                                        ""align"": ""end"",
-                                        ""weight"": ""bold""
-                                    }
-                                ]
-                            },
-                            {
-                                ""type"": ""box"",
-                                ""layout"": ""horizontal"",
-                                ""contents"": [
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""🍃 空気清浄機"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#333333"",
-                                        ""flex"": 1
-                                    },
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""AUTO"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#4CA1AF"",
-                                        ""align"": ""end"",
-                                        ""weight"": ""bold""
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+  ""type"": ""carousel"",
+  ""contents"": [
+    {
+      ""type"": ""bubble"",
+      ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""0px"",
+        ""contents"": [
+          {
+            ""type"": ""box"",
+            ""layout"": ""vertical"",
+            ""background"": {
+              ""type"": ""linearGradient"",
+              ""angle"": ""135deg"",
+              ""startColor"": ""#2C3E50"",
+              ""endColor"": ""#4CA1AF""
             },
-            ""footer"": {
+            ""paddingAll"": ""25px"",
+            ""paddingTop"": ""30px"",
+            ""contents"": [
+              {
                 ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""paddingAll"": ""15px"",
+                ""layout"": ""horizontal"",
                 ""contents"": [
-                    {
-                        ""type"": ""button"",
-                        ""action"": {
-                            ""type"": ""uri"",
-                            ""label"": ""環境詳細設定"",
-                            ""uri"": ""https://liming.me""
-                        },
-                        ""style"": ""secondary"",
-                        ""height"": ""sm"",
-                        ""color"": ""#4CA1AF""
-                    }
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""LIVING ROOM"",
+                    ""color"": ""#FFFFFF66"",
+                    ""size"": ""xxs"",
+                    ""weight"": ""bold"",
+                    ""letterSpacing"": ""2px"",
+                    ""flex"": 1
+                  },
+                  {
+                    ""type"": ""box"",
+                    ""layout"": ""vertical"",
+                    ""width"": ""10px"",
+                    ""height"": ""10px"",
+                    ""backgroundColor"": ""#00FFC2"",
+                    ""cornerRadius"": ""xl"",
+                    ""flex"": 0
+                  }
                 ]
-            }
-        },
-        {
-            ""type"": ""bubble"",
-            ""size"": ""standard"",
-            ""body"": {
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""24.5°C"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""xxl"",
+                ""weight"": ""bold"",
+                ""margin"": ""md""
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""エアコン作動中 · 湿度 45%"",
+                ""color"": ""#FFFFFFCC"",
+                ""size"": ""xs""
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""vertical"",
+            ""paddingAll"": ""20px"",
+            ""spacing"": ""md"",
+            ""contents"": [
+              {
                 ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""paddingAll"": ""0px"",
+                ""layout"": ""horizontal"",
                 ""contents"": [
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""vertical"",
-                        ""background"": {
-                            ""type"": ""linearGradient"",
-                            ""angle"": ""135deg"",
-                            ""startColor"": ""#8E2E2E"",
-                            ""endColor"": ""#D93025""
-                        },
-                        ""paddingAll"": ""25px"",
-                        ""paddingTop"": ""30px"",
-                        ""contents"": [
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""SECURITY SYSTEM"",
-                                ""color"": ""#FFFFFF66"",
-                                ""size"": ""xxs"",
-                                ""weight"": ""bold"",
-                                ""letterSpacing"": ""2px""
-                            },
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""PROTECTED"",
-                                ""color"": ""#FFFFFF"",
-                                ""size"": ""xl"",
-                                ""weight"": ""bold"",
-                                ""margin"": ""md""
-                            },
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""全エントランス施錠中 · システム正常"",
-                                ""color"": ""#FFFFFFCC"",
-                                ""size"": ""xs""
-                            }
-                        ]
-                    },
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""vertical"",
-                        ""paddingAll"": ""20px"",
-                        ""spacing"": ""md"",
-                        ""contents"": [
-                            {
-                                ""type"": ""box"",
-                                ""layout"": ""horizontal"",
-                                ""contents"": [
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""🔐 玄関スマートロック"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#333333"",
-                                        ""flex"": 1
-                                    },
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""LOCKED"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#D93025"",
-                                        ""align"": ""end"",
-                                        ""weight"": ""bold""
-                                    }
-                                ]
-                            },
-                            {
-                                ""type"": ""box"",
-                                ""layout"": ""horizontal"",
-                                ""contents"": [
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""📹 監視カメラ"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#333333"",
-                                        ""flex"": 1
-                                    },
-                                    {
-                                        ""type"": ""text"",
-                                        ""text"": ""LIVE"",
-                                        ""size"": ""sm"",
-                                        ""color"": ""#D93025"",
-                                        ""align"": ""end"",
-                                        ""weight"": ""bold""
-                                    }
-                                ]
-                            }
-                        ]
-                    }
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""💡 リビング照明"",
+                    ""size"": ""sm"",
+                    ""color"": ""#333333"",
+                    ""flex"": 1
+                  },
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""ON"",
+                    ""size"": ""sm"",
+                    ""color"": ""#4CA1AF"",
+                    ""align"": ""end"",
+                    ""weight"": ""bold""
+                  }
                 ]
+              },
+              {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""contents"": [
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""🍃 空気清浄機"",
+                    ""size"": ""sm"",
+                    ""color"": ""#333333"",
+                    ""flex"": 1
+                  },
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""AUTO"",
+                    ""size"": ""sm"",
+                    ""color"": ""#4CA1AF"",
+                    ""align"": ""end"",
+                    ""weight"": ""bold""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""15px"",
+        ""contents"": [
+          {
+            ""type"": ""button"",
+            ""action"": {
+              ""type"": ""uri"",
+              ""label"": ""環境詳細設定"",
+              ""uri"": ""https://liming.me""
             },
-            ""footer"": {
+            ""style"": ""secondary"",
+            ""height"": ""sm"",
+            ""color"": ""#4CA1AF""
+          }
+        ]
+      }
+    },
+    {
+      ""type"": ""bubble"",
+      ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""0px"",
+        ""contents"": [
+          {
+            ""type"": ""box"",
+            ""layout"": ""vertical"",
+            ""background"": {
+              ""type"": ""linearGradient"",
+              ""angle"": ""135deg"",
+              ""startColor"": ""#8E2E2E"",
+              ""endColor"": ""#D93025""
+            },
+            ""paddingAll"": ""25px"",
+            ""paddingTop"": ""30px"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""SECURITY SYSTEM"",
+                ""color"": ""#FFFFFF66"",
+                ""size"": ""xxs"",
+                ""weight"": ""bold"",
+                ""letterSpacing"": ""2px""
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""PROTECTED"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""xl"",
+                ""weight"": ""bold"",
+                ""margin"": ""md""
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""全エントランス施錠中 · システム正常"",
+                ""color"": ""#FFFFFFCC"",
+                ""size"": ""xs""
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""vertical"",
+            ""paddingAll"": ""20px"",
+            ""spacing"": ""md"",
+            ""contents"": [
+              {
                 ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""paddingAll"": ""15px"",
+                ""layout"": ""horizontal"",
                 ""contents"": [
-                    {
-                        ""type"": ""button"",
-                        ""action"": {
-                            ""type"": ""uri"",
-                            ""label"": ""ライブ状況を確認"",
-                            ""uri"": ""https://liming.me""
-                        },
-                        ""style"": ""secondary"",
-                        ""height"": ""sm"",
-                        ""color"": ""#D93025""
-                    }
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""🔐 玄関スマートロック"",
+                    ""size"": ""sm"",
+                    ""color"": ""#333333"",
+                    ""flex"": 1
+                  },
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""LOCKED"",
+                    ""size"": ""sm"",
+                    ""color"": ""#D93025"",
+                    ""align"": ""end"",
+                    ""weight"": ""bold""
+                  }
                 ]
-            }
-        }
-    ]
+              },
+              {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""contents"": [
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""📹 監視カメラ"",
+                    ""size"": ""sm"",
+                    ""color"": ""#333333"",
+                    ""flex"": 1
+                  },
+                  {
+                    ""type"": ""text"",
+                    ""text"": ""LIVE"",
+                    ""size"": ""sm"",
+                    ""color"": ""#D93025"",
+                    ""align"": ""end"",
+                    ""weight"": ""bold""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""paddingAll"": ""15px"",
+        ""contents"": [
+          {
+            ""type"": ""button"",
+            ""action"": {
+              ""type"": ""uri"",
+              ""label"": ""ライブ状況を確認"",
+              ""uri"": ""https://liming.me""
+            },
+            ""style"": ""secondary"",
+            ""height"": ""sm"",
+            ""color"": ""#D93025""
+          }
+        ]
+      }
+    }
+  ]
 }","1","107","0","1778464999","1778464999","ja","803970618605573","0","IoTデータを可視化し、室内の空気質や消費電力、家電の稼働状況を一目で把握。洗練されたダッシュボードレイアウトにより、直感的な操作感を実現しました。","carousel"
 "804162968555525","Tfc0e5b5a7530e943cd777f1c405edaf4","メニュー","♻️ ゴミ収集日の通知","システム標準テンプレート","♻️","{
   ""type"": ""bubble"",
@@ -4867,385 +4863,1739 @@
   }
 }","1","109","0","1778465944","1778465944","zh-TW","804162968555525","0","針對台日市場設計，清楚區分「一般垃圾」、「資源回收」與「廚餘」時間，幫助用戶不再錯過清運車。","bubble"
 "806733836079109","T9746df44374c22045866f2499e3c685d","團購","🛍️ 社群團購","系統內置模板","🛍️","{
-    ""type"": ""bubble"",
-    ""size"": ""standard"",
-    ""hero"": {
-        ""type"": ""image"",
-        ""url"": ""https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"",
-        ""size"": ""full"",
-        ""aspectRatio"": ""4:3"",
-        ""aspectMode"": ""cover""
-    },
-    ""body"": {
+  ""type"": ""bubble"",
+  ""hero"": {
+    ""type"": ""image"",
+    ""url"": ""https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"",
+    ""size"": ""full"",
+    ""aspectRatio"": ""4:3"",
+    ""aspectMode"": ""cover""
+  },
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""🔥 限時開團"",
+            ""color"": ""#E23E57"",
+            ""size"": ""xs"",
+            ""weight"": ""bold"",
+            ""flex"": 0
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""剩餘：11 小時 42 分"",
+            ""color"": ""#888888"",
+            ""size"": ""xs"",
+            ""align"": ""end""
+          }
+        ]
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""【呼聲最高】法式小山園抹茶千層蛋糕 (6吋)"",
+        ""weight"": ""bold"",
+        ""size"": ""md"",
+        ""margin"": ""md"",
+        ""wrap"": true,
+        ""color"": ""#111111""
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""baseline"",
+        ""margin"": ""lg"",
+        ""spacing"": ""sm"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""團購價 NT$ 680"",
+            ""weight"": ""bold"",
+            ""size"": ""xl"",
+            ""color"": ""#E23E57"",
+            ""flex"": 0
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""原價 980"",
+            ""size"": ""xs"",
+            ""color"": ""#AAAAAA"",
+            ""decoration"": ""line-through""
+          }
+        ]
+      },
+      {
         ""type"": ""box"",
         ""layout"": ""vertical"",
-        ""paddingAll"": ""20px"",
+        ""margin"": ""md"",
+        ""backgroundColor"": ""#F9F9F9"",
+        ""paddingAll"": ""10px"",
+        ""cornerRadius"": ""sm"",
         ""contents"": [
-            {
-                ""type"": ""box"",
-                ""layout"": ""horizontal"",
-                ""contents"": [
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""🔥 限時開團"",
-                        ""color"": ""#E23E57"",
-                        ""size"": ""xs"",
-                        ""weight"": ""bold"",
-                        ""flex"": 0
-                    },
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""剩餘：11 小時 42 分"",
-                        ""color"": ""#888888"",
-                        ""size"": ""xs"",
-                        ""align"": ""end""
-                    }
-                ]
-            },
-            {
-                ""type"": ""text"",
-                ""text"": ""【呼聲最高】法式小山園抹茶千層蛋糕 (6吋)"",
-                ""weight"": ""bold"",
-                ""size"": ""md"",
-                ""margin"": ""md"",
-                ""wrap"": true,
-                ""color"": ""#111111""
-            },
-            {
-                ""type"": ""box"",
-                ""layout"": ""baseline"",
-                ""margin"": ""lg"",
-                ""spacing"": ""sm"",
-                ""contents"": [
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""團購價 NT$ 680"",
-                        ""weight"": ""bold"",
-                        ""size"": ""xl"",
-                        ""color"": ""#E23E57"",
-                        ""flex"": 0
-                    },
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""原價 980"",
-                        ""size"": ""xs"",
-                        ""color"": ""#AAAAAA"",
-                        ""decoration"": ""line-through""
-                    }
-                ]
-            },
-            {
-                ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""margin"": ""md"",
-                ""backgroundColor"": ""#F9F9F9"",
-                ""paddingAll"": ""10px"",
-                ""cornerRadius"": ""sm"",
-                ""contents"": [
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""📦 滿 10 盒成團 · 目前已累計 8 盒"",
-                        ""size"": ""xs"",
-                        ""color"": ""#666666""
-                    }
-                ]
-            }
+          {
+            ""type"": ""text"",
+            ""text"": ""📦 滿 10 盒成團 · 目前已累計 8 盒"",
+            ""size"": ""xs"",
+            ""color"": ""#666666""
+          }
         ]
-    },
-    ""footer"": {
-        ""type"": ""box"",
-        ""layout"": ""vertical"",
-        ""paddingAll"": ""15px"",
-        ""paddingTop"": ""0px"",
-        ""contents"": [
-            {
-                ""type"": ""button"",
-                ""action"": {
-                    ""type"": ""postback"",
-                    ""label"": ""立即➕ 1 下單"",
-                    ""data"": ""action=buy&item_id=matcha_01""
-                },
-                ""style"": ""primary"",
-                ""color"": ""#E23E57"",
-                ""height"": ""sm""
-            }
-        ]
-    }
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""paddingAll"": ""15px"",
+    ""paddingTop"": ""0px"",
+    ""contents"": [
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""postback"",
+          ""label"": ""立即➕ 1 下單"",
+          ""data"": ""action=buy&item_id=matcha_01""
+        },
+        ""style"": ""primary"",
+        ""color"": ""#E23E57"",
+        ""height"": ""sm""
+      }
+    ]
+  }
 }","1","110","0","0","1779093570","zh-TW","806736235855877","0","強烈的高級感與誘客力：頂部（Hero）採用滿版且支援跨域的高畫質美食意象圖片，能第一時間勾起使用者的食慾，極大化提升點擊轉化率。","bubble"
 "806736235855877","Tf0171f812326e8d06ec941f447cda870","團購","🛍️電商團購","メニュー","🛍️","{
-    ""type"": ""bubble"",
-    ""size"": ""standard"",
-    ""hero"": {
-        ""type"": ""image"",
-        ""url"": ""https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"",
-        ""size"": ""full"",
-        ""aspectRatio"": ""4:3"",
-        ""aspectMode"": ""cover""
-    },
-    ""body"": {
+  ""type"": ""bubble"",
+  ""hero"": {
+    ""type"": ""image"",
+    ""url"": ""https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"",
+    ""size"": ""full"",
+    ""aspectRatio"": ""4:3"",
+    ""aspectMode"": ""cover""
+  },
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""🔥 共同購入"",
+            ""color"": ""#E23E57"",
+            ""size"": ""xs"",
+            ""weight"": ""bold"",
+            ""flex"": 0
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""残り時間：11時間42分"",
+            ""color"": ""#888888"",
+            ""size"": ""xs"",
+            ""align"": ""end""
+          }
+        ]
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""【大人気】贅沢宇治抹茶の濃厚千層ミルクレープ (6インチ)"",
+        ""weight"": ""bold"",
+        ""size"": ""md"",
+        ""margin"": ""md"",
+        ""wrap"": true,
+        ""color"": ""#111111""
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""baseline"",
+        ""margin"": ""lg"",
+        ""spacing"": ""sm"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""特別価格 2,980円"",
+            ""weight"": ""bold"",
+            ""size"": ""xl"",
+            ""color"": ""#E23E57"",
+            ""flex"": 0
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""通常 4,200円"",
+            ""size"": ""xs"",
+            ""color"": ""#AAAAAA"",
+            ""decoration"": ""line-through""
+          }
+        ]
+      },
+      {
         ""type"": ""box"",
         ""layout"": ""vertical"",
-        ""paddingAll"": ""20px"",
+        ""margin"": ""md"",
+        ""backgroundColor"": ""#F9F9F9"",
+        ""paddingAll"": ""10px"",
+        ""cornerRadius"": ""sm"",
         ""contents"": [
-            {
-                ""type"": ""box"",
-                ""layout"": ""horizontal"",
-                ""contents"": [
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""🔥 共同購入"",
-                        ""color"": ""#E23E57"",
-                        ""size"": ""xs"",
-                        ""weight"": ""bold"",
-                        ""flex"": 0
-                    },
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""残り時間：11時間42分"",
-                        ""color"": ""#888888"",
-                        ""size"": ""xs"",
-                        ""align"": ""end""
-                    }
-                ]
-            },
-            {
-                ""type"": ""text"",
-                ""text"": ""【大人気】贅沢宇治抹茶の濃厚千層ミルクレープ (6インチ)"",
-                ""weight"": ""bold"",
-                ""size"": ""md"",
-                ""margin"": ""md"",
-                ""wrap"": true,
-                ""color"": ""#111111""
-            },
-            {
-                ""type"": ""box"",
-                ""layout"": ""baseline"",
-                ""margin"": ""lg"",
-                ""spacing"": ""sm"",
-                ""contents"": [
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""特別価格 2,980円"",
-                        ""weight"": ""bold"",
-                        ""size"": ""xl"",
-                        ""color"": ""#E23E57"",
-                        ""flex"": 0
-                    },
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""通常 4,200円"",
-                        ""size"": ""xs"",
-                        ""color"": ""#AAAAAA"",
-                        ""decoration"": ""line-through""
-                    }
-                ]
-            },
-            {
-                ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""margin"": ""md"",
-                ""backgroundColor"": ""#F9F9F9"",
-                ""paddingAll"": ""10px"",
-                ""cornerRadius"": ""sm"",
-                ""contents"": [
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""📦 最小催行10個 · 現在の注文数：8個"",
-                        ""size"": ""xs"",
-                        ""color"": ""#666666""
-                    }
-                ]
-            }
+          {
+            ""type"": ""text"",
+            ""text"": ""📦 最小催行10個 · 現在の注文数：8個"",
+            ""size"": ""xs"",
+            ""color"": ""#666666""
+          }
         ]
-    },
-    ""footer"": {
-        ""type"": ""box"",
-        ""layout"": ""vertical"",
-        ""paddingAll"": ""15px"",
-        ""paddingTop"": ""0px"",
-        ""contents"": [
-            {
-                ""type"": ""button"",
-                ""action"": {
-                    ""type"": ""postback"",
-                    ""label"": ""今すぐ共同購入に参加する"",
-                    ""data"": ""action=buy&item_id=matcha_01""
-                },
-                ""style"": ""primary"",
-                ""color"": ""#E23E57"",
-                ""height"": ""sm""
-            }
-        ]
-    }
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""paddingAll"": ""15px"",
+    ""paddingTop"": ""0px"",
+    ""contents"": [
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""postback"",
+          ""label"": ""今すぐ共同購入に参加する"",
+          ""data"": ""action=buy&item_id=matcha_01""
+        },
+        ""style"": ""primary"",
+        ""color"": ""#E23E57"",
+        ""height"": ""sm""
+      }
+    ]
+  }
 }","1","111","0","0","1779093570","ja","806733836079109","0","強烈な高級感と高いコンバージョン力：トップ（Hero）にドメイン制限のない高画質なグルメ画像をフルサイズで配置することで、ユーザーの食欲を一瞬で刺激し、クリック率（CTR）を最大化させます。","bubble"
 "806736886513669","T82aa38a4f5797792fa78bbf41aec29ac","通知","📅預約確認通知","系統內置模板","📅","{
-    ""type"": ""bubble"",
-    ""size"": ""standard"",
-    ""body"": {
+  ""type"": ""bubble"",
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""text"",
+        ""text"": ""預約確認通知"",
+        ""color"": ""#00A8CC"",
+        ""weight"": ""bold"",
+        ""size"": ""sm"",
+        ""letterSpacing"": ""1px""
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""晴天牙醫診所"",
+        ""weight"": ""bold"",
+        ""size"": ""lg"",
+        ""margin"": ""sm"",
+        ""color"": ""#111111""
+      },
+      {
+        ""type"": ""separator"",
+        ""margin"": ""md"",
+        ""color"": ""#EEEEEE""
+      },
+      {
         ""type"": ""box"",
         ""layout"": ""vertical"",
-        ""paddingAll"": ""20px"",
+        ""margin"": ""lg"",
+        ""spacing"": ""md"",
         ""contents"": [
-            {
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""contents"": [
+              {
                 ""type"": ""text"",
-                ""text"": ""預約確認通知"",
-                ""color"": ""#00A8CC"",
-                ""weight"": ""bold"",
+                ""text"": ""👨‍⚕️ 預約醫師"",
+                ""color"": ""#888888"",
                 ""size"": ""sm"",
-                ""letterSpacing"": ""1px""
-            },
-            {
+                ""flex"": 1
+              },
+              {
                 ""type"": ""text"",
-                ""text"": ""晴天牙醫診所"",
+                ""text"": ""林志明 院長"",
+                ""color"": ""#222222"",
+                ""size"": ""sm"",
                 ""weight"": ""bold"",
-                ""size"": ""lg"",
-                ""margin"": ""sm"",
-                ""color"": ""#111111""
-            },
-            {
-                ""type"": ""separator"",
-                ""margin"": ""md"",
-                ""color"": ""#EEEEEE""
-            },
-            {
-                ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""margin"": ""lg"",
-                ""spacing"": ""md"",
-                ""contents"": [
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""horizontal"",
-                        ""contents"": [
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""👨‍⚕️ 預約醫師"",
-                                ""color"": ""#888888"",
-                                ""size"": ""sm"",
-                                ""flex"": 1
-                            },
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""林志明 院長"",
-                                ""color"": ""#222222"",
-                                ""size"": ""sm"",
-                                ""weight"": ""bold"",
-                                ""align"": ""end""
-                            }
-                        ]
-                    },
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""horizontal"",
-                        ""contents"": [
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""🕒 預約時間"",
-                                ""color"": ""#888888"",
-                                ""size"": ""sm"",
-                                ""flex"": 1
-                            },
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""05月22日 (五) 14:30"",
-                                ""color"": ""#222222"",
-                                ""size"": ""sm"",
-                                ""weight"": ""bold"",
-                                ""align"": ""end""
-                            }
-                        ]
-                    },
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""horizontal"",
-                        ""contents"": [
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""📍 診所位置"",
-                                ""color"": ""#888888"",
-                                ""size"": ""sm"",
-                                ""flex"": 1
-                            },
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""台北市大安區信義路X號"",
-                                ""color"": ""#222222"",
-                                ""size"": ""sm"",
-                                ""align"": ""end""
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""margin"": ""lg"",
-                ""backgroundColor"": ""#E6F7FF"",
-                ""paddingAll"": ""12px"",
-                ""cornerRadius"": ""md"",
-                ""contents"": [
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""💡 溫馨提醒：請於預約時間前 10 分鐘至櫃檯報到。如欲取消，請提前一天線上變更。"",
-                        ""size"": ""xs"",
-                        ""color"": ""#00A8CC"",
-                        ""wrap"": true
-                    }
-                ]
-            }
+                ""align"": ""end""
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""🕒 預約時間"",
+                ""color"": ""#888888"",
+                ""size"": ""sm"",
+                ""flex"": 1
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""05月22日 (五) 14:30"",
+                ""color"": ""#222222"",
+                ""size"": ""sm"",
+                ""weight"": ""bold"",
+                ""align"": ""end""
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""📍 診所位置"",
+                ""color"": ""#888888"",
+                ""size"": ""sm"",
+                ""flex"": 1
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""台北市大安區信義路X號"",
+                ""color"": ""#222222"",
+                ""size"": ""sm"",
+                ""align"": ""end""
+              }
+            ]
+          }
         ]
-    },
-    ""footer"": {
+      },
+      {
         ""type"": ""box"",
         ""layout"": ""vertical"",
-        ""paddingAll"": ""15px"",
-        ""paddingTop"": ""0px"",
-        ""spacing"": ""none"",
+        ""margin"": ""lg"",
+        ""backgroundColor"": ""#E6F7FF"",
+        ""paddingAll"": ""12px"",
+        ""cornerRadius"": ""md"",
         ""contents"": [
-            {
-                ""type"": ""box"",
-                ""layout"": ""horizontal"",
-                ""spacing"": ""sm"",
-                ""contents"": [
-                    {
-                        ""type"": ""button"",
-                        ""action"": {
-                            ""type"": ""postback"",
-                            ""label"": ""取消預約"",
-                            ""data"": ""action=cancel&id=rev_992""
-                        },
-                        ""style"": ""secondary"",
-                        ""height"": ""sm"",
-                        ""flex"": 1,
-                        ""color"": ""#95A5A6""
-                    },
-                    {
-                        ""type"": ""button"",
-                        ""action"": {
-                            ""type"": ""uri"",
-                            ""label"": ""地圖導航"",
-                            ""uri"": ""https://maps.google.com""
-                        },
-                        ""style"": ""primary"",
-                        ""color"": ""#00A8CC"",
-                        ""height"": ""sm"",
-                        ""margin"": ""md"",
-                        ""flex"": 1
-                    }
-                ]
-            }
-        ],
-        ""flex"": 1
-    }
+          {
+            ""type"": ""text"",
+            ""text"": ""💡 溫馨提醒：請於預約時間前 10 分鐘至櫃檯報到。如欲取消，請提前一天線上變更。"",
+            ""size"": ""xs"",
+            ""color"": ""#00A8CC"",
+            ""wrap"": true
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""paddingAll"": ""15px"",
+    ""paddingTop"": ""0px"",
+    ""spacing"": ""none"",
+    ""contents"": [
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""spacing"": ""sm"",
+        ""contents"": [
+          {
+            ""type"": ""button"",
+            ""action"": {
+              ""type"": ""postback"",
+              ""label"": ""取消預約"",
+              ""data"": ""action=cancel&id=rev_992""
+            },
+            ""style"": ""secondary"",
+            ""height"": ""sm"",
+            ""flex"": 1,
+            ""color"": ""#95A5A6""
+          },
+          {
+            ""type"": ""button"",
+            ""action"": {
+              ""type"": ""uri"",
+              ""label"": ""地圖導航"",
+              ""uri"": ""https://maps.google.com""
+            },
+            ""style"": ""primary"",
+            ""color"": ""#00A8CC"",
+            ""height"": ""sm"",
+            ""margin"": ""md"",
+            ""flex"": 1
+          }
+        ]
+      }
+    ],
+    ""flex"": 1
+  }
 }","1","112","0","0","1779095345","zh-TW","806742043598853","0","清爽專業的信任感：整體色調採用明亮的醫療藍（#00A8CC）搭配純白背景，營造出乾淨、專業且令人安心的視覺氛圍。","bubble"
 "806738882097157","Tafd0efef241ed9a7d6021df6f4fe6305","DevOps","☁️ Cloud / DevOps 系統即時監控告警","系統內置模板","☁️","{
+  ""type"": ""bubble"",
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#121212"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""⚠️ SYSTEM ALERT"",
+            ""color"": ""#FF4D4F"",
+            ""weight"": ""bold"",
+            ""size"": ""xs"",
+            ""letterSpacing"": ""2px"",
+            ""flex"": 1
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""vertical"",
+            ""width"": ""8px"",
+            ""height"": ""8px"",
+            ""backgroundColor"": ""#FF4D4F"",
+            ""cornerRadius"": ""xl"",
+            ""flex"": 0
+          }
+        ]
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""CRITICAL: CPU Usage Exceeded"",
+        ""color"": ""#FFFFFF"",
+        ""weight"": ""bold"",
+        ""size"": ""md"",
+        ""margin"": ""lg""
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""lg"",
+        ""spacing"": ""xs"",
+        ""backgroundColor"": ""#1F1F1F"",
+        ""paddingAll"": ""12px"",
+        ""cornerRadius"": ""sm"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""Cluster: RDS-MySQL-Main"",
+            ""color"": ""#A6A6A6"",
+            ""size"": ""xs"",
+            ""fontStyle"": ""italic""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""Metric: CPU Util >= 94.2%"",
+            ""color"": ""#FF4D4F"",
+            ""size"": ""xs"",
+            ""weight"": ""bold""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""Time: 2026-05-18 17:25 JST"",
+            ""color"": ""#A6A6A6"",
+            ""size"": ""xs""
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#121212"",
+    ""paddingAll"": ""15px"",
+    ""paddingTop"": ""0px"",
+    ""contents"": [
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""uri"",
+          ""label"": ""Open Grafana Dashboard"",
+          ""uri"": ""https://liming.me""
+        },
+        ""style"": ""primary"",
+        ""color"": ""#FF4D4F"",
+        ""height"": ""sm""
+      }
+    ]
+  }
+}","1","113","0","0","1779095194","zh-TW","806742619365381","0","極客風的深色主題（Dark Mode）：整體採用純黑底色（#121212），模仿終端機（Terminal）與專業監控面板的視覺風格。不僅能大幅降低夜間被警報驚醒時的視覺疲勞，更能突顯告警資訊的嚴重性。","bubble"
+"806742043598853","T720881f0c00f324165ebcd8676ae01d8","通知","📅ご予約確認通知","システム標準テンプレート","📅","{
+  ""type"": ""bubble"",
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""text"",
+        ""text"": ""📅 ご予約確認のお知らせ"",
+        ""color"": ""#00A8CC"",
+        ""weight"": ""bold"",
+        ""size"": ""sm"",
+        ""letterSpacing"": ""1px""
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""青空歯科クリニック"",
+        ""weight"": ""bold"",
+        ""size"": ""lg"",
+        ""margin"": ""sm"",
+        ""color"": ""#111111""
+      },
+      {
+        ""type"": ""separator"",
+        ""margin"": ""md"",
+        ""color"": ""#EEEEEE""
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""lg"",
+        ""spacing"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""👨‍⚕️ 担当医師"",
+                ""color"": ""#888888"",
+                ""size"": ""sm"",
+                ""flex"": 1
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""林 院長"",
+                ""color"": ""#222222"",
+                ""size"": ""sm"",
+                ""weight"": ""bold"",
+                ""align"": ""end""
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""🕒 日時"",
+                ""color"": ""#888888"",
+                ""size"": ""sm"",
+                ""flex"": 1
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""05月22日 (金) 14:30"",
+                ""color"": ""#222222"",
+                ""size"": ""sm"",
+                ""weight"": ""bold"",
+                ""align"": ""end""
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""📍 アクセス"",
+                ""color"": ""#888888"",
+                ""size"": ""sm"",
+                ""flex"": 1
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""東京都渋谷区神南X-X-X"",
+                ""color"": ""#222222"",
+                ""size"": ""sm"",
+                ""align"": ""end""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""lg"",
+        ""backgroundColor"": ""#E6F7FF"",
+        ""paddingAll"": ""12px"",
+        ""cornerRadius"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""💡 ご案内：ご予約時間の10分前までに受付をお済ませください。キャンセルの場合は、前日までにオンラインにてご変更をお願いいたします。"",
+            ""size"": ""xs"",
+            ""color"": ""#00A8CC"",
+            ""wrap"": true
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""paddingAll"": ""15px"",
+    ""paddingTop"": ""0px"",
+    ""spacing"": ""none"",
+    ""contents"": [
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""spacing"": ""sm"",
+        ""contents"": [
+          {
+            ""type"": ""button"",
+            ""action"": {
+              ""type"": ""postback"",
+              ""label"": ""予約キャンセル"",
+              ""data"": ""action=cancel&id=rev_992""
+            },
+            ""style"": ""secondary"",
+            ""height"": ""sm"",
+            ""flex"": 1,
+            ""color"": ""#95A5A6""
+          },
+          {
+            ""type"": ""button"",
+            ""action"": {
+              ""type"": ""uri"",
+              ""label"": ""地図ナビ"",
+              ""uri"": ""https://maps.google.com""
+            },
+            ""style"": ""primary"",
+            ""color"": ""#00A8CC"",
+            ""height"": ""sm"",
+            ""margin"": ""md"",
+            ""flex"": 1
+          }
+        ]
+      }
+    ],
+    ""flex"": 1
+  }
+}","1","114","0","0","1779095345","ja","806736886513669","0","さわやかでプロフェッショナルな信頼感：全体のカラーに鮮やかなメディカルブルー（#00A8CC）を採用し、純白の背景と組み合わせることで、清潔感とプロフェッショナルさ、そして安心感を与える視覚的アプローチを実現しています。","bubble"
+"806742619365381","T43d3a120c72cfcf6a6ba3c8f89fba4b3","DevOps","☁️ 【障害検知】システムリアルタイム監視アラート","システム標準テンプレート","☁️","{
+  ""type"": ""bubble"",
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#121212"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""⚠️ SYSTEM ALERT"",
+            ""color"": ""#FF4D4F"",
+            ""weight"": ""bold"",
+            ""size"": ""xs"",
+            ""letterSpacing"": ""2px"",
+            ""flex"": 1
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""vertical"",
+            ""width"": ""8px"",
+            ""height"": ""8px"",
+            ""backgroundColor"": ""#FF4D4F"",
+            ""cornerRadius"": ""xl"",
+            ""flex"": 0
+          }
+        ]
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""CRITICAL: CPU Usage Exceeded"",
+        ""color"": ""#FFFFFF"",
+        ""weight"": ""bold"",
+        ""size"": ""md"",
+        ""margin"": ""lg""
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""lg"",
+        ""spacing"": ""xs"",
+        ""backgroundColor"": ""#1F1F1F"",
+        ""paddingAll"": ""12px"",
+        ""cornerRadius"": ""sm"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""Cluster: RDS-MySQL-Main"",
+            ""color"": ""#A6A6A6"",
+            ""size"": ""xs"",
+            ""fontStyle"": ""italic""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""Metric: CPU Util >= 94.2%"",
+            ""color"": ""#FF4D4F"",
+            ""size"": ""xs"",
+            ""weight"": ""bold""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""Time: 2026-05-18 17:25 JST"",
+            ""color"": ""#A6A6A6"",
+            ""size"": ""xs""
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#121212"",
+    ""paddingAll"": ""15px"",
+    ""paddingTop"": ""0px"",
+    ""contents"": [
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""uri"",
+          ""label"": ""Open Grafana Dashboard"",
+          ""uri"": ""https://liming.me""
+        },
+        ""style"": ""primary"",
+        ""color"": ""#FF4D4F"",
+        ""height"": ""sm""
+      }
+    ]
+  }
+}","1","115","0","0","1779095194","ja","806738882097157","0","ギークスタイルのダークモード：全体にピュアブラック（#121212）を採用し、ターミナルやプロ仕様の監視ダッシュボードの視覚的スタイルを再現しています。夜間にアラートで起こされた際の目の疲労を大幅に軽減するだけでなく、警告情報の深刻さをより際立たせる効果を持たせています。","bubble"
+"807686385229829","T6983598dbc0eccc03e967bcea45a1fbb","儀表板","🚀Web3 數位資產儀表板","系統內置模板","🚀","{
+  ""type"": ""bubble"",
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#0D0D0D"",
+    ""paddingAll"": ""24px"",
+    ""contents"": [
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""WALLET BALANCE"",
+            ""color"": ""#8C8C8C"",
+            ""size"": ""xxs"",
+            ""weight"": ""bold"",
+            ""letterSpacing"": ""2px"",
+            ""flex"": 1
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""Mainnet / ERC-20"",
+            ""color"": ""#00FFA3"",
+            ""size"": ""xxs"",
+            ""align"": ""end"",
+            ""flex"": 1
+          }
+        ]
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""$ 42,850.12"",
+        ""weight"": ""bold"",
+        ""size"": ""xxl"",
+        ""color"": ""#FFFFFF"",
+        ""margin"": ""sm""
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""margin"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""▲ +12.50%"",
+            ""color"": ""#00FFA3"",
+            ""size"": ""xs"",
+            ""weight"": ""bold"",
+            ""flex"": 0
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""last 24 hours"",
+            ""color"": ""#595959"",
+            ""size"": ""xs"",
+            ""margin"": ""md""
+          }
+        ]
+      },
+      {
+        ""type"": ""separator"",
+        ""margin"": ""xxl"",
+        ""color"": ""#262626""
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""xxl"",
+        ""spacing"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""🪙 Bitcoin"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""sm"",
+                ""flex"": 4
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""0.45 BTC"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""sm"",
+                ""align"": ""end"",
+                ""weight"": ""bold"",
+                ""flex"": 4
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""+2.4%"",
+                ""color"": ""#00FFA3"",
+                ""size"": ""xs"",
+                ""align"": ""end"",
+                ""flex"": 2
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""🔷 Ethereum"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""sm"",
+                ""flex"": 4
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""8.21 ETH"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""sm"",
+                ""align"": ""end"",
+                ""weight"": ""bold"",
+                ""flex"": 4
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""-1.2%"",
+                ""color"": ""#FF4D4F"",
+                ""size"": ""xs"",
+                ""align"": ""end"",
+                ""flex"": 2
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""☀️ Solana"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""sm"",
+                ""flex"": 4
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""142 SOL"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""sm"",
+                ""align"": ""end"",
+                ""weight"": ""bold"",
+                ""flex"": 4
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""+15.8%"",
+                ""color"": ""#00FFA3"",
+                ""size"": ""xs"",
+                ""align"": ""end"",
+                ""flex"": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""xxl"",
+        ""backgroundColor"": ""#1A1A1A"",
+        ""paddingAll"": ""12px"",
+        ""cornerRadius"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""⚡ 交易動態：收到來自 0x71C... 的 2,500 USDC (已確認)"",
+            ""size"": ""xs"",
+            ""color"": ""#8C8C8C"",
+            ""wrap"": true
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#0D0D0D"",
+    ""paddingAll"": ""24px"",
+    ""paddingTop"": ""0px"",
+    ""spacing"": ""none"",
+    ""contents"": [
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""spacing"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""button"",
+            ""action"": {
+              ""type"": ""uri"",
+              ""label"": ""交易歷史"",
+              ""uri"": ""https://liming.me""
+            },
+            ""style"": ""secondary"",
+            ""color"": ""#C1392B"",
+            ""height"": ""sm"",
+            ""flex"": 1
+          },
+          {
+            ""type"": ""button"",
+            ""action"": {
+              ""type"": ""uri"",
+              ""label"": ""發送資產"",
+              ""uri"": ""https://liming.me""
+            },
+            ""style"": ""primary"",
+            ""color"": ""#06C755"",
+            ""height"": ""sm"",
+            ""flex"": 1
+          }
+        ]
+      }
+    ]
+  }
+}","1","116","0","0","1779326861","zh-TW","807691723796485","0","「賽博龐克」金融美學：採用極致深黑（#0D0D0D）背景，搭配螢光綠（#00FFA3）的漲幅標註與純白文字。這種高對比度配色不僅營造出強烈的科技感與財富感，更能確保使用者在手機端瞬間辨識資產變動。","bubble"
+"807691723796485","T61e3c9c9f77a87a08050eb474e0024fe","ダッシュボード","🚀Web3 デジタル資産ダッシュボード","システム標準テンプレート","🚀","{
+  ""type"": ""bubble"",
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#0D0D0D"",
+    ""paddingAll"": ""24px"",
+    ""contents"": [
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""WALLET BALANCE"",
+            ""color"": ""#8C8C8C"",
+            ""size"": ""xxs"",
+            ""weight"": ""bold"",
+            ""letterSpacing"": ""2px"",
+            ""flex"": 1
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""Mainnet / ERC-20"",
+            ""color"": ""#00FFA3"",
+            ""size"": ""xxs"",
+            ""align"": ""end"",
+            ""flex"": 1
+          }
+        ]
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""$ 42,850.12"",
+        ""weight"": ""bold"",
+        ""size"": ""xxl"",
+        ""color"": ""#FFFFFF"",
+        ""margin"": ""sm""
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""margin"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""▲ +12.50%"",
+            ""color"": ""#00FFA3"",
+            ""size"": ""xs"",
+            ""weight"": ""bold"",
+            ""flex"": 0
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""過去24時間"",
+            ""color"": ""#595959"",
+            ""size"": ""xs"",
+            ""margin"": ""md""
+          }
+        ]
+      },
+      {
+        ""type"": ""separator"",
+        ""margin"": ""xxl"",
+        ""color"": ""#262626""
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""xxl"",
+        ""spacing"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""🪙 ビットコイン (BTC)"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""sm"",
+                ""flex"": 4
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""0.45 BTC"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""sm"",
+                ""align"": ""end"",
+                ""weight"": ""bold"",
+                ""flex"": 4
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""+2.4%"",
+                ""color"": ""#00FFA3"",
+                ""size"": ""xs"",
+                ""align"": ""end"",
+                ""flex"": 2
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""🔷 イーサリアム (ETH)"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""sm"",
+                ""flex"": 4
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""8.21 ETH"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""sm"",
+                ""align"": ""end"",
+                ""weight"": ""bold"",
+                ""flex"": 4
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""-1.2%"",
+                ""color"": ""#FF4D4F"",
+                ""size"": ""xs"",
+                ""align"": ""end"",
+                ""flex"": 2
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""☀️ ソラナ (SOL)"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""sm"",
+                ""flex"": 4
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""142 SOL"",
+                ""color"": ""#FFFFFF"",
+                ""size"": ""sm"",
+                ""align"": ""end"",
+                ""weight"": ""bold"",
+                ""flex"": 4
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""+15.8%"",
+                ""color"": ""#00FFA3"",
+                ""size"": ""xs"",
+                ""align"": ""end"",
+                ""flex"": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""xxl"",
+        ""backgroundColor"": ""#1A1A1A"",
+        ""paddingAll"": ""12px"",
+        ""cornerRadius"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""⚡ アクティビティ：0x71C... から 2,500 USDC を受信しました（確認済み）"",
+            ""size"": ""xs"",
+            ""color"": ""#8C8C8C"",
+            ""wrap"": true
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#0D0D0D"",
+    ""paddingAll"": ""24px"",
+    ""paddingTop"": ""0px"",
+    ""spacing"": ""none"",
+    ""contents"": [
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""spacing"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""button"",
+            ""action"": {
+              ""type"": ""uri"",
+              ""label"": ""取引履歴"",
+              ""uri"": ""https://liming.me""
+            },
+            ""style"": ""secondary"",
+            ""color"": ""#C1392B"",
+            ""height"": ""sm"",
+            ""flex"": 1
+          },
+          {
+            ""type"": ""button"",
+            ""action"": {
+              ""type"": ""uri"",
+              ""label"": ""資産を送金"",
+              ""uri"": ""https://liming.me""
+            },
+            ""style"": ""primary"",
+            ""color"": ""#06C755"",
+            ""height"": ""sm"",
+            ""flex"": 1
+          }
+        ]
+      }
+    ]
+  }
+}","1","117","0","0","1779326861","ja","807686385229829","0","サイバーパンク風のフィンテックUI：ベースの漆黒（#0D0D0D）に、鮮やかなネオングリーン（#00FFA3）のプラス成長表示とホワイト文字。この圧倒的な高コントラスト設計が、洗練されたテック感と資産の躍動感を演出し、スマホ画面での一瞬の視認性を極限まで高めています。","bubble"
+"808382088372229","T9ca83a01e419f3e8f499f542c76ea32e","評價","⭐ 客服評價邀請","系统内置模板","⭐","{
+  ""type"": ""bubble"",
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""24px"",
+    ""contents"": [
+      {
+        ""type"": ""text"",
+        ""text"": ""✨ 滿意度調查通知"",
+        ""color"": ""#06C755"",
+        ""weight"": ""bold"",
+        ""size"": ""xs"",
+        ""letterSpacing"": ""1px""
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""非常感謝您今天的來訊諮詢！"",
+        ""weight"": ""bold"",
+        ""size"": ""sm"",
+        ""color"": ""#111111"",
+        ""margin"": ""md"",
+        ""wrap"": true
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""客戶服務已結束。為了提升未來的服務品質，如能耽誤您 5 秒鐘對本次服務進行簡單評價，我們將不勝感激。"",
+        ""color"": ""#666666"",
+        ""size"": ""xs"",
+        ""margin"": ""md"",
+        ""wrap"": true
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""xxl"",
+        ""backgroundColor"": ""#F9F9F9"",
+        ""paddingAll"": ""16px"",
+        ""cornerRadius"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""⭐⭐⭐⭐⭐"",
+            ""size"": ""xl"",
+            ""align"": ""center""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""非常滿意，強烈推薦！"",
+            ""size"": ""xs"",
+            ""color"": ""#888888"",
+            ""align"": ""center"",
+            ""margin"": ""xs""
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""24px"",
+    ""paddingTop"": ""0px"",
+    ""spacing"": ""sm"",
+    ""contents"": [
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""postback"",
+          ""label"": ""🌟 給予 5 星好評"",
+          ""data"": ""action=rate_service&stars=5""
+        },
+        ""style"": ""primary"",
+        ""color"": ""#06C755"",
+        ""height"": ""sm""
+      },
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""postback"",
+          ""label"": ""其他意見回饋"",
+          ""data"": ""action=rate_service&stars=other""
+        },
+        ""style"": ""link"",
+        ""color"": ""#888888"",
+        ""height"": ""sm""
+      }
+    ]
+  }
+}","1","118","0","1779495310","1779495613","zh-TW","808383330975749","0","簡約而不失禮貌的設計，內建 1-5 星點擊區塊。能有效提升售後回饋率，幫助品牌收集最真實的用戶心聲。","bubble"
+"808383330975749","Tc7ec5733ef5805aa232608bed098eadb","調査","⭐満足度調査のお願い","システム標準テンプレート","⭐","{
+  ""type"": ""bubble"",
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""24px"",
+    ""contents"": [
+      {
+        ""type"": ""text"",
+        ""text"": ""✨ 満足度調査のお願い"",
+        ""color"": ""#06C755"",
+        ""weight"": ""bold"",
+        ""size"": ""xs"",
+        ""letterSpacing"": ""1px""
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""本日はお問い合わせありがとうございました！"",
+        ""weight"": ""bold"",
+        ""size"": ""sm"",
+        ""color"": ""#111111"",
+        ""margin"": ""md"",
+        ""wrap"": true
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""カスタマーサポートは終了いたしました。今後のサービス向上のため、今回の対応について5秒ほどの簡単な評価にご協力いただけますと幸いです。"",
+        ""color"": ""#666666"",
+        ""size"": ""xs"",
+        ""margin"": ""md"",
+        ""wrap"": true
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""xxl"",
+        ""backgroundColor"": ""#F9F9F9"",
+        ""paddingAll"": ""16px"",
+        ""cornerRadius"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""⭐⭐⭐⭐⭐"",
+            ""size"": ""xl"",
+            ""align"": ""center""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""大変満足、とてもおすすめ！"",
+            ""size"": ""xs"",
+            ""color"": ""#888888"",
+            ""align"": ""center"",
+            ""margin"": ""xs""
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""24px"",
+    ""paddingTop"": ""0px"",
+    ""spacing"": ""sm"",
+    ""contents"": [
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""postback"",
+          ""label"": ""🌟 星5つで評価する"",
+          ""data"": ""action=rate_service&stars=5""
+        },
+        ""style"": ""primary"",
+        ""color"": ""#06C755"",
+        ""height"": ""sm""
+      },
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""postback"",
+          ""label"": ""その他のフィードバック"",
+          ""data"": ""action=rate_service&stars=other""
+        },
+        ""style"": ""link"",
+        ""color"": ""#888888"",
+        ""height"": ""sm""
+      }
+    ]
+  }
+}","1","119","0","1779495613","1779495613","ja","808382088372229","0","シンプルかつ丁寧なデザインに、1〜5星のタップ領域を標準搭載。アフターサービスの回答率を効果的に高め、ブランドがユーザーのリアルな「生の声」を集めるのに役立ちます。","carousel"
+"808383803138053","T75a3a9da1a15f7125d1fa04b30d1f4a8","賀卡","🎂 專屬生日賀卡","系統內置模板","🎂","{
+  ""type"": ""bubble"",
+  ""header"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFF5F5"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""text"",
+        ""text"": ""🎉 HAPPY BIRTHDAY"",
+        ""color"": ""#FF6B6B"",
+        ""weight"": ""bold"",
+        ""size"": ""xs"",
+        ""letterSpacing"": ""2px""
+      }
+    ]
+  },
+  ""hero"": {
+    ""type"": ""image"",
+    ""url"": ""https://raw.githubusercontent.com/arieslee/line-flex-message-templates/refs/heads/main/cafe.png"",
+    ""size"": ""100%"",
+    ""aspectRatio"": ""20:13"",
+    ""aspectMode"": ""cover""
+  },
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""text"",
+        ""text"": ""親愛的貴賓，生日快樂！"",
+        ""weight"": ""bold"",
+        ""size"": ""md"",
+        ""color"": ""#111111""
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""在這個特別的日子裡，感謝您一直以來的支持。我們為您準備了一份專屬的生日驚喜，願您的每一天都充滿陽光與笑容。✨"",
+        ""color"": ""#666666"",
+        ""size"": ""xs"",
+        ""margin"": ""md"",
+        ""wrap"": true,
+        ""lineHeight"": ""1.6""
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""lg"",
+        ""backgroundColor"": ""#FFF9EB"",
+        ""paddingAll"": ""15px"",
+        ""cornerRadius"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""🎁 生日專屬禮遇：全館 85 折優惠券"",
+            ""size"": ""xs"",
+            ""color"": ""#D48806"",
+            ""weight"": ""bold""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""使用期限：即日起至當月底"",
+            ""size"": ""xxs"",
+            ""color"": ""#D48806"",
+            ""margin"": ""xs""
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""20px"",
+    ""paddingTop"": ""0px"",
+    ""contents"": [
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""uri"",
+          ""label"": ""立即領取生日驚喜"",
+          ""uri"": ""https://liming.me""
+        },
+        ""style"": ""primary"",
+        ""color"": ""#FF6B6B"",
+        ""height"": ""sm""
+      }
+    ]
+  }
+}","1","120","0","0","1779684524","zh-TW","809157109088261","0","結合個人化名稱與精美生日素材。不僅是祝福，還能植入「專屬生日折價券」，將祝福轉化為實際的消費回扣。","bubble"
+"808397067059205","Tca0132a746e92c504242ae390c840132","グリーティングカード","🎂 バースデーカード","システム標準テンプレート","🎂","{
+  ""type"": ""bubble"",
+  ""header"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFF5F5"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""text"",
+        ""text"": ""🎉 HAPPY BIRTHDAY"",
+        ""color"": ""#FF6B6B"",
+        ""weight"": ""bold"",
+        ""size"": ""xs"",
+        ""letterSpacing"": ""2px""
+      }
+    ]
+  },
+  ""hero"": {
+    ""type"": ""image"",
+    ""url"": ""https://raw.githubusercontent.com/arieslee/line-flex-message-templates/refs/heads/main/cafe.png"",
+    ""size"": ""100%"",
+    ""aspectRatio"": ""20:13"",
+    ""aspectMode"": ""cover""
+  },
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""text"",
+        ""text"": ""大切なあなたへ、お誕生日おめでとうございます！"",
+        ""weight"": ""bold"",
+        ""size"": ""sm"",
+        ""color"": ""#111111"",
+        ""wrap"": true
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""特別なこの日に、日頃の感謝の気持ちを込めて。ささやかではございますが、限定のバースデー特典をご用意いたしました。笑顔あふれる素敵な1年になりますように。✨"",
+        ""color"": ""#666666"",
+        ""size"": ""xs"",
+        ""margin"": ""md"",
+        ""wrap"": true,
+        ""lineHeight"": ""1.6""
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""lg"",
+        ""backgroundColor"": ""#FFF9EB"",
+        ""paddingAll"": ""15px"",
+        ""cornerRadius"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""🎁 誕生日限定特典：全品 15% OFF クーポン"",
+            ""size"": ""xs"",
+            ""color"": ""#D48806"",
+            ""weight"": ""bold""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""有効期限：今月末日まで"",
+            ""size"": ""xxs"",
+            ""color"": ""#D48806"",
+            ""margin"": ""xs""
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""20px"",
+    ""paddingTop"": ""0px"",
+    ""contents"": [
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""uri"",
+          ""label"": ""バースデー特典を受け取る"",
+          ""uri"": ""https://liming.me""
+        },
+        ""style"": ""primary"",
+        ""color"": ""#FF6B6B"",
+        ""height"": ""sm""
+      }
+    ]
+  }
+}","1","121","0","0","1779528753","ja","808383803138053","0","パーソナライズされた名前と洗練されたバースデー素材を融合。単なるお祝いにとどまらず、「専用の誕生日クーポン」を組み込むことで、祝福の気持ちを実際の購買（リピート消費）へと効果的に転換します。","bubble"
+"809157109088261","Tc0dd9a559f7845b1862b9d6662ddc14c","資訊","🔮 每日運勢速報","結合命理元素的整體運勢星等與財運、事業短評卡片。","🔮","{
+  ""type"": ""bubble"",
+  ""header"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#F9F5FF"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""text"",
+        ""text"": ""🔮 DAILY HOROSCOPE"",
+        ""color"": ""#7F56D9"",
+        ""weight"": ""bold"",
+        ""size"": ""xs"",
+        ""letterSpacing"": ""2px""
+      },
+      {
+        ""type"": ""text"",
+        ""text"": ""今日運勢精選速報"",
+        ""weight"": ""bold"",
+        ""size"": ""xl"",
+        ""color"": ""#42307D"",
+        ""margin"": ""sm""
+      }
+    ]
+  },
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""20px"",
+    ""contents"": [
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""整体運勢"",
+            ""size"": ""sm"",
+            ""color"": ""#344054"",
+            ""weight"": ""bold""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""⭐⭐⭐⭐⭐"",
+            ""size"": ""sm"",
+            ""color"": ""#FEC84B"",
+            ""align"": ""end"",
+            ""weight"": ""bold""
+          }
+        ]
+      },
+      {
+        ""type"": ""separator"",
+        ""margin"": ""md"",
+        ""color"": ""#F2F4F7""
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""lg"",
+        ""spacing"": ""sm"",
+        ""contents"": [
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""spacing"": ""md"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""💰 財運投資"",
+                ""size"": ""xs"",
+                ""color"": ""#B54708"",
+                ""weight"": ""bold"",
+                ""flex"": 3
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""今日財星高照，適合規劃長期資產配置。偏財運佳，可能有意料之外的小驚喜。"",
+                ""size"": ""xs"",
+                ""color"": ""#667085"",
+                ""wrap"": true,
+                ""flex"": 7
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""horizontal"",
+            ""margin"": ""md"",
+            ""spacing"": ""md"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""💼 工作事業"",
+                ""size"": ""xs"",
+                ""color"": ""#175CD3"",
+                ""weight"": ""bold"",
+                ""flex"": 3
+              },
+              {
+                ""type"": ""text"",
+                ""text"": ""思維清晰、執行力爆發的一天！適合與團隊溝通核心決策，提案容易獲得貴人賞識。"",
+                ""size"": ""xs"",
+                ""color"": ""#667085"",
+                ""wrap"": true,
+                ""flex"": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""margin"": ""lg"",
+        ""backgroundColor"": ""#F4F3FF"",
+        ""paddingAll"": ""12px"",
+        ""cornerRadius"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""✨ 今日開運幸運色："",
+            ""size"": ""xxs"",
+            ""color"": ""#53389E"",
+            ""weight"": ""bold"",
+            ""flex"": 6
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""璀璨金 / 丁香紫"",
+            ""size"": ""xxs"",
+            ""color"": ""#53389E"",
+            ""align"": ""end"",
+            ""weight"": ""bold"",
+            ""flex"": 4
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FFFFFF"",
+    ""paddingAll"": ""20px"",
+    ""paddingTop"": ""0px"",
+    ""contents"": [
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""uri"",
+          ""label"": ""查看 AI 深度流年解析"",
+          ""uri"": ""https://liming.me""
+        },
+        ""style"": ""primary"",
+        ""color"": ""#7F56D9"",
+        ""height"": ""sm""
+      }
+    ]
+  }
+}","1","122","0","1779684524","1779685813","zh-TW","809159713394693","0","大流量與高留存的社群密碼！專為命理、星座、八字及私域流量運營打造。頂部採用高對比度的整體運勢星等（⭐）視覺錨定，下方精細切分「財運投資」、「工作事業」與「愛情桃花」的短評區塊。內建色彩心理學配置，可根據每日吉凶自動切換幸運色背景（如五行開運色），並在底部預留「AI 深度解析」或「今日開運商品」的強導流 CTA 按鈕，是建立用戶每日點擊儀式感、大幅降低封鎖率的終極利器。","bubble"
+"809159713394693","T6988533ac853fbb3f68a203d13a6401b","情報","🔮 毎日の運勢速報情報","システム標準テンプレート","🔮","{
     ""type"": ""bubble"",
-    ""size"": ""standard"",
+    ""header"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#F9F5FF"",
+        ""paddingAll"": ""20px"",
+        ""contents"": [
+            {
+                ""type"": ""text"",
+                ""text"": ""🔮 DAILY HOROSCOPE"",
+                ""color"": ""#7F56D9"",
+                ""weight"": ""bold"",
+                ""size"": ""xs"",
+                ""letterSpacing"": ""2px""
+            },
+            {
+                ""type"": ""text"",
+                ""text"": ""本日の運勢エクスプレス速報"",
+                ""weight"": ""bold"",
+                ""size"": ""xl"",
+                ""color"": ""#42307D"",
+                ""margin"": ""sm""
+            }
+        ]
+    },
     ""body"": {
         ""type"": ""box"",
         ""layout"": ""vertical"",
-        ""backgroundColor"": ""#121212"",
+        ""backgroundColor"": ""#FFFFFF"",
         ""paddingAll"": ""20px"",
         ""contents"": [
             {
@@ -5254,180 +6604,76 @@
                 ""contents"": [
                     {
                         ""type"": ""text"",
-                        ""text"": ""⚠️ SYSTEM ALERT"",
-                        ""color"": ""#FF4D4F"",
-                        ""weight"": ""bold"",
-                        ""size"": ""xs"",
-                        ""letterSpacing"": ""2px"",
-                        ""flex"": 1
-                    },
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""vertical"",
-                        ""width"": ""8px"",
-                        ""height"": ""8px"",
-                        ""backgroundColor"": ""#FF4D4F"",
-                        ""cornerRadius"": ""xl"",
-                        ""flex"": 0
-                    }
-                ]
-            },
-            {
-                ""type"": ""text"",
-                ""text"": ""CRITICAL: CPU Usage Exceeded"",
-                ""color"": ""#FFFFFF"",
-                ""weight"": ""bold"",
-                ""size"": ""md"",
-                ""margin"": ""lg""
-            },
-            {
-                ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""margin"": ""lg"",
-                ""spacing"": ""xs"",
-                ""backgroundColor"": ""#1F1F1F"",
-                ""paddingAll"": ""12px"",
-                ""cornerRadius"": ""sm"",
-                ""contents"": [
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""Cluster: RDS-MySQL-Main"",
-                        ""color"": ""#A6A6A6"",
-                        ""size"": ""xs"",
-                        ""fontStyle"": ""italic""
-                    },
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""Metric: CPU Util >= 94.2%"",
-                        ""color"": ""#FF4D4F"",
-                        ""size"": ""xs"",
+                        ""text"": ""総合運"",
+                        ""size"": ""sm"",
+                        ""color"": ""#344054"",
                         ""weight"": ""bold""
                     },
                     {
                         ""type"": ""text"",
-                        ""text"": ""Time: 2026-05-18 17:25 JST"",
-                        ""color"": ""#A6A6A6"",
-                        ""size"": ""xs""
+                        ""text"": ""⭐⭐⭐⭐⭐"",
+                        ""size"": ""sm"",
+                        ""color"": ""#FEC84B"",
+                        ""align"": ""end"",
+                        ""weight"": ""bold""
                     }
                 ]
-            }
-        ]
-    },
-    ""footer"": {
-        ""type"": ""box"",
-        ""layout"": ""vertical"",
-        ""backgroundColor"": ""#121212"",
-        ""paddingAll"": ""15px"",
-        ""paddingTop"": ""0px"",
-        ""contents"": [
-            {
-                ""type"": ""button"",
-                ""action"": {
-                    ""type"": ""uri"",
-                    ""label"": ""Open Grafana Dashboard"",
-                    ""uri"": ""https://liming.me""
-                },
-                ""style"": ""primary"",
-                ""color"": ""#FF4D4F"",
-                ""height"": ""sm""
-            }
-        ]
-    }
-}","1","113","0","0","1779095194","zh-TW","806742619365381","0","極客風的深色主題（Dark Mode）：整體採用純黑底色（#121212），模仿終端機（Terminal）與專業監控面板的視覺風格。不僅能大幅降低夜間被警報驚醒時的視覺疲勞，更能突顯告警資訊的嚴重性。","bubble"
-"806742043598853","T720881f0c00f324165ebcd8676ae01d8","通知","📅ご予約確認通知","システム標準テンプレート","📅","{
-    ""type"": ""bubble"",
-    ""size"": ""standard"",
-    ""body"": {
-        ""type"": ""box"",
-        ""layout"": ""vertical"",
-        ""paddingAll"": ""20px"",
-        ""contents"": [
-            {
-                ""type"": ""text"",
-                ""text"": ""📅 ご予約確認のお知らせ"",
-                ""color"": ""#00A8CC"",
-                ""weight"": ""bold"",
-                ""size"": ""sm"",
-                ""letterSpacing"": ""1px""
-            },
-            {
-                ""type"": ""text"",
-                ""text"": ""青空歯科クリニック"",
-                ""weight"": ""bold"",
-                ""size"": ""lg"",
-                ""margin"": ""sm"",
-                ""color"": ""#111111""
             },
             {
                 ""type"": ""separator"",
                 ""margin"": ""md"",
-                ""color"": ""#EEEEEE""
+                ""color"": ""#F2F4F7""
             },
             {
                 ""type"": ""box"",
                 ""layout"": ""vertical"",
                 ""margin"": ""lg"",
-                ""spacing"": ""md"",
+                ""spacing"": ""sm"",
                 ""contents"": [
                     {
                         ""type"": ""box"",
                         ""layout"": ""horizontal"",
+                        ""spacing"": ""md"",
                         ""contents"": [
                             {
                                 ""type"": ""text"",
-                                ""text"": ""👨‍⚕️ 担当医師"",
-                                ""color"": ""#888888"",
-                                ""size"": ""sm"",
-                                ""flex"": 1
+                                ""text"": ""💰 金運・投資"",
+                                ""size"": ""xs"",
+                                ""color"": ""#B54708"",
+                                ""weight"": ""bold"",
+                                ""flex"": 3
                             },
                             {
                                 ""type"": ""text"",
-                                ""text"": ""林 院長"",
-                                ""color"": ""#222222"",
-                                ""size"": ""sm"",
-                                ""weight"": ""bold"",
-                                ""align"": ""end""
+                                ""text"": ""本日は金運が絶好調。長期的な資産形成の計画を立てるのに最適な日です。思わぬ臨時収入が期待できるかも。"",
+                                ""size"": ""xs"",
+                                ""color"": ""#667085"",
+                                ""wrap"": true,
+                                ""flex"": 7
                             }
                         ]
                     },
                     {
                         ""type"": ""box"",
                         ""layout"": ""horizontal"",
+                        ""margin"": ""md"",
+                        ""spacing"": ""md"",
                         ""contents"": [
                             {
                                 ""type"": ""text"",
-                                ""text"": ""🕒 日時"",
-                                ""color"": ""#888888"",
-                                ""size"": ""sm"",
-                                ""flex"": 1
-                            },
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""05月22日 (金) 14:30"",
-                                ""color"": ""#222222"",
-                                ""size"": ""sm"",
+                                ""text"": ""💼 仕事・キャリア"",
+                                ""size"": ""xs"",
+                                ""color"": ""#175CD3"",
                                 ""weight"": ""bold"",
-                                ""align"": ""end""
-                            }
-                        ]
-                    },
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""horizontal"",
-                        ""contents"": [
-                            {
-                                ""type"": ""text"",
-                                ""text"": ""📍 アクセス"",
-                                ""color"": ""#888888"",
-                                ""size"": ""sm"",
-                                ""flex"": 1
+                                ""flex"": 3
                             },
                             {
                                 ""type"": ""text"",
-                                ""text"": ""東京都渋谷区神南X-X-X"",
-                                ""color"": ""#222222"",
-                                ""size"": ""sm"",
-                                ""align"": ""end""
+                                ""text"": ""思考が冴え渡り、実行力が爆発する1日！チームとの核心的なコミュニケーションや提案が、目上の人に評価されやすい時期です。"",
+                                ""size"": ""xs"",
+                                ""color"": ""#667085"",
+                                ""wrap"": true,
+                                ""flex"": 7
                             }
                         ]
                     }
@@ -5435,135 +6681,28 @@
             },
             {
                 ""type"": ""box"",
-                ""layout"": ""vertical"",
+                ""layout"": ""horizontal"",
                 ""margin"": ""lg"",
-                ""backgroundColor"": ""#E6F7FF"",
+                ""backgroundColor"": ""#F4F3FF"",
                 ""paddingAll"": ""12px"",
                 ""cornerRadius"": ""md"",
                 ""contents"": [
                     {
                         ""type"": ""text"",
-                        ""text"": ""💡 ご案内：ご予約時間の10分前までに受付をお済ませください。キャンセルの場合は、前日までにオンラインにてご変更をお願いいたします。"",
-                        ""size"": ""xs"",
-                        ""color"": ""#00A8CC"",
-                        ""wrap"": true
-                    }
-                ]
-            }
-        ]
-    },
-    ""footer"": {
-        ""type"": ""box"",
-        ""layout"": ""vertical"",
-        ""paddingAll"": ""15px"",
-        ""paddingTop"": ""0px"",
-        ""spacing"": ""none"",
-        ""contents"": [
-            {
-                ""type"": ""box"",
-                ""layout"": ""horizontal"",
-                ""spacing"": ""sm"",
-                ""contents"": [
-                    {
-                        ""type"": ""button"",
-                        ""action"": {
-                            ""type"": ""postback"",
-                            ""label"": ""予約キャンセル"",
-                            ""data"": ""action=cancel&id=rev_992""
-                        },
-                        ""style"": ""secondary"",
-                        ""height"": ""sm"",
-                        ""flex"": 1,
-                        ""color"": ""#95A5A6""
-                    },
-                    {
-                        ""type"": ""button"",
-                        ""action"": {
-                            ""type"": ""uri"",
-                            ""label"": ""地図ナビ"",
-                            ""uri"": ""https://maps.google.com""
-                        },
-                        ""style"": ""primary"",
-                        ""color"": ""#00A8CC"",
-                        ""height"": ""sm"",
-                        ""margin"": ""md"",
-                        ""flex"": 1
-                    }
-                ]
-            }
-        ],
-        ""flex"": 1
-    }
-}","1","114","0","0","1779095345","ja","806736886513669","0","さわやかでプロフェッショナルな信頼感：全体のカラーに鮮やかなメディカルブルー（#00A8CC）を採用し、純白の背景と組み合わせることで、清潔感とプロフェッショナルさ、そして安心感を与える視覚的アプローチを実現しています。","bubble"
-"806742619365381","T43d3a120c72cfcf6a6ba3c8f89fba4b3","DevOps","☁️ 【障害検知】システムリアルタイム監視アラート","システム標準テンプレート","☁️","{
-    ""type"": ""bubble"",
-    ""size"": ""standard"",
-    ""body"": {
-        ""type"": ""box"",
-        ""layout"": ""vertical"",
-        ""backgroundColor"": ""#121212"",
-        ""paddingAll"": ""20px"",
-        ""contents"": [
-            {
-                ""type"": ""box"",
-                ""layout"": ""horizontal"",
-                ""contents"": [
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""⚠️ SYSTEM ALERT"",
-                        ""color"": ""#FF4D4F"",
+                        ""text"": ""✨ 本日のラッキーカラー："",
+                        ""size"": ""xxs"",
+                        ""color"": ""#53389E"",
                         ""weight"": ""bold"",
-                        ""size"": ""xs"",
-                        ""letterSpacing"": ""2px"",
-                        ""flex"": 1
-                    },
-                    {
-                        ""type"": ""box"",
-                        ""layout"": ""vertical"",
-                        ""width"": ""8px"",
-                        ""height"": ""8px"",
-                        ""backgroundColor"": ""#FF4D4F"",
-                        ""cornerRadius"": ""xl"",
-                        ""flex"": 0
-                    }
-                ]
-            },
-            {
-                ""type"": ""text"",
-                ""text"": ""CRITICAL: CPU Usage Exceeded"",
-                ""color"": ""#FFFFFF"",
-                ""weight"": ""bold"",
-                ""size"": ""md"",
-                ""margin"": ""lg""
-            },
-            {
-                ""type"": ""box"",
-                ""layout"": ""vertical"",
-                ""margin"": ""lg"",
-                ""spacing"": ""xs"",
-                ""backgroundColor"": ""#1F1F1F"",
-                ""paddingAll"": ""12px"",
-                ""cornerRadius"": ""sm"",
-                ""contents"": [
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""Cluster: RDS-MySQL-Main"",
-                        ""color"": ""#A6A6A6"",
-                        ""size"": ""xs"",
-                        ""fontStyle"": ""italic""
+                        ""flex"": 6
                     },
                     {
                         ""type"": ""text"",
-                        ""text"": ""Metric: CPU Util >= 94.2%"",
-                        ""color"": ""#FF4D4F"",
-                        ""size"": ""xs"",
-                        ""weight"": ""bold""
-                    },
-                    {
-                        ""type"": ""text"",
-                        ""text"": ""Time: 2026-05-18 17:25 JST"",
-                        ""color"": ""#A6A6A6"",
-                        ""size"": ""xs""
+                        ""text"": ""ゴールド / ライラック"",
+                        ""size"": ""xxs"",
+                        ""color"": ""#53389E"",
+                        ""align"": ""end"",
+                        ""weight"": ""bold"",
+                        ""flex"": 4
                     }
                 ]
             }
@@ -5572,21 +6711,331 @@
     ""footer"": {
         ""type"": ""box"",
         ""layout"": ""vertical"",
-        ""backgroundColor"": ""#121212"",
-        ""paddingAll"": ""15px"",
+        ""backgroundColor"": ""#FFFFFF"",
+        ""paddingAll"": ""20px"",
         ""paddingTop"": ""0px"",
         ""contents"": [
             {
                 ""type"": ""button"",
                 ""action"": {
                     ""type"": ""uri"",
-                    ""label"": ""Open Grafana Dashboard"",
+                    ""label"": ""AIによる詳細な運勢鑑定を見る"",
                     ""uri"": ""https://liming.me""
                 },
                 ""style"": ""primary"",
-                ""color"": ""#FF4D4F"",
+                ""color"": ""#7F56D9"",
                 ""height"": ""sm""
             }
         ]
     }
-}","1","115","0","0","1779095194","ja","806738882097157","0","ギークスタイルのダークモード：全体にピュアブラック（#121212）を採用し、ターミナルやプロ仕様の監視ダッシュボードの視覚的スタイルを再現しています。夜間にアラートで起こされた際の目の疲労を大幅に軽減するだけでなく、警告情報の深刻さをより際立たせる効果を持たせています。","bubble"
+}","1","123","0","0","1779685813","ja","809157109088261","0","高エンゲージメントとブロック率低下を実現する占い・スピリチュアル専用テンプレート！毎日のルーティンとしてタップしたくなる設計です。上部には一目でわかる総合運勢の星評価（⭐）を配置し、下部には「金運・投資」「仕事・キャリア」「恋愛・対人」の診断結果をスタイリッシュなグリッドで分割。ラッキーカラーやラッキーアイテムの表示スペースに加え、下部には「AI詳細鑑定」や「開運グッズの購入」へ誘導する強力なCTAボタンを内蔵。毎朝の自動配信やCRM施策に最適な、バイラル性の高いカードです。","bubble"
+"809160174100485","T303f38ed5d95c0ab5846ce777c5cf76e","內容","✍️ 每日知識金句","系统内置模板","✍️","{
+    ""type"": ""bubble"",
+    ""body"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#FAF9F6"",
+        ""paddingAll"": ""24px"",
+        ""contents"": [
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""“"",
+                        ""size"": ""3xl"",
+                        ""weight"": ""bold"",
+                        ""color"": ""#9CA3AF"",
+                        ""lineHeight"": ""24px""
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""margin"": ""md"",
+                ""paddingLeft"": ""12px"",
+                ""paddingRight"": ""12px"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""純粹的簡潔，並不是缺乏裝飾，而是深思熟慮後的優雅展現。"",
+                        ""weight"": ""bold"",
+                        ""size"": ""md"",
+                        ""color"": ""#1F2937"",
+                        ""wrap"": true,
+                        ""lineHeight"": ""24px""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""—— 設 計 美 學 精 選"",
+                        ""size"": ""xs"",
+                        ""color"": ""#6B7280"",
+                        ""align"": ""end"",
+                        ""margin"": ""lg""
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""justifyContent"": ""flex-end"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""”"",
+                        ""size"": ""3xl"",
+                        ""weight"": ""bold"",
+                        ""color"": ""#9CA3AF"",
+                        ""align"": ""end"",
+                        ""lineHeight"": ""10px""
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""vertical"",
+                ""backgroundColor"": ""#F3F4F6"",
+                ""margin"": ""xxl"",
+                ""paddingAll"": ""16px"",
+                ""cornerRadius"": ""md"",
+                ""contents"": [
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""💡 知識微課：減法藝術"",
+                        ""weight"": ""bold"",
+                        ""size"": ""xs"",
+                        ""color"": ""#374151""
+                    },
+                    {
+                        ""type"": ""text"",
+                        ""text"": ""在介面設計（如 LINE Flex）中，過多的複雜組件反而會干擾訊息傳遞。學會留白與利用內置的 spacing，比堆砌花哨的背景更具視覺衝擊力。"",
+                        ""size"": ""xs"",
+                        ""color"": ""#4B5563"",
+                        ""wrap"": true,
+                        ""margin"": ""xs"",
+                        ""lineHeight"": ""18px""
+                    }
+                ]
+            },
+            {
+                ""type"": ""box"",
+                ""layout"": ""horizontal"",
+                ""margin"": ""xl"",
+                ""spacing"": ""sm"",
+                ""contents"": [
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""backgroundColor"": ""#E5E7EB"",
+                        ""paddingAll"": ""4px"",
+                        ""paddingLeft"": ""8px"",
+                        ""paddingRight"": ""8px"",
+                        ""cornerRadius"": ""sm"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""# 設計美學"",
+                                ""size"": ""xxs"",
+                                ""color"": ""#4B5563""
+                            }
+                        ]
+                    },
+                    {
+                        ""type"": ""box"",
+                        ""layout"": ""vertical"",
+                        ""backgroundColor"": ""#E5E7EB"",
+                        ""paddingAll"": ""4px"",
+                        ""paddingLeft"": ""8px"",
+                        ""paddingRight"": ""8px"",
+                        ""cornerRadius"": ""sm"",
+                        ""contents"": [
+                            {
+                                ""type"": ""text"",
+                                ""text"": ""# 每日一課"",
+                                ""size"": ""xxs"",
+                                ""color"": ""#4B5563""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    ""footer"": {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#FAF9F6"",
+        ""paddingAll"": ""24px"",
+        ""paddingTop"": ""0px"",
+        ""contents"": [
+            {
+                ""type"": ""button"",
+                ""action"": {
+                    ""type"": ""uri"",
+                    ""label"": ""📖 展開延伸閱讀"",
+                    ""uri"": ""https://blog.iw3c.com""
+                },
+                ""style"": ""secondary"",
+                ""height"": ""sm"",
+                ""color"": ""#4B5563""
+            }
+        ]
+    }
+}","1","124","0","0","1779686027","zh-TW","809163266232325","0","內容運營與知識付費類 Bot 的吸粉利器！專為語錄分享、知識微課、日語/英語每日一句及付費社群導流場景打造。卡片採用極簡的「文青風白瓷感」排版，利用大字重、高襯線感的符號與留白，優雅呈現名言佳句或核心知識點。中段設計了獨立的「知識微課」微縮 Box，用清爽的色調包裹延伸解析；底部則配備「延伸閱讀」的強力 CTA 按鈕與分享標籤。整體視覺調性呈現高質感的呼吸感與權威感，能顯著提升用戶的轉發意願與點擊收藏率，是打造高黏著度 LINE 訂閱服務的必備基礎模板。","bubble"
+"809163266232325","T0ff4b2ff139aa49ac6adb8a25f0339cb","内容","✍️ 毎日のみ言葉・ライフハック","システム標準テンプレート","✍️","{
+  ""type"": ""bubble"",
+  ""body"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FAF9F6"",
+    ""paddingAll"": ""24px"",
+    ""contents"": [
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""“"",
+            ""size"": ""3xl"",
+            ""weight"": ""bold"",
+            ""color"": ""#9CA3AF"",
+            ""lineHeight"": ""24px""
+          }
+        ]
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""margin"": ""md"",
+        ""paddingLeft"": ""12px"",
+        ""paddingRight"": ""12px"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""本物のシンプルさとは、装飾の欠如ではなく、考え抜かれたエレガンスの現れである。"",
+            ""weight"": ""bold"",
+            ""size"": ""md"",
+            ""color"": ""#1F2937"",
+            ""wrap"": true,
+            ""lineHeight"": ""24px""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""—— デザイン美学セレクション"",
+            ""size"": ""xs"",
+            ""color"": ""#6B7280"",
+            ""align"": ""end"",
+            ""margin"": ""lg""
+          }
+        ]
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""justifyContent"": ""flex-end"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""”"",
+            ""size"": ""3xl"",
+            ""weight"": ""bold"",
+            ""color"": ""#9CA3AF"",
+            ""align"": ""end"",
+            ""lineHeight"": ""10px""
+          }
+        ]
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""vertical"",
+        ""backgroundColor"": ""#F3F4F6"",
+        ""margin"": ""xxl"",
+        ""paddingAll"": ""16px"",
+        ""cornerRadius"": ""md"",
+        ""contents"": [
+          {
+            ""type"": ""text"",
+            ""text"": ""💡 ミニ解説：引き算の美学"",
+            ""weight"": ""bold"",
+            ""size"": ""xs"",
+            ""color"": ""#374151""
+          },
+          {
+            ""type"": ""text"",
+            ""text"": ""LINE FlexなどのUIデザインにおいて、過剰な装飾はメッセージの伝達を妨げます。余白を意識し、内蔵のspacingを活用することは、派手な背景を並べるよりも強力な視覚的インパクトを与えます。"",
+            ""size"": ""xs"",
+            ""color"": ""#4B5563"",
+            ""wrap"": true,
+            ""margin"": ""xs"",
+            ""lineHeight"": ""18px""
+          }
+        ]
+      },
+      {
+        ""type"": ""box"",
+        ""layout"": ""horizontal"",
+        ""margin"": ""xl"",
+        ""spacing"": ""sm"",
+        ""contents"": [
+          {
+            ""type"": ""box"",
+            ""layout"": ""vertical"",
+            ""backgroundColor"": ""#E5E7EB"",
+            ""paddingAll"": ""4px"",
+            ""paddingLeft"": ""8px"",
+            ""paddingRight"": ""8px"",
+            ""cornerRadius"": ""sm"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""# デザイン美学"",
+                ""size"": ""xxs"",
+                ""color"": ""#4B5563""
+              }
+            ]
+          },
+          {
+            ""type"": ""box"",
+            ""layout"": ""vertical"",
+            ""backgroundColor"": ""#E5E7EB"",
+            ""paddingAll"": ""4px"",
+            ""paddingLeft"": ""8px"",
+            ""paddingRight"": ""8px"",
+            ""cornerRadius"": ""sm"",
+            ""contents"": [
+              {
+                ""type"": ""text"",
+                ""text"": ""# 今日の学び"",
+                ""size"": ""xxs"",
+                ""color"": ""#4B5563""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  ""footer"": {
+    ""type"": ""box"",
+    ""layout"": ""vertical"",
+    ""backgroundColor"": ""#FAF9F6"",
+    ""paddingAll"": ""24px"",
+    ""paddingTop"": ""0px"",
+    ""contents"": [
+      {
+        ""type"": ""button"",
+        ""action"": {
+          ""type"": ""uri"",
+          ""label"": ""📖 続きを読む"",
+          ""uri"": ""https://blog.iw3c.com""
+        },
+        ""style"": ""secondary"",
+        ""height"": ""sm"",
+        ""color"": ""#4B5563""
+      }
+    ]
+  }
+}","1","125","0","1779686027","1779686027","ja","809160174100485","0","コンテンツ配信や知識共有系Botに最適な、洗練されたミニマリズム風テンプレート。美しい余白とフォント配置で名言やコラムの質感を高めます。中央の「ミニ解説」と下部の「続きを読む」ボタン（CTA）により、ユーザーのエンゲージメントとシェア率を劇的に向上させます。","bubble"

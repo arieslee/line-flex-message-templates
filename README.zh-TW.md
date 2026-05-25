@@ -64,6 +64,11 @@
 - **31**: [🛍️ 社群團購](https://liming.me/zh-TW/tpl/T9746df44374c22045866f2499e3c685d)
 - **32**: [📅預約確認通知](https://liming.me/zh-TW/tpl/T82aa38a4f5797792fa78bbf41aec29ac)
 - **33**: [☁️ Cloud / DevOps 系統即時監控告警](https://liming.me/zh-TW/tpl/Tafd0efef241ed9a7d6021df6f4fe6305)
+- **34**: [🚀Web3 數位資產儀表板](https://liming.me/zh-TW/tpl/T6983598dbc0eccc03e967bcea45a1fbb)
+- **35**: [⭐ 客服評價邀請](https://liming.me/zh-TW/tpl/T9ca83a01e419f3e8f499f542c76ea32e)
+- **36**: [🎂 專屬生日賀卡](https://liming.me/zh-TW/tpl/T75a3a9da1a15f7125d1fa04b30d1f4a8)
+- **37**: [🔮 每日運勢速報](https://liming.me/zh-TW/tpl/Tc0dd9a559f7845b1862b9d6662ddc14c)
+- **38**: [✍️ 每日知識金句](https://liming.me/zh-TW/tpl/T303f38ed5d95c0ab5846ce777c5cf76e)
 
 ## ⚙️ 開發者整合 (Developer Integration)
 您可以直接讀取 `jsons/` 目錄下的檔案，並將內容傳遞至 LINE Messaging API。

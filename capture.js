@@ -6,7 +6,7 @@ const csv = require('csv-parser');
 // --- 配置 ---
 const CSV_FILE = './fc_template.csv';
 const OUTPUT_DIR = './previews';
-const BASE_DOMAIN = 'http://192.168.253.1:3000'; 
+const BASE_DOMAIN = 'http://192.168.253.1:3002'; 
 
 // 使用属性选择器精准匹配你的手机壳容器
 const PREVIEW_SELECTOR = '[class*="phone-shell"]'; 
@@ -27,12 +27,13 @@ async function startCapture() {
         .on('data', (data) => templates.push(data))
         .on('end', async () => {
             console.log(`找到 ${templates.length} 个模板，开始生成带手机壳的预览图...\n`);
-
+            let i=0;
             for (const item of templates) {
+                let num = i+1;
                 const { id, lang, code, title } = item;
                 const safeTitle = title.replace(/[\\/:*?"<>|]/g, '_');
                 const targetUrl = `${BASE_DOMAIN}/${lang}/tpl/${code}`;
-                const outputPath = path.join(OUTPUT_DIR, `${id}_${lang}_${safeTitle}.png`);
+                const outputPath = path.join(OUTPUT_DIR, `${num}_${lang}_${safeTitle}.png`);
 
                 console.log(`[${id}] 处理中: ${title}`);
                 
@@ -53,13 +54,14 @@ async function startCapture() {
                             omitBackground: true // 背景透明，方便你后期在 GitHub 换背景
                         });
                         console.log(`  ✅ 截图成功！`);
+                         i++;
                     }
                 } catch (err) {
                     console.error(`  ❌ 失败: ${targetUrl} - ${err.message}`);
                 }
             }
 
-            console.log('\n✨ 全部完成！去 previews 文件夹看看你的 50 张大片吧！');
+            console.log('\n✨ 全部完成！去 previews 文件夹看看你的 '+i+' 张大片吧！');
             await browser.close();
         });
 }

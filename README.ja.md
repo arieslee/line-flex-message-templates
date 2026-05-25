@@ -30,7 +30,6 @@
 - **飲食**: デジタルメニュー、予約完了通知、店舗案内。
 - **システム通知**: メンテナンス告知、認証コード、アラート通知。
 
-
 ## 📂 テンプレートリスト
 
 - **1**: [☕ レストラン/カフェカード](https://liming.me/ja/tpl/Tc74d97b01eae257e44aa9d5bade97baf)
@@ -66,7 +65,11 @@
 - **31**: [🛍️電商團購](https://liming.me/ja/tpl/Tf0171f812326e8d06ec941f447cda870)
 - **32**: [📅ご予約確認通知](https://liming.me/ja/tpl/T720881f0c00f324165ebcd8676ae01d8)
 - **33**: [☁️ 【障害検知】システムリアルタイム監視アラート](https://liming.me/ja/tpl/T43d3a120c72cfcf6a6ba3c8f89fba4b3)
-
+- **34**: [🚀Web3 デジタル資産ダッシュボード](https://liming.me/ja/tpl/T61e3c9c9f77a87a08050eb474e0024fe)
+- **35**: [⭐満足度調査のお願い](https://liming.me/ja/tpl/Tc7ec5733ef5805aa232608bed098eadb)
+- **36**: [🎂 バースデーカード](https://liming.me/ja/tpl/Tca0132a746e92c504242ae390c840132)
+- **37**: [🔮 毎日の運勢速報情報](https://liming.me/ja/tpl/T6988533ac853fbb3f68a203d13a6401b)
+- **38**: [✍️ 毎日のみ言葉・ライフハック](https://liming.me/ja/tpl/T0ff4b2ff139aa49ac6adb8a25f0339cb)
 
 
 ## 🛠️ 開発者向けインテグレーション
