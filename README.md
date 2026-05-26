@@ -11,8 +11,8 @@
 
 | Restaurant & Cafe | Beauty & Salon | E-commerce | Order Confirmation |
 | :---: | :---: | :---: | :---: |
-| <img src="previews/1_zh-TW_☕%20餐廳_咖啡店卡片.png" width="200"> | <img src="previews/2_zh-TW_✂️%20美業預約卡片.png" width="200"> | <img src="previews/4_zh-TW_🛍️%20商品卡片.png" width="200"> | <img src="previews/5_zh-TW_🧾%20訂單確認.png" width="200"> |
-| [JSON](./jsons/02_zh-TW_美業預約卡片.json) | [JSON](./jsons/2_zh-TW_✂️%20美業預約卡片.json) | [JSON](./jsons/04_zh-TW_商品卡片.json) | [JSON](./jsons/05_zh-TW_訂單確認.json) |
+| <img src="previews/1_zh-TW_☕%20餐廳_咖啡店卡片.png" width="200"> | <img src="previews/2_zh-TW_✂️%20美業預約卡片.png" width="200"> | <img src="previews/6_zh-TW_🚚%20物流通知.png" width="200"> | <img src="previews/5_zh-TW_🧾%20訂單確認.png" width="200"> |
+| [JSON](./jsons/02_zh-TW_美業預約卡片.json) | [JSON](./jsons/2_zh-TW_✂️%20美業預約卡片.json) | [JSON](./jsons/06_zh-TW_物流通知.json) | [JSON](./jsons/05_zh-TW_訂單確認.json) |
 
 ---
 
