@@ -72,7 +72,8 @@
 - **38**: [✍️ 毎日のみ言葉・ライフハック](https://liming.me/ja/tpl/T0ff4b2ff139aa49ac6adb8a25f0339cb)
 - **39**: [ショップカード](https://liming.me/ja/tpl/T327a59419f21a9cd7b4b28c8ae4ac2ca)
 - **40**: [🎁 インタラクティブ抽選](https://liming.me/ja/tpl/T383c2b0557399541d4a3bcf237032d24)
-
+- **41**: [🏢 電子給与明細カード](https://liming.me/ja/tpl/T2f830c05cdf824d230d871e21af9b150)
+- **42**: [🚗 車検・整備定期レポート](https://liming.me/ja/tpl/T4b1363d7d1cbeb60e697843eb94f8a19)
 
 ## 🛠️ 開発者向けインテグレーション
 

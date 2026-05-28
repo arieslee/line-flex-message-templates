@@ -71,6 +71,8 @@
 - **38**: [✍️ 每日知識金句](https://liming.me/zh-TW/tpl/T303f38ed5d95c0ab5846ce777c5cf76e)
 - **39**: [📋 數位電子集點卡](https://liming.me/zh-TW/tpl/Ta575783c117770f67944bd26f24eece3)
 - **40**: [🎁 互動抽獎](https://liming.me/zh-TW/tpl/T97f106add8d28a7bdeba3b725363e7b2)
+- **41**: [🏢 企業電子薪資單明細](https://liming.me/zh-TW/tpl/T157c9d563320b468156c683944b1c13a)
+- **42**: [🚗 愛車保養與定期檢驗報告](https://liming.me/zh-TW/tpl/T01d344c404f5cb796030717365a21a2e)
 
 
 ## ⚙️ 開發者整合 (Developer Integration)

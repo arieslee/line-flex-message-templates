@@ -29,6 +29,7 @@
 - **Hospitality**: Digital menus, reservation confirmations, location maps.
 - **System**: OTP verification, maintenance notices, error reports.
 
+
 ## 📂 Full Template List
 
 #### ZH-TW
@@ -73,6 +74,8 @@
 - **38**: [✍️ 每日知識金句](https://liming.me/zh-TW/tpl/T303f38ed5d95c0ab5846ce777c5cf76e)
 - **39**: [📋 數位電子集點卡](https://liming.me/zh-TW/tpl/Ta575783c117770f67944bd26f24eece3)
 - **40**: [🎁 互動抽獎](https://liming.me/zh-TW/tpl/T97f106add8d28a7bdeba3b725363e7b2)
+- **41**: [🏢 企業電子薪資單明細](https://liming.me/zh-TW/tpl/T157c9d563320b468156c683944b1c13a)
+- **42**: [🚗 愛車保養與定期檢驗報告](https://liming.me/zh-TW/tpl/T01d344c404f5cb796030717365a21a2e)
 
 #### JA
 
@@ -116,6 +119,8 @@
 - **38**: [✍️ 毎日のみ言葉・ライフハック](https://liming.me/ja/tpl/T0ff4b2ff139aa49ac6adb8a25f0339cb)
 - **39**: [ショップカード](https://liming.me/ja/tpl/T327a59419f21a9cd7b4b28c8ae4ac2ca)
 - **40**: [🎁 インタラクティブ抽選](https://liming.me/ja/tpl/T383c2b0557399541d4a3bcf237032d24)
+- **41**: [🏢 電子給与明細カード](https://liming.me/ja/tpl/T2f830c05cdf824d230d871e21af9b150)
+- **42**: [🚗 車検・整備定期レポート](https://liming.me/ja/tpl/T4b1363d7d1cbeb60e697843eb94f8a19)
 
 
 
