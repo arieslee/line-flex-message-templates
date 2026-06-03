@@ -74,6 +74,10 @@
 - **40**: [🎁 インタラクティブ抽選](https://liming.me/ja/tpl/T383c2b0557399541d4a3bcf237032d24)
 - **41**: [🏢 電子給与明細カード](https://liming.me/ja/tpl/T2f830c05cdf824d230d871e21af9b150)
 - **42**: [🚗 車検・整備定期レポート](https://liming.me/ja/tpl/T4b1363d7d1cbeb60e697843eb94f8a19)
+- **43**: [🎁 サイバーパンク風ガチャ・ボックスカード](https://liming.me/ja/tpl/T584cdc93d9f6d2b8381de1a73223d0ca)
+- **44**: [⚡ SaaSプラン更新・プレミアムアップグレード](https://liming.me/ja/tpl/T5160fe76afc85726fd690706f223f19e)
+- **45**: [🎟️ ウェビナー・ライブ配信参加チケット](https://liming.me/ja/tpl/Ta829e9d5a88dd420be98e6f7bbff6204)
+- **46**: [🎯 大手企業キャリア採用・リファラル紹介カード](https://liming.me/ja/tpl/T7845f690e496d99522ac4e10db6edd73)
 
 ## 🛠️ 開発者向けインテグレーション
 

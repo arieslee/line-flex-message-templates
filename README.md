@@ -76,6 +76,10 @@
 - **40**: [🎁 互動抽獎](https://liming.me/zh-TW/tpl/T97f106add8d28a7bdeba3b725363e7b2)
 - **41**: [🏢 企業電子薪資單明細](https://liming.me/zh-TW/tpl/T157c9d563320b468156c683944b1c13a)
 - **42**: [🚗 愛車保養與定期檢驗報告](https://liming.me/zh-TW/tpl/T01d344c404f5cb796030717365a21a2e)
+- **43**: [🎁 極致黑橘電玩風盲盒抽獎卡](https://liming.me/zh-TW/tpl/T5b35a068322a4326d57886c43ac69072)
+- **44**: [⚡ SaaS 服務與訂閱升級方案卡片](https://liming.me/zh-TW/tpl/Tb5e1e92e90edbe02c56f9d7a72cfcee8)
+- **45**: [🎟️ 線上研討會/直播即時入場券](https://liming.me/zh-TW/tpl/T76b24a0eb3c28011985ab20b87d29256)
+- **46**: [🎯 大廠職缺內推與菁英招募卡](https://liming.me/zh-TW/tpl/T98b82fd4e065a6ff147d2e361d5b5a0d)
 
 #### JA
 
@@ -121,6 +125,11 @@
 - **40**: [🎁 インタラクティブ抽選](https://liming.me/ja/tpl/T383c2b0557399541d4a3bcf237032d24)
 - **41**: [🏢 電子給与明細カード](https://liming.me/ja/tpl/T2f830c05cdf824d230d871e21af9b150)
 - **42**: [🚗 車検・整備定期レポート](https://liming.me/ja/tpl/T4b1363d7d1cbeb60e697843eb94f8a19)
+- **43**: [🎁 サイバーパンク風ガチャ・ボックスカード](https://liming.me/ja/tpl/T584cdc93d9f6d2b8381de1a73223d0ca)
+- **44**: [⚡ SaaSプラン更新・プレミアムアップグレード](https://liming.me/ja/tpl/T5160fe76afc85726fd690706f223f19e)
+- **45**: [🎟️ ウェビナー・ライブ配信参加チケット](https://liming.me/ja/tpl/Ta829e9d5a88dd420be98e6f7bbff6204)
+- **46**: [🎯 大手企業キャリア採用・リファラル紹介カード](https://liming.me/ja/tpl/T7845f690e496d99522ac4e10db6edd73)
+
 
 
 

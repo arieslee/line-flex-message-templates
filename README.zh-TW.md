@@ -73,6 +73,10 @@
 - **40**: [🎁 互動抽獎](https://liming.me/zh-TW/tpl/T97f106add8d28a7bdeba3b725363e7b2)
 - **41**: [🏢 企業電子薪資單明細](https://liming.me/zh-TW/tpl/T157c9d563320b468156c683944b1c13a)
 - **42**: [🚗 愛車保養與定期檢驗報告](https://liming.me/zh-TW/tpl/T01d344c404f5cb796030717365a21a2e)
+- **43**: [🎁 極致黑橘電玩風盲盒抽獎卡](https://liming.me/zh-TW/tpl/T5b35a068322a4326d57886c43ac69072)
+- **44**: [⚡ SaaS 服務與訂閱升級方案卡片](https://liming.me/zh-TW/tpl/Tb5e1e92e90edbe02c56f9d7a72cfcee8)
+- **45**: [🎟️ 線上研討會/直播即時入場券](https://liming.me/zh-TW/tpl/T76b24a0eb3c28011985ab20b87d29256)
+- **46**: [🎯 大廠職缺內推與菁英招募卡](https://liming.me/zh-TW/tpl/T98b82fd4e065a6ff147d2e361d5b5a0d)
 
 
 ## ⚙️ 開發者整合 (Developer Integration)
