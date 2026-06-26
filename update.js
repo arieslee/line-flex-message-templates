@@ -71,7 +71,7 @@ async function slimSafeInject() {
       });
       let num = 1;
       for (const row of tmpDf) {
-        lines.push(`- **${num}**: [${row.title}](${FC_BASE_URL}/${row.lang}/tpl/${row.code})`);
+        lines.push(`- **${num}**: [${row.title}](${FC_BASE_URL}/${row.lang}/case/${row.slug})`);
         num++;
       }
     }

@@ -29,7 +29,6 @@
 - **Hospitality**: Digital menus, reservation confirmations, location maps.
 - **System**: OTP verification, maintenance notices, error reports.
 
-
 ## 📂 Full Template List
 
 #### ZH-TW
@@ -80,6 +79,10 @@
 - **44**: [⚡ SaaS 服務與訂閱升級方案卡片](https://liming.me/zh-TW/tpl/Tb5e1e92e90edbe02c56f9d7a72cfcee8)
 - **45**: [🎟️ 線上研討會/直播即時入場券](https://liming.me/zh-TW/tpl/T76b24a0eb3c28011985ab20b87d29256)
 - **46**: [🎯 大廠職缺內推與菁英招募卡](https://liming.me/zh-TW/tpl/T98b82fd4e065a6ff147d2e361d5b5a0d)
+- **47**: [✨日系美學・職人沙龍與選物店尊榮卡](https://liming.me/zh-TW/tpl/T13bd206d4958ca4a50f13c37e0837b5c)
+- **48**: [🦷 頂級齒學・醫美牙醫預約與衛教諮詢卡](https://liming.me/zh-TW/tpl/Tdc9271d0cd1d29453997d853d58679fc)
+- **49**: [⚽ 世界盃巔峰對決・即時觀賽與比分預測卡](https://liming.me/zh-TW/tpl/Ted05f6e4a005199e4f6cfa4fa8d94e4f)
+- **50**: [⚡ SaaS 訂閱續費與促銷轉化卡](https://liming.me/zh-TW/tpl/Td1c62be2db6c03e93bd4adf83023c40a)
 
 #### JA
 
@@ -129,6 +132,12 @@
 - **44**: [⚡ SaaSプラン更新・プレミアムアップグレード](https://liming.me/ja/tpl/T5160fe76afc85726fd690706f223f19e)
 - **45**: [🎟️ ウェビナー・ライブ配信参加チケット](https://liming.me/ja/tpl/Ta829e9d5a88dd420be98e6f7bbff6204)
 - **46**: [🎯 大手企業キャリア採用・リファラル紹介カード](https://liming.me/ja/tpl/T7845f690e496d99522ac4e10db6edd73)
+- **47**: [✨ 和風モダン・プレミアム会員限定優待カード](https://liming.me/ja/tpl/T4c650a406f88dde20d5f7d7b37b9dd29)
+- **48**: [🦷 審美歯科・プレミアムご予約確認＆カウンセリングカード](https://liming.me/ja/tpl/Te18957e5971038ee8636c1d22c60a74f)
+- **49**: [⚽ ワールドカップ激戦・リアルタイム観戦＆スコア予想カード](https://liming.me/ja/tpl/Tc525f1d5d0f8f7d99466d6d3a291c7b7)
+- **50**: [⚡ SaaS プラン更新・サブスク決済リマインダーカード](https://liming.me/ja/tpl/T437478d99b699703e8b86c19d0b030c7)
+
+
 
 
 

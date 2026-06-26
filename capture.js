@@ -6,7 +6,7 @@ const csv = require('csv-parser');
 // --- 配置 ---
 const CSV_FILE = './fc_template.csv';
 const OUTPUT_DIR = './previews';
-const BASE_DOMAIN = 'http://192.168.217.1:3002';
+const BASE_DOMAIN = 'https://liming.me';
 const LATEST_FILE = './latest.txt'; // 记录上次最大ID的文件
 
 // 使用属性选择器精准匹配你的手机壳容器
