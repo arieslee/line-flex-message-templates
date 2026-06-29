@@ -82,6 +82,9 @@
 - **48**: [🦷 審美歯科・プレミアムご予約確認＆カウンセリングカード](https://liming.me/ja/case/dental-clinic-booking-card)
 - **49**: [⚽ ワールドカップ激戦・リアルタイム観戦＆スコア予想カード](https://liming.me/ja/case/world-cup-match-card-ja)
 - **50**: [⚡ SaaS プラン更新・サブスク決済リマインダーカード](https://liming.me/ja/case/saas-subscription-renewal-reminder-slug-ja)
+- **51**: [🔮 運命の恋人・AI四柱推命ポートレート生成完了カード](https://liming.me/ja/case/ai-bazi-fate-portrait-notification-slug-copy)
+- **52**: [🏢 不動産・最高峰コンドミニアム限定内覧予約カード](https://liming.me/ja/case/luxury-real-estate-villa-booking-slug-copy)
+- **53**: [🎨 ビジュアルアート・サイバーネオン没入型画像カード](https://liming.me/ja/case/cyber-neon-art-image-slug-copy)
 
 ## 🛠️ 開発者向けインテグレーション
 

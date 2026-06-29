@@ -81,6 +81,9 @@
 - **48**: [🦷 頂級齒學・醫美牙醫預約與衛教諮詢卡](https://liming.me/zh-TW/case/dental-clinic-booking-card)
 - **49**: [⚽ 世界盃巔峰對決・即時觀賽與比分預測卡](https://liming.me/zh-TW/case/world-cup-match-card)
 - **50**: [⚡ SaaS 訂閱續費與促銷轉化卡](https://liming.me/zh-TW/case/saas-subscription-renewal-reminder)
+- **51**: [🔮 宿命甜心・AI 八字正緣畫像生成通知卡](https://liming.me/zh-TW/case/ai-bazi-fate-portrait-notification)
+- **52**: [🏢 房產類・高階豪宅與建案預約鑑賞尊榮卡](https://liming.me/zh-TW/case/luxury-real-estate-villa-booking)
+- **53**: [🎨 視覺藝術・賽博霓虹重度沉浸圖片卡](https://liming.me/zh-TW/case/cyber-neon-art-image)
 
 
 ## ⚙️ 開發者整合 (Developer Integration)

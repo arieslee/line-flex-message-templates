@@ -83,6 +83,9 @@
 - **48**: [🦷 頂級齒學・醫美牙醫預約與衛教諮詢卡](https://liming.me/zh-TW/tpl/Tdc9271d0cd1d29453997d853d58679fc)
 - **49**: [⚽ 世界盃巔峰對決・即時觀賽與比分預測卡](https://liming.me/zh-TW/tpl/Ted05f6e4a005199e4f6cfa4fa8d94e4f)
 - **50**: [⚡ SaaS 訂閱續費與促銷轉化卡](https://liming.me/zh-TW/tpl/Td1c62be2db6c03e93bd4adf83023c40a)
+- **51**: [🔮 宿命甜心・AI 八字正緣畫像生成通知卡](https://liming.me/zh-TW/tpl/Td4bdcd6cde2fe128e75689ab068f191b)
+- **52**: [🏢 房產類・高階豪宅與建案預約鑑賞尊榮卡](https://liming.me/zh-TW/tpl/Te6f215abbd171e821ef48c8f09e183fb)
+- **53**: [🎨 視覺藝術・賽博霓虹重度沉浸圖片卡](https://liming.me/zh-TW/tpl/T4badeb43a55d3814e5240812d8cb4a4f)
 
 #### JA
 
@@ -136,10 +139,9 @@
 - **48**: [🦷 審美歯科・プレミアムご予約確認＆カウンセリングカード](https://liming.me/ja/tpl/Te18957e5971038ee8636c1d22c60a74f)
 - **49**: [⚽ ワールドカップ激戦・リアルタイム観戦＆スコア予想カード](https://liming.me/ja/tpl/Tc525f1d5d0f8f7d99466d6d3a291c7b7)
 - **50**: [⚡ SaaS プラン更新・サブスク決済リマインダーカード](https://liming.me/ja/tpl/T437478d99b699703e8b86c19d0b030c7)
-
-
-
-
+- **51**: [🔮 運命の恋人・AI四柱推命ポートレート生成完了カード](https://liming.me/ja/tpl/Ta25aff4c037687def2e4676ffcb915bf)
+- **52**: [🏢 不動産・最高峰コンドミニアム限定内覧予約カード](https://liming.me/ja/tpl/Td8247e6db6eb5e2df5b7b256c2fc50b1)
+- **53**: [🎨 ビジュアルアート・サイバーネオン没入型画像カード](https://liming.me/ja/tpl/T4a715dc6aa89e82d32c6ee81fedb4be8)
 
 
 ## ⚙️ Developer Integration
