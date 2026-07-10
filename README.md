@@ -144,6 +144,7 @@
 - **53**: [🎨 ビジュアルアート・サイバーネオン没入型画像カード](https://liming.me/ja/tpl/T4a715dc6aa89e82d32c6ee81fedb4be8)
 
 
+
 ## ⚙️ Developer Integration
 Directly load JSON files from the `jsons/` folder and pass the content to the LINE Messaging API SDK.
 

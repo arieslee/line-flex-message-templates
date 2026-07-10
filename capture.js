@@ -54,7 +54,7 @@ async function startCapture() {
             let successCount = 0;
 
             for (const item of filteredTemplates) {
-                const { id, lang, code, title } = item;
+                const { id, lang, slug, title } = item;
                 const currentId = parseInt(id) || 0;
 
                 // 更新本次最大ID
@@ -63,7 +63,7 @@ async function startCapture() {
                 }
 
                 const safeTitle = title.replace(/[\\/:*?"<>|]/g, '_');
-                const targetUrl = `${BASE_DOMAIN}/${lang}/tpl/${code}`;
+                const targetUrl = `${BASE_DOMAIN}/${lang}/case/${slug}`;
                 const outputPath = path.join(OUTPUT_DIR, `${id}_${lang}_${safeTitle}.png`);
 
                 console.log(`[${id}] 处理中: ${title}`);
