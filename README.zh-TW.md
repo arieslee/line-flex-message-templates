@@ -85,7 +85,6 @@
 - **52**: [🏢 房產類・高階豪宅與建案預約鑑賞尊榮卡](https://liming.me/zh-TW/case/luxury-real-estate-villa-booking)
 - **53**: [🎨 視覺藝術・賽博霓虹重度沉浸圖片卡](https://liming.me/zh-TW/case/cyber-neon-art-image)
 
-
 ## ⚙️ 開發者整合 (Developer Integration)
 您可以直接讀取 `jsons/` 目錄下的檔案，並將內容傳遞至 LINE Messaging API。
 
